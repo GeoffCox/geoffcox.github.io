@@ -1,10 +1,8 @@
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 # **BellaCode**
 
-## Best Practices <i class="fa fa-paper-plan"></i>
+## Best Practices <i class="fa fa-paper-plane"></i>
 
 ### Writing code
 
@@ -38,9 +36,9 @@ Name your variables with the Expected, Target, Actual convention
 
 Write just enough tests by following the Good, Bad, Ugly confidence process
 
-## Philosophies
+## Philosophies <i class="fa fa-superpowers"></i>
 
-## Applications <i class="fa fa-code"></i>
+## Applications <i class="fa fa-rocket"></i>
 
 ## Libraries <i class="fa fa-code"></i>
 
