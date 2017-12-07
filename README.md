@@ -1,6 +1,6 @@
 # **BellaCode**
 
-## Best Practices
+## :rocket: Best Practices
 
 [Code Comments](BestPractices/CodeComments.md)
 
@@ -14,8 +14,8 @@
 
 ## Philosophies
 
-## Applications
+## :zap: Applications
 
-## Libraries
+## :package: Libraries
 
-## Geoff Cox
+## :coffee: Geoff Cox
