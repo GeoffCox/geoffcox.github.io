@@ -1,21 +1,45 @@
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 # **BellaCode**
 
-## Best Practices
+## <i class="fa fa-paper-plane"></i> Best Practices
 
-[Code Comments](BestPractices/CodeComments.md)
+### Writing code
 
-[Code Locality](BestPractices/CodeLocality.md)
+Follow minimal and complete
 
-[Componentization](BestPractices/Componentization.md)
+### Organizing Code
 
-[Dependency Injection](BestPractices/DependencyInjection.md)
+Use locality of reference to group related code
 
-[Unit Testing](BestPractices/UnitTesting.md)
+Judiciously componentize
 
-## Philosophies
+### Commenting Code
 
-## Applications
+Comment the why not the how
 
-## Libraries
+Write in 1st person
 
-## Geoff Cox
+Use active voice
+
+Write one sentence per line
+
+Avoid noisy comment coverage metrics
+
+### Unit Testing
+
+Name your tests with the When/Then convention
+
+Comment your tests with the Arrange, Act, Assert convention
+
+Name your variables with the Expected, Target, Actual convention
+
+Write just enough tests by following the Good, Bad, Ugly confidence process
+
+## <i class="fa fa-superpowers"></i> Philosophies
+
+## <i class="fa fa-rocket"></i> Applications
+
+## <i class="fa fa-code"></i> Libraries
+
+## <i class="fa fa-coffee"></i> Geoff Cox
