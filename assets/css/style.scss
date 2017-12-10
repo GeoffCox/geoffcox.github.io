@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;  
+}
 
 .inner {      
       max-width: 900px;    
