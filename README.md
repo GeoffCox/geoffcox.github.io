@@ -30,11 +30,11 @@ Avoid noisy comment coverage metrics
 
 ### Unit Testing
 
-Name your tests with the When/Then convention
+[Name your tests with the When/Then pattern](WhenThen.md)
 
-Comment your tests with the Arrange, Act, Assert convention
+Comment your tests with the Arrange, Act, Assert pattern
 
-Name your variables with the Expected, Target, Actual convention
+Name your variables with the Expected, Target, Actual pattern
 
 Write just enough tests by following the Good, Bad, Ugly confidence process
 
