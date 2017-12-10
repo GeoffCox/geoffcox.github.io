@@ -21,7 +21,7 @@ The Expected, Target, Actual (ETA) pattern distinguishes the entities you use fo
 
 ## Example
 
-``` C#
+```C#
     [TestMethod()]
     public void WhenNameSetThenValueUpdated()
     {
