@@ -16,9 +16,11 @@ The Arrange, Act, Assert (AAA) pattern separates your test into distinct steps u
 
 Comment each section of a test using implementation comments (//).
 
+``` C#
     // Arrange
     // Act
     // Assert
+```
 
 ## Example
 

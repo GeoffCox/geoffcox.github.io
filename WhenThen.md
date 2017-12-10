@@ -39,8 +39,11 @@ public void WhenNameSetToEmptyThenValueSet() {}
 
 Unit testing a bank account transfer method:
 
-- WhenTransferCalledWithAmountGreaterThanMaximumThenExceptionThrown
-- WhenTranserCalledAndTransferCancelledThenAccountBalancesNotChanged
+``` C#
+public void WhenTransferCalledWithAmountGreaterThanMaximumThenExceptionThrown() {}
+
+public void WhenTranserCalledAndTransferCancelledThenAccountBalancesNotChanged() {}
+```
 
 ## Tips
 
