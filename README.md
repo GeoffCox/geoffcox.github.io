@@ -42,19 +42,34 @@ Write just enough tests by following the Good, Bad, Ugly confidence process
 
 ## <i class="fa fa-rocket"></i> Applications
 
-Agenda - Make meetings matter with an agenda-driven timer. [EXE](https://github.com/BellaCode/Agenda/blob/master/latest/BellaCodeAgenda.exe?raw=true)
+Agenda - Make meetings matter with an agenda-driven timer. 
+[EXE](https://github.com/BellaCode/Agenda/blob/master/latest/BellaCodeAgenda.exe?raw=true)
  | [ZIP](https://github.com/BellaCode/Agenda/blob/master/latest/BellaCodeAgenda.zip?raw=true)
  | [Source @ GitHub](https://github.com/BellaCode/Agenda)
 
-KeepSiteAlive - Prevent your IIS application pool from going idle. [EXE](https://github.com/BellaCode/KeepSiteAlive/blob/master/Built/BellaCodeKeepSiteAlive.exe?raw=true)
+KeepSiteAlive - Prevent your IIS application pool from going idle. 
+[EXE](https://github.com/BellaCode/KeepSiteAlive/blob/master/Built/BellaCodeKeepSiteAlive.exe?raw=true)
  | [SiteUrls Example](https://github.com/BellaCode/KeepSiteAlive/raw/master/Built/SiteUrls.txt)
  | [Source @ GitHub](https://github.com/BellaCode/KeepSiteAlive)
 
 
-Photiso - Organize your photos by year and month with no duplicates. [ZIP](http://bellacode.com/Downloads/Photiso.zip)
+Photiso - Organize your photos by year and month with no duplicates. 
+[ZIP](http://bellacode.com/Downloads/Photiso.zip)
 
-ScrumPig - Work together using Scrum. Built for small, co-located teams. [ZIP](http://bellacode.com/Downloads/ScrumPig3.zip)
+ScrumPig - Work together using Scrum. Built for small, co-located teams. 
+[ZIP](http://bellacode.com/Downloads/ScrumPig3.zip)
 
 ## <i class="fa fa-code"></i> Libraries
+
+BellaCode.MVVM - Add Model-View-ViewModel support to your WPF app via direct XAML binding.
+[NuGet](http://www.nuget.org/packages/BellaCode.Mvvm/)
+ | [GitHub](https://github.com/BellaCode/MVVM)
+
+BellaCode.Storage - Unified storage interfaces and implementations for OLTP systems. *(UNDER DEVELOPMENT)*
+[GitHub](https://github.com/BellaCode/Storage)
+
+BnlCharts -  Angular directives for composing D3 charts.
+[GitHub](https://github.com/BellaCode/BnLCharts)
+
 
 ## <i class="fa fa-coffee"></i> Geoff Cox
