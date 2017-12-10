@@ -16,7 +16,7 @@ The Arrange, Act, Assert (AAA) pattern separates your test into distinct steps u
 
 Comment each section of a test using implementation comments (//).
 
-```C#
+```csharp
     // Arrange
     // Act
     // Assert
@@ -26,7 +26,7 @@ Comment each section of a test using implementation comments (//).
 
 *Note*: This test is using the When/Then pattern and the Expected, Target, Actual patterns as well.
 
-```C#
+```csharp
     [TestMethod]
     public void WhenNameSetToDifferentValueThenPropertyChangedRaised()
     {
