@@ -76,7 +76,7 @@ BnlCharts -  Angular directives for composing D3 charts.
 
 > C# & Web Craftsman. Guitarist. Folk Hero.
 
-[CV](CV.md)
+[CV](GeoffCoxCV.md)
 
 [Twitter](https://twitter.com/geoffcoxlive)
 
