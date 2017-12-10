@@ -34,7 +34,7 @@ Avoid noisy comment coverage metrics
 
 [Structure your tests with the Arrange, Act, Assert pattern](ArrangeActAssert.md)
 
-Name your variables with the Expected, Target, Actual pattern
+[Name your variables with the Expected, Target, Actual pattern](ExpectedTargetActual.md)
 
 Write just enough tests by following the Good, Bad, Ugly confidence process
 

@@ -9,7 +9,7 @@ The Arrange, Act, Assert (AAA) pattern separates your test into distinct steps u
 ## Benefits
 
 - Developers reading the test can clearly distinguish each step of your test.  They are not likely to confuse arranging the condition with what is being tested.
-- It is symbiotic with the [When/Then](WhenThen.md) pattern.  Arrange and Act are the *when* and *Assert* is the Then.
+- It fits together with the [When/Then](WhenThen.md) pattern.  Arrange and Act are the *When* and Assert is the *Then*.
 - Labeling each step makes it easier to fix a broken test, especially when an exception is thrown during Arrange.
 
 ## Pattern
@@ -24,6 +24,7 @@ Comment each section of a test using implementation comments (//).
 
 *Note*: This test is using the When/Then pattern and the Expected, Target, Actual patterns as well.
 
+``` C#
     [TestMethod]
     public void WhenNameSetToDifferentValueThenPropertyChangedRaised()
     {
@@ -46,6 +47,7 @@ Comment each section of a test using implementation comments (//).
       // Assert            
       Assert.IsTrue(actual);
     }
+```
 
 ## Tips
 

@@ -25,11 +25,17 @@ The When/Then naming pattern captures the condition and expected result of the t
 
 Unit testing a Name property:
 
-- WhenNameSetThenValueSet
-- WhenNameSetToDifferentValueThenPropertyChangedRaised
-- WhenNameSetToSameValueThenPropertyChangedNotRaised
-- WhenNameSetToNullThenExceptionThrown
-- WhenNameSetToEmptyThenValueSet
+``` C#
+public void WhenNameSetThenValueSet() {}
+
+public void WhenNameSetToDifferentValueThenPropertyChangedRaised() {}
+
+public void WhenNameSetToSameValueThenPropertyChangedNotRaised() {}
+
+public void WhenNameSetToNullThenExceptionThrown() {}
+
+public void WhenNameSetToEmptyThenValueSet() {}
+```
 
 Unit testing a bank account transfer method:
 
