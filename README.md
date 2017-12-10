@@ -73,3 +73,15 @@ BnlCharts -  Angular directives for composing D3 charts.
 
 
 ## <i class="fa fa-coffee"></i> Geoff Cox
+
+> C# & Web Craftsman. Guitarist. Folk Hero.
+
+[CV](CV.md)
+
+[Twitter](https://twitter.com/geoffcoxlive)
+
+[Linked In](http://www.linkedin.com/in/geoffcoxlive/)
+
+[Stack Overflow Careers](http://careers.stackoverflow.com/geoffcox)
+
+[Bookshelf](Bookshelf.md) is my list of books that are my touchstones for professional software development.
