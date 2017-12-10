@@ -3,6 +3,8 @@
 
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 body {
     font-family: 'Merriweather Sans', sans-serif;  
@@ -12,7 +14,7 @@ body {
       max-width: 900px;    
     }
 
-.bellacode-site-link {
+.bellacode-link {
     color:white;
     text-decoration: none;    
     &:active {
@@ -27,4 +29,12 @@ body {
         color:white;
         text-decoration: none;
     };
+}
+
+.bellacode-word {
+    font-family: 'Spirax','Merriweather Sans', sans-serif;  
+}
+
+.bellacode-code {
+    font-family: 'Source Code Pro','Merriweather Sans', sans-serif;  
 }
