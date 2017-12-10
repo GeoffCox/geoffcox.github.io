@@ -6,7 +6,7 @@
 
 The When/Then naming pattern captures the condition and expected result of the test. 
 
-There are benefits over traditional naming patterns that follow the structure of the code hierarchy:
+## Benefits
 
 - The test name is easy to read as a sentence.  This is how most developers would describe a test to someone else.  
 - The descriptive name avoids the need for comments to explain what the test does.  

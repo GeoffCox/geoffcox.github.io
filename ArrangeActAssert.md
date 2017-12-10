@@ -6,7 +6,7 @@
 
 The Arrange, Act, Assert (AAA) pattern separates your test into distinct steps using code comments.
 
-Benefits:
+## Benefits
 
 - Developers reading the test can clearly distinguish each step of your test.  They are not likely to confuse arranging the condition with what is being tested.
 - It is symbiotic with the [When/Then](WhenThen.md) pattern.  Arrange and Act are the *when* and *Assert* is the Then.
