@@ -42,7 +42,7 @@ The Expected, Target, Actual (ETA) pattern distinguishes the entities you use fo
     }
 ```
 
- ## Tips
+## Tips
 
 - If you end up with multiple variables, use expected, actual or target as prefixes (i.e. expectedFirstName and expectedLastName).
 - Prefer to use the 'var' (variant) keyword if your language supports it.  This makes your test resilient to type changes that are not critical to the test.  If verifying types are important the test, verify them in the //Assert section. 
