@@ -1,4 +1,4 @@
-[Home](README.md)
+### [<i class="fa fa-home"></i>](README.md)
 
 # Naming tests with the When/Then Pattern
 
