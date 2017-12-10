@@ -2,6 +2,8 @@
 
 # **BellaCode**
 
+Hi, I'm Geoff Cox.  I created BellaCode to share my 20+ years of software development experience with other developers. Here you will find my best practices,  applications, open source libraries, and bookshelf.  I hope you find them all useful.
+
 ## <i class="fa fa-paper-plane"></i> Best Practices
 
 ### Writing code
@@ -39,6 +41,19 @@ Write just enough tests by following the Good, Bad, Ugly confidence process
 ## <i class="fa fa-superpowers"></i> Philosophies
 
 ## <i class="fa fa-rocket"></i> Applications
+
+Agenda - Make meetings matter with an agenda-driven timer. [EXE](https://github.com/BellaCode/Agenda/blob/master/latest/BellaCodeAgenda.exe?raw=true)
+ | [ZIP](https://github.com/BellaCode/Agenda/blob/master/latest/BellaCodeAgenda.zip?raw=true)
+ | [Source @ GitHub](https://github.com/BellaCode/Agenda)
+
+KeepSiteAlive - Prevent your IIS application pool from going idle. [EXE](https://github.com/BellaCode/KeepSiteAlive/blob/master/Built/BellaCodeKeepSiteAlive.exe?raw=true)
+ | [SiteUrls Example](https://github.com/BellaCode/KeepSiteAlive/raw/master/Built/SiteUrls.txt)
+ | [Source @ GitHub](https://github.com/BellaCode/KeepSiteAlive)
+
+
+Photiso - Organize your photos by year and month with no duplicates. [ZIP](http://bellacode.com/Downloads/Photiso.zip)
+
+ScrumPig - Work together using Scrum. Built for small, co-located teams. [ZIP](http://bellacode.com/Downloads/ScrumPig3.zip)
 
 ## <i class="fa fa-code"></i> Libraries
 
