@@ -1,8 +1,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-# **BellaCode**
-
-Hi, I'm Geoff Cox.  I created BellaCode to share my 20+ years of software development experience with other developers. Here you will find my best practices,  applications, open source libraries, and bookshelf.  I hope you find them all useful.
+> Here you will find my best practices,  applications, open source libraries, and bookshelf. I hope you find them useful.
 
 ## <i class="fa fa-paper-plane"></i> Best Practices
 
