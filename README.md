@@ -14,7 +14,7 @@ Follow minimal and complete
 
 Use locality of reference to group related code
 
-Judiciously componentize
+Judiciously create components
 
 ### Commenting Code
 
@@ -32,7 +32,7 @@ Avoid noisy comment coverage metrics
 
 [Name your tests with the When/Then pattern](WhenThen.md)
 
-Comment your tests with the Arrange, Act, Assert pattern
+[Structure your tests with the Arrange, Act, Assert pattern](ArrangeActAssert.md)
 
 Name your variables with the Expected, Target, Actual pattern
 
