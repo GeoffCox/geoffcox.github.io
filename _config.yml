@@ -1,2 +1,2 @@
 theme: jekyll-theme-slate
-title: <a href="http://bellacode.github.io" style="color:white;text-decoration:none">BellaCode</a>
+title: <a href="http://bellacode.github.io" class="bellacode-site-link" style="color:white;text-decoration:none">BellaCode</a>
