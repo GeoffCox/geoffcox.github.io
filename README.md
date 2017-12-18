@@ -32,8 +32,7 @@ Write just enough tests by following the Good, Bad, Ugly confidence process
 
 [KeepSiteAlive](https://github.com/BellaCode/KeepSiteAlive) - Prevent your IIS application pool from going idle.
 
-Photiso - Organize your photos by year and month with no duplicates. 
-[ZIP](downloads/Photiso.zip)
+[Photiso](https://github.com/BellaCode/Photiso) - Organize your photos by year and month with no duplicates.
 
 ScrumPig - Work together using Scrum. Built for small, co-located teams. 
 [ZIP](downloads/ScrumPig3.zip)
