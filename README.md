@@ -43,9 +43,6 @@ ScrumPig - Work together using Scrum. Built for small, co-located teams.
 
 [BellaCode.Storage](https://github.com/BellaCode/Storage) - Unified storage interfaces and implementations for OLTP systems. *(UNDER DEVELOPMENT)*
 
-[BnlCharts](https://github.com/BellaCode/BnLCharts) -  Angular directives for composing D3 charts.
-
-
 ## <i class="fa fa-coffee"></i> Geoff Cox
 
 [CV](GeoffCoxCV.md)
