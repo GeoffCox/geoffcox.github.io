@@ -6,7 +6,7 @@
 
 ### Coding
 
-Follow minimal and complete
+[Design Minimal and Complete Interfaces](MinimalAndComplete.md)
 
 Use locality of reference to group related code
 
