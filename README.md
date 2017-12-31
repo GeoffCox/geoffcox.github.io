@@ -10,7 +10,7 @@
 
 [Organize code by Locality of Reference](Locality.md)
 
-Comment code concisely
+[Concisely comment code](CodeComments.md)
 
 Judiciously create components
 
