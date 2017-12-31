@@ -4,21 +4,21 @@
 
 # Design Minimal and Complete Interfaces
 
-I was introduced to the concept of minimal and complete in [Effective C++](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876) by Scott Meyers.  
+Minimal *and* Complete has been one of my guiding principles in my work for almost 20 years.  It has helped me write better interfaces and classes as well as architect components and systems.
 
-It has been one of my guiding principles in my work for almost 20 years.  Applying it to interface design but also to component and system architectures has repeatedly helped me produce better code.
+Scott Meyers  introduced the concept of minimal and complete in [Effective C++](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876).
 
 ## Minimal
 
 A minimal interface is as small as possible without losing required functionality. 
 
-Minimal interfaces don't have multiple methods that do the same thing; callers shouldn't have to make a coin-toss decision between methods.
+Minimal interfaces don't have multiple methods that do the same thing; callers shouldn't need to make a coin-toss decision between methods.
 
 ## Complete
 
 A complete interface isn't missing anything.  It fully satisfies its single responsibility.  
 
-Just having all the methods and parameters isn't enough.  The interface defines a complete contract including behavior, validation, performance, and implementation requirements.  
+Just coding all the methods isn't enough.  The interface defines a complete contract including behavior, validation, and performance requirements.
 
 ## Benefits
 
@@ -28,5 +28,7 @@ Just having all the methods and parameters isn't enough.  The interface defines 
 - You are forced to think carefully through the purpose and requirements of the interface.
 
 ## Tips
-- Minimal and complete can quickly become difficult when convenience methods are added.  Write out the code you expect most callers to use and then consider if the convenient methods are really needed, or if the inconvenient methods can be improved.
-- Be aware of false need.  Often knowing the constraints of the implementation will cause developers to violate minimal and complete in the interface.
+
+- Write out the code you expect most callers to use. Put yourself in the caller's shoes.
+- Minimal and complete can quickly become difficult when convenience methods are added. Consider if the convenient methods are really needed, or if the inconvenient methods can be made easier to call.
+- Be aware of false need.  Sometimes knowing the constraints of the implementation will cause developers to violate minimal and complete.
