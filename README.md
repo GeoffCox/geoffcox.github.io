@@ -26,6 +26,8 @@ Write just enough tests by following the Good, Bad, Ugly confidence process
 
 ## <i class="fa fa-superpowers"></i> Philosophies
 
+[Slow In. Fast Out.](SlowInFastOut.md)
+
 ## <i class="fa fa-rocket"></i> Applications
 
 [Agenda](https://github.com/BellaCode/Agenda) - Make meetings matter with an agenda-driven timer. 
