@@ -26,7 +26,7 @@ It also requires patience to not accelerate too early on the exit.  Teams might 
 
 *A decreasing radius corner - Turn 3A at Pacific Raceways*
 
-### Increasing Radius##
+### Increasing Radius
 An increasing radius corner has a tight curve at the beginning then straightens out. There is still braking required at the corner's entry, but once you make it past the apex, you can put the pedal down. Whee!
 
 Increasing radius software tasks have straight-forward hurdles to overcome early on.  It can be bootstrapping a technology, getting the right interfaces figured out, or writing a function that is the heart of the solution.  After that, it is simple code, test, and deploy. Teams can often obtain a high degree of parallel development as the project progresses.
@@ -37,7 +37,7 @@ These corners still require patience.  If a driver hits the gas faster than the 
 
 *An increasing radius corner - Turn 5A at Pacific Raceways*
 
-### Constant Radius##
+### Constant Radius
 A constant radius corner has the same curvature all the way through.  It looks like a big letter U.  To drive this successfully, the driver brakes to the maximum speed for the corner and maintains that speed (even throttle) throughout the corner.  Only when the corner is almost done, can the gas be applied as the car moves from the inside to the outside of the track.
 
 Constant radius software tasks are a grind. Teams have to maintain a balance between design, re-design, refactoring, and implementation.  Challenges crop up throughout the project, but are solvable with due diligence.  It takes a steady hand to hold the wheel in the same position throughout the corner.
