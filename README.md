@@ -12,8 +12,6 @@
 
 [Concisely comment code](CodeComments.md)
 
-Judiciously create components
-
 ### Unit Testing
 
 [Name your tests with the When/Then pattern](WhenThen.md)
@@ -27,6 +25,8 @@ Write just enough tests by following the Good, Bad, Ugly confidence process
 ## <i class="fa fa-superpowers"></i> Philosophies
 
 [Slow In. Fast Out.](SlowInFastOut.md)
+
+[Communication Zen](CommunicationZen.md)
 
 ## <i class="fa fa-rocket"></i> Applications
 
