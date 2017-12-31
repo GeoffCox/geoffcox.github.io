@@ -20,8 +20,6 @@
 
 [Name your variables with the Expected, Target, Actual pattern](ExpectedTargetActual.md)
 
-Write just enough tests by following the Good, Bad, Ugly confidence process
-
 ## <i class="fa fa-superpowers"></i> Philosophies
 
 [Slow In. Fast Out.](SlowInFastOut.md)
@@ -49,8 +47,6 @@ ScrumPig - Work together using Scrum. Built for small, co-located teams.
 
 
 ## <i class="fa fa-coffee"></i> Geoff Cox
-
-> C# & Web Craftsman. Guitarist. Folk Hero.
 
 [CV](GeoffCoxCV.md)
 
