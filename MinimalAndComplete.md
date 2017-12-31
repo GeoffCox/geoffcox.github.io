@@ -2,7 +2,7 @@
 
 ### [<i class="fa fa-home"></i>](README.md)
 
-# Design Minimal and Complete Interfaces
+# Create Minimal and Complete interfaces
 
 Minimal *and* Complete has been one of my guiding principles in my work for almost 20 years.  It has helped me write better interfaces and classes as well as architect components and systems.
 

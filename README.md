@@ -6,9 +6,9 @@
 
 ### Coding
 
-[Design Minimal and Complete Interfaces](MinimalAndComplete.md)
+[Create Minimal and Complete interfaces](MinimalAndComplete.md)
 
-Use locality of reference to group related code
+[Organize code by Locality of Reference](Locality.md)
 
 Comment code concisely
 
