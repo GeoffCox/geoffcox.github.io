@@ -1,7 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-### [<i class="fa fa-home"></i>](README.md)
-
 # Name your variables with the Expected, Target, Actual pattern
 
 The Expected, Target, Actual (ETA) pattern distinguishes the entities you use for each step of your test.

@@ -1,7 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-### [<i class="fa fa-home"></i>](README.md)
-
 # Structure your tests with the Arrange, Act, Assert pattern
 
 The Arrange, Act, Assert (AAA) pattern separates your test into distinct steps using code comments.

@@ -1,7 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-### [<i class="fa fa-home"></i>](README.md)
-
 # Organize Code by Locality of Reference
 Organizing class members by access modifier (public, protected, private)or by member type (properties, methods, events) in modern languages are antiquated practices.
 

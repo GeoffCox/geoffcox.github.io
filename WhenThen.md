@@ -1,7 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-### [<i class="fa fa-home"></i>](README.md)
-
 # Name your tests with the When/Then pattern
 
 The When/Then naming pattern captures the condition and expected result of the test. 

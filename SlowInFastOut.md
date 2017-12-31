@@ -1,7 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-### [<i class="fa fa-home"></i>](README.md)
-
 # Slow in. Fast out.
 
 I once spent a couple of years learning how to drive a car around a race track. A friend lent me a great book [Speed Secrets: Professional Race Driving Techniques](https://www.amazon.com/Speed-Secrets-Professional-Driving-Techniques/dp/0760305188) by Ross Bentley. In particular, the section on how to dealing with different kinds of corners helped me improve my driving the most. 

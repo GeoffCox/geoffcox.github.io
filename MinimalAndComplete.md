@@ -1,7 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-### [<i class="fa fa-home"></i>](README.md)
-
 # Create Minimal and Complete interfaces
 
 Minimal *and* Complete has been one of my guiding principles in my work for almost 20 years.  It has helped me write better interfaces and classes as well as architect components and systems.
