@@ -94,4 +94,4 @@ vs.
     // The client ID is a GUID that is base-64 encoded as a string and then reversed for maximum cluster distribution.    
     
 ## Know when to stop
-No amount of commenting can fix bad code.  If you are writing too many comments trying to explain the code you may need to reconsider your approach.
+No amount of commenting can fix bad code.  If you are writing too many comments trying to explain the code, you may need to reconsider your approach.
