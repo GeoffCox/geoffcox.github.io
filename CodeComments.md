@@ -8,7 +8,7 @@ Writing useful code comments is a tougher balancing act than you might think.
 - Properly structured and well named code requires fewer comments.
 - Public APIs may require significantly more comments than internal application code.
 
-## The why (not the how)
+## Document the why (not the how)
 Commenting the code behaves doesn't add much value.  If your code is well written, another developer will be able to read and understand it.  Code is much more precise than English, so you are likely introducing confusion instead of clarify.
 
 Too often I see comments like this one that offers low value. 
