@@ -1,6 +1,8 @@
-# Machine Teaching #
+# Microsoft Favorites
 
-[CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/taskboard)
+## Machine Teaching
+
+[CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/board/Stories)
 
 [My Work](https://msr-mlg.visualstudio.com/CHIL.Work/_queries?id=a2108d31-086c-4fb0-afda-097e4cc46df4&_a=query)
 
@@ -18,11 +20,11 @@
 
 [Unison](https://johnwer.visualstudio.com/Unison)
 
-# Web Development #
+## Web Development
 
 [Office Fabric Best Practices](https://github.com/OfficeDev/office-ui-fabric-react/blob/master/ghdocs/BESTPRACTICES.md)
 
-# SO@MS #
+## SO@MS
 
 [SO@MS](https://stackoverflow.microsoft.com/)
 
