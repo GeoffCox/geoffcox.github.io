@@ -19,7 +19,7 @@ This directly affects how developers should group class members:
 - A helper method after the method that calls it.
 
 ## Tips
-- Files are serial so you might not be able to always group all code together.  Do your best, but realize that a class with a complex web of dependencies internally might need to be re-designed.
+- Files are serial so you might not be able to always group all code together.  Do your best, but realize that a class with a complex web of dependencies internally might need to be redesigned.
 - In C#, avoid #regions except for implementing interface contracts.  Modern tools have excellent search and humans are pretty good at vertical scanning.
 
 ## Benefits
