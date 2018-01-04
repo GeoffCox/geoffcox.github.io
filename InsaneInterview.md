@@ -44,7 +44,7 @@ Here's an account of the interview.  My thoughts are in parenthesis, actions in 
 
 **Me**: Imagine you need to know how many taxi cabs there are in the greater Seattle area.  What are some ways you could figure that out? 
 
-**Him**: I could Goggle it.
+**Him**: I could Google it.
 
 **Me**: Well, that's not really the point.  I want to understand what other kinds of information would help you approximate the number.
 
@@ -52,7 +52,7 @@ Here's an account of the interview.  My thoughts are in parenthesis, actions in 
 
 **Me**: (Am I on a prank show?) OK. Here's the thing.  Just looking up the answer isn't what I'm asking for.  And as a small point, if you are interviewing at Microsoft, maybe saying you would Bing it might be better than naming a competitor's product. [I grin at him.  Hoping he'll see the humor.]
 
-**Him**: [Opens his laptop and logs in] Well Goggle is way better, here let me show you.
+**Him**: [Opens his laptop and logs in] Well Google is way better, here let me show you.
 
 **Me**: Awww..that's OK.  Hey, I'm going to step out into the hall for a second.
 
