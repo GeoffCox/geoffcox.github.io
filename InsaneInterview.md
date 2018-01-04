@@ -4,7 +4,7 @@ I've probably interviewed over a hundred people in my career.  Candidates varied
 
 ## Background
 
-I was asked to interview a potential college hire for a software developer position at Microsoft.  This was a typical hour-long interview and I had my range of questions good for just-out-college candidates. He came recommended through someone I worked with in a previous group. I read through his resume which contained a solid GPA from a decent school, a list of programming languages he knew, and the short summary about how he'd love to work for a company that makes great software - pretty standard.
+I was asked to interview a potential college hire for a software developer position at Microsoft.  This was a typical hour-long interview and I had my range of questions good for just-out-of-college candidates. He came recommended through someone I worked with in a previous group. I read through his resume which contained a solid GPA from a decent school, a list of programming languages he knew, and the short summary about how he'd love to work for a company that makes great software - pretty standard.
 
 ## The Interview
 
