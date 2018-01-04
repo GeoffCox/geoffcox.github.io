@@ -26,6 +26,10 @@
 
 [Communication Zen](CommunicationZen.md)
 
+## <i class="fa fa-book"></i> Stories from the trenches
+
+[Insane Interview](InsaneInterview.md)
+
 ## <i class="fa fa-rocket"></i> Applications
 
 [Agenda](https://github.com/BellaCode/Agenda) - Make meetings matter with an agenda-driven timer. 
@@ -34,8 +38,7 @@
 
 [Photiso](https://github.com/BellaCode/Photiso) - Organize your photos by year and month with no duplicates.
 
-ScrumPig - Work together using Scrum. Built for small, co-located teams. 
-[ZIP](downloads/ScrumPig3.zip)
+[ScrumPig](downloads/ScrumPig3.zip) - Work together using Scrum. Built for small, co-located teams. 
 
 ## <i class="fa fa-code"></i> Libraries
 
@@ -53,4 +56,4 @@ ScrumPig - Work together using Scrum. Built for small, co-located teams.
 
 [Stack Overflow Careers](http://careers.stackoverflow.com/geoffcox)
 
-[Bookshelf](Bookshelf.md) is my list of books that are my touchstones for professional software development.
+[Bookshelf](Bookshelf.md)
