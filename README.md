@@ -26,7 +26,7 @@
 
 [Communication Zen](CommunicationZen.md)
 
-## <i class="fa fa-book"></i> Stories from the trenches
+## <i class="fa fa-book"></i> Stories
 
 [Insane Interview](InsaneInterview.md)
 
