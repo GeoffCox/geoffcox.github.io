@@ -22,7 +22,7 @@ Here's an account of the interview.  My thoughts are in parenthesis, actions in 
 
 **Me**: Oh...It lists C# on your resume here under expertise. 
 
-**Him**: Yeah. Those items are aspirations than experience. I hope I get the chance to work with those someday.
+**Him**: Yeah. Those items are aspirations more than experience. I hope I get the chance to work with those someday.
 
 **Me**: What programming language do you know from school?
 
@@ -58,6 +58,6 @@ Here's an account of the interview.  My thoughts are in parenthesis, actions in 
 
 **Him**: Sure.  It's been awesome.
 
-**Me**: [I never return and instead get person running the interview to terminate the loop.]
+**Me**: [I never return and instead got the next person to terminate the loop.]
 
 **Me**: (Did that really just happen?  Yes it did...sigh.) [Shakes head sadly for rest of day.]
