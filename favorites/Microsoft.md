@@ -24,6 +24,8 @@
 
 [Office Fabric Best Practices](https://github.com/OfficeDev/office-ui-fabric-react/blob/master/ghdocs/BESTPRACTICES.md)
 
+[VS Code Open Source](https://github.com/Microsoft/vscode)
+
 ## SO@MS
 
 [SO@MS](https://stackoverflow.microsoft.com/)
