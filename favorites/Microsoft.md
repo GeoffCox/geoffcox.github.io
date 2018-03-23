@@ -10,6 +10,8 @@
 
 [CHIL.SDK](https://msr-mlg.visualstudio.com/CHIL.PICL.SDK)
 
+[Sharepoint](https://microsoft.sharepoint.com/teams/CHIL/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120006ADF84F0F40BD8418425D129239C51EB)
+
 [MLG VSTS](https://msr-mlg.visualstudio.com/)
 
 [picl-dev-ci](https://picl-dev-ci.azurewebsites.net/)
