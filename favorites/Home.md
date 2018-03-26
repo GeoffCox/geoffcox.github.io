@@ -13,6 +13,7 @@
 ## Professional
 * [Linked In](http://linkedin.com)
 * [Twitter](http://www.twitter.com)
+* [Twitter By Follow](https://twitter.com/geoffcoxlive/following)
 * [Stack Overflow](http://stackoverflow.com)
 * [BellaCode](https:bellacode.github.io)
 * [GitHub](http://www.github.com)
