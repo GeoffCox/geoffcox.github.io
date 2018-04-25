@@ -1,5 +1,7 @@
 # Microsoft Favorites
 
+[Recruiting](https://ms.icims.com)
+
 ## Machine Teaching
 
 [CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/board/Stories)
