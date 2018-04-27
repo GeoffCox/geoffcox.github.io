@@ -2,6 +2,8 @@
 
 [Recruiting](https://ms.icims.com)
 
+[Job Posting](https://careers.microsoft.com/us/en/job/426172/Principal-RSDE)
+
 ## Machine Teaching
 
 [CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/board/Stories)
