@@ -22,6 +22,8 @@
 
 [Release Tracker](https://reltrack.azurewebsites.net/activity/74?section=tasks)
 
+[Secure Dev Tools](https://www.1eswiki.com/wiki/Secure_Development_Tools_VSTS_Extension)
+
 [Position Paper](http://aka.ms/machineteachingpaper)
 
 [Unison](https://johnwer.visualstudio.com/Unison)
