@@ -24,6 +24,8 @@
 
 [Secure Dev Tools](https://www.1eswiki.com/wiki/Secure_Development_Tools_VSTS_Extension)
 
+[Code Signing ESRP](https://marketplace.visualstudio.com/items?itemName=SFP.build-tasks&targetId=54f19ac5-0f33-4cff-8289-7cb5c295fdcb&utm_source=vstsproduct&utm_medium=ExtHubManageList)
+
 [Position Paper](http://aka.ms/machineteachingpaper)
 
 [Unison](https://johnwer.visualstudio.com/Unison)
