@@ -1,6 +1,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-## <i class="fa fa-coffee"></i> Geoff Cox
+> 11/2018 - Under refactoring, so just a short list of links for now.
 
 [Resume](GeoffCoxResume.md)
 
@@ -10,6 +10,4 @@
 
 [Stack Overflow Careers](http://careers.stackoverflow.com/geoffcox)
 
-[GitHub](http://gihub.com/geoffcox)
-
-[Bookshelf](Bookshelf.md)
+[GitHub](https://github.com/geoffcox)
