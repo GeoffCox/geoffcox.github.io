@@ -48,7 +48,7 @@
 
 ## <i class="fa fa-coffee"></i> Geoff Cox
 
-[CV](GeoffCoxCV.md)
+[Resume](GeoffCoxCV.md)
 
 [Twitter](https://twitter.com/geoffcoxlive)
 
