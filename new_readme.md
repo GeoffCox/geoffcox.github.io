@@ -1,8 +1,4 @@
-$
-|--- Tips for software developers
-|    |---- Clean Architecture
-|    |---- Unit Testing
-|---- Applications
-|     |---- Photiso
-|     |---- Keep Site Alive
+# Recent Thinking
+
+The power of Typescript lies as much in its dynamically type runtime (JavaScript) as in its statically typed compile time.
       
