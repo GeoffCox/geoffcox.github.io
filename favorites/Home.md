@@ -15,6 +15,6 @@
 * [Twitter](http://www.twitter.com)
 * [Twitter By Follow](https://twitter.com/geoffcoxlive/following)
 * [Stack Overflow](http://stackoverflow.com)
-* [BellaCode](https:bellacode.github.io)
+* [Geoff Cox](https:geoffcox.github.io)
 * [GitHub](http://www.github.com)
 * [OWA](https://outlook.com/owa/microsoft.com)
