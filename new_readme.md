@@ -3,9 +3,11 @@
 > The power of Typescript lies as much in its dynamically-typed runtime (JavaScript) as in its statically-typed compile time.
 
 
-# Advice for Professional Developers
+# Pro Dev Tips
 
-# Advice for Professional Developer Leads
+For developers
+
+For managers of developers
 
 # Open Source Projects
 
