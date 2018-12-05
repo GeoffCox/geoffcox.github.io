@@ -1,6 +1,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-> 11/2018 - Under refactoring, so just a short list of links for now.
+> 12/2018 - Under refactoring, so just a short list of links for now.
 
 [Resume](GeoffCoxResume.md)
 
