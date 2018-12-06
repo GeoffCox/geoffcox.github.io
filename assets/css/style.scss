@@ -2,12 +2,17 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
-@import url('https://fonts.googleapis.com/css?family=Spirax');
+
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
 
 body {
-    font-family: 'Merriweather Sans', sans-serif;  
+    font-family: 'Vollkorn', sans-serif;
+    font-size: '16pt'  
+}
+
+.source-code {
+    font-family: 'Source Code Pro', monospace;  
 }
 
 .inner {      
@@ -60,11 +65,3 @@ body {
     border-bottom-right-radius: 2px;
   
   }
-
-.bellacode-bella {
-    font-family: 'Spirax', cursive;
-}
-
-.bellacode-code {
-    font-family: 'Source Code Pro', monospace;  
-}
