@@ -5,10 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
 body {
-    font-family: 'Vollkorn', sans-serif;
-    font-size: '16pt'  
+    font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
+    font-size: '20pt';
+}
+
+.gc-logo {
+    font-family: 'Bree Serif', Georgia, 'Times New Roman', Times, serif;  
 }
 
 .source-code {
