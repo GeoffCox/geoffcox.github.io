@@ -79,6 +79,23 @@ header section {
     font-size: 24pt;
 }
 
+#SiteLink a {    
+    color:white;
+    text-decoration: none;    
+    &:active {
+        color:white;
+        text-decoration: none;
+    };
+    &:hover {
+        color:white;
+        text-decoration: underline;
+    }
+    &:visited {
+        color:white;
+        text-decoration: none;
+    };
+}
+
 #MainContent {
     margin: 30px;
     max-width: 900px;
