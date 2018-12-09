@@ -10,8 +10,6 @@
 body {
     font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
     font-size: 16pt;  
-    max-width: 900px;
-    margin: 0 0 0 50%;
     padding: 0;
 }
 
@@ -54,6 +52,10 @@ header {
     padding: 30px;
 }
 
+header section {
+    max-width: 900px;
+}
+
 #SiteTitle {
     font-size: 38pt;
 }
@@ -64,6 +66,7 @@ header {
 
 #MainContent {
     margin: 30px;
+    max-width: 900px;
 }
 
 footer {
