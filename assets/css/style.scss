@@ -3,8 +3,9 @@
 
 //@import "{{ site.theme }}";
 
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css?family=Rubik');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
 //----------------------------------------
@@ -19,18 +20,22 @@ body {
 }
 
 h1 {
+    font-family: 'Rubik', Helvetica, Arial, sans-serif;
     font-size: 20pt;
 }
 
 h2 {
+    font-family: 'Rubik', Helvetica, Arial, sans-serif;
     font-size: 18pt;
 }
 
 h3 {
+    font-family: 'Rubik', Helvetica, Arial, sans-serif;
     font-size: 16pt;
 }
 
 h4 {
+    font-family: 'Rubik', Helvetica, Arial, sans-serif;
     font-size: 14pt;
 }
 
