@@ -15,10 +15,6 @@ body {
     padding: 0;
 }
 
-title {
-    font-size: 38pt;
-}
-
 h1 {
     font-size: 32pt;
 }
@@ -54,7 +50,12 @@ a {
 
 header {
     background-color: #222222;
-    height: 270px;
+    height: 150px;
+    padding: 30px;
+}
+
+#SiteTitle {
+    font-size: 38pt;
 }
 
 #SiteLink {
@@ -67,7 +68,7 @@ header {
 
 footer {
     background-color: #222222;
-    height: 70px;
+    height: 50px;
 }
 
 .code {
