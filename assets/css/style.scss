@@ -10,6 +10,7 @@
 body {
     font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
     font-size: '20pt';  
+    max-width: 900px;
 }
 
 h1 {
@@ -45,6 +46,11 @@ a {
     };
 }
 
+header {
+    background-color: '#222222';
+    height: '70px';
+}
+
 .code {
     font-family: 'Source Code Pro', monospace;
     font-size: '12pt';
@@ -52,9 +58,5 @@ a {
 
 .gc-logo {
     font-family: 'Bree Serif', Georgia, 'Times New Roman', Times, serif;
-}
-
-.inner {      
-      max-width: 900px;    
 }
 
