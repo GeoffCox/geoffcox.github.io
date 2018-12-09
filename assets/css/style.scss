@@ -7,6 +7,10 @@
 @import url('https://fonts.googleapis.com/css?family=Vollkorn');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
+//----------------------------------------
+// HTML base styles
+//----------------------------------------
+
 body {
     font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
     font-size: 16pt; 
@@ -47,6 +51,15 @@ a {
     };
 }
 
+code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12pt;
+}
+
+//----------------------------------------
+// Site Header
+//----------------------------------------
+
 header {
     background-color: #222222;
     height: 150px;    
@@ -58,6 +71,7 @@ header section {
 }
 
 #SiteTitle {
+    font-family: 'Bree Serif', Georgia, 'Times New Roman', Times, serif;
     font-size: 38pt;
 }
 
@@ -73,14 +87,5 @@ header section {
 footer {
     background-color: #222222;
     height: 50px;
-}
-
-.code {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 12pt;
-}
-
-.gc-logo {
-    font-family: 'Bree Serif', Georgia, 'Times New Roman', Times, serif;
 }
 
