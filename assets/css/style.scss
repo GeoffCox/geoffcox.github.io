@@ -9,26 +9,30 @@
 
 body {
     font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
-    font-size: 20pt;  
+    font-size: 16pt;  
     max-width: 900px;
     margin: 0;
     padding: 0;
 }
 
+title {
+    font-size: 38pt;
+}
+
 h1 {
-    font-size: 42pt;
+    font-size: 32pt;
 }
 
 h2 {
-    font-size: 36pt;
+    font-size: 28pt;
 }
 
 h3 {
-    font-size: 30pt;
+    font-size: 24pt;
 }
 
 h4 {
-    font-size: 24pt;
+    font-size: 20pt;
 }
 
 a {    
@@ -51,6 +55,10 @@ a {
 header {
     background-color: #222222;
     height: 270px;
+}
+
+#SiteLink {
+    font-size: 24pt;
 }
 
 #MainContent {
