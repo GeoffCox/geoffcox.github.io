@@ -9,24 +9,26 @@
 
 body {
     font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
-    font-size: '20pt';  
+    font-size: 20pt;  
     max-width: 900px;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    font-size: '42pt';
+    font-size: 42pt;
 }
 
 h2 {
-    font-size: '36pt';
+    font-size: 36pt;
 }
 
 h3 {
-    font-size: '30pt';
+    font-size: 30pt;
 }
 
 h4 {
-    font-size: '24pt';
+    font-size: 24pt;
 }
 
 a {    
@@ -47,13 +49,22 @@ a {
 }
 
 header {
-    background-color: '#222222';
-    height: '70px';
+    background-color: #222222;
+    height: 270px;
+}
+
+#MainContent {
+    margin: 30px;
+}
+
+footer {
+    background-color: #222222;
+    height: 70px;
 }
 
 .code {
     font-family: 'Source Code Pro', monospace;
-    font-size: '12pt';
+    font-size: 12pt;
 }
 
 .gc-logo {
