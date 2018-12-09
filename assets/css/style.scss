@@ -35,18 +35,18 @@ h4 {
 }
 
 a {    
-    color:black;
+    color:#00001a;
     text-decoration: none;    
     &:active {
-        color:black;
+        color:#00004d;
         text-decoration: none;
     };
     &:hover {
-        color:black;
+        color:#00004d;
         text-decoration: underline;
     }
     &:visited {
-        color:black;
+        color:#00001a;
         text-decoration: none;
     };
 }
