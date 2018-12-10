@@ -3,39 +3,37 @@
 
 //@import "{{ site.theme }}";
 
-@import url('https://fonts.googleapis.com/css?family=Rubik');
-@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 
 //----------------------------------------
 // HTML base styles
 //----------------------------------------
 
 body {
-    font-family: 'Vollkorn', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 12pt; 
     margin: 0; 
     padding: 0;
 }
 
 h1 {
-    font-family: 'Rubik', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 20pt;
 }
 
 h2 {
-    font-family: 'Rubik', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 18pt;
 }
 
 h3 {
-    font-family: 'Rubik', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 16pt;
 }
 
 h4 {
-    font-family: 'Rubik', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 14pt;
 }
 
@@ -76,7 +74,7 @@ header section {
 }
 
 #SiteTitle {
-    font-family: 'Bree Serif', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-size: 38pt;
 }
 
