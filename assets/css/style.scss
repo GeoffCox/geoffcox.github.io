@@ -42,11 +42,11 @@ a {
     color:#00001a;
     text-decoration: none;    
     &:active {
-        color:#00004d;
+        color:#00001a;
         text-decoration: none;
     };
     &:hover {
-        color:#00004d;
+        color:rgb(255, 136, 0);
         text-decoration: underline;
     }
     &:visited {
@@ -75,16 +75,7 @@ header section {
     margin: auto;
 }
 
-#SiteTitle {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    font-size: 38pt;
-}
-
-#SiteLink {
-    font-size: 24pt;
-}
-
-#SiteLink a {    
+header a {    
     color:white;
     text-decoration: none;    
     &:active {
@@ -99,6 +90,16 @@ header section {
         color:white;
         text-decoration: none;
     };
+}
+
+#SiteTitle {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color:  rgb(255, 136, 0);
+    font-size: 38pt;
+}
+
+#SiteLink {
+    font-size: 24pt;
 }
 
 #MainContent {
