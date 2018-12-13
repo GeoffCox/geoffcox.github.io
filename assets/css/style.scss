@@ -68,40 +68,44 @@ header {
     background-color: #222222;
     height: 150px;    
     padding: 30px;
-}
 
-header section {
-    max-width: 900px;
-    margin: auto;
-}
-
-header a {    
-    color:white;
-    text-decoration: none;    
-    &:active {
-        color:white;
-        text-decoration: none;
-    };
-    &:hover {
-        color:white;
-        text-decoration: underline;
+    section {
+        max-width: 900px;
+        margin: auto;
     }
-    &:visited {
+
+    .title {
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        color:  rgb(255, 136, 0);
+        font-size: 38pt;
+        line-height: 30pt;
+    }    
+
+    header .subtitle {
+        font-size: 18pt;
+        margin: 0 0 10px 3px;
+    }
+
+    .links {
+        color:  rgb(255, 136, 0);
+    }
+
+    a {    
         color:white;
-        text-decoration: none;
-    };
-}
-
-#SiteTitle {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    color:  rgb(255, 136, 0);
-    font-size: 38pt;
-    line-height: 30pt;
-}
-
-#SiteLink {
-    font-size: 18pt;
-    margin: 0 0 10px 3px;
+        text-decoration: none;    
+        &:active {
+            color:white;
+            text-decoration: none;
+        };
+        &:hover {
+            color:white;
+            text-decoration: underline;
+        }
+        &:visited {
+            color:white;
+            text-decoration: none;
+        };    
+    }
 }
 
 #MainContent {
