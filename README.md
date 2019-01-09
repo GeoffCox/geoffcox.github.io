@@ -1,8 +1,6 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-<div class="fa fa-bicycle"></div>
-
-> 12/2018 - Under refactoring, so just a short list of links for now.
+> 01/2019 - Under refactoring, so just a short list of links for now.
 
 [Resume](GeoffCoxResume.md)
 

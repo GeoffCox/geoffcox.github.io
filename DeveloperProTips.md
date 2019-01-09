@@ -1,10 +1,20 @@
+
+
+# Check Ins
+
 ### Make each check-in as atomic as possible
 
 ### Write a descriptive message with each check-in
 
-Say what you are trying to accomplish and detail any non-obvious decisions or changes. 
+# Unit Testing
 
-Everyone will appreciate them later when needing to figure out when a bug or feature was introduced.  It also encourages check-ins related to a singular change.
+## Use Arrange, Act, and Assert (AAA) to separate steps of each test.
+
+## Follow the When/Then pattern for unit test names
+
+## Follow the Expected, Target, Actual (ETA) pattern for unit test variable names
+
+
 
 ### Learn the shortcut keys of your code editor
 
@@ -12,11 +22,7 @@ Everyone will appreciate them later when needing to figure out when a bug or fea
 
 classes, methods, variables, etc.
 
-### Follow the Arrange, Act, Assert (AAA) pattern for unit test comments
 
-### Follow the When/Then pattern for unit test names
-
-### Follow the Expected, Target, Actual (ETA) pattern for unit test variable names
 
 ### Follow the S.O.L.I.D. clean architecture principles for classes
 
