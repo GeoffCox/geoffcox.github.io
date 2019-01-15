@@ -1,15 +1,12 @@
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-> 01/2019 - Under refactoring, so just a short list of links for now.
+# Software Craftmanship
+While I have been practicing software development for many years, before I read Robert C. Martin's (aka Uncle Bob) blog and the [software craftsmanship manifesto](http://manifesto.softwarecraftsmanship.org/), I didn't have the right term to express my goal.
 
-[Resume](GeoffCoxResume.md)
+The craftsmanship manifesto resonates with me. It doesn't have religious overtones, vanity certification, or the hype of other movements and methodologies.  
 
-[Bookshelf](Bookshelf.md)
+At my first job, the dev lead I worked for mentored me in quality software development practices. Because I had this early inspiration, I've strived to avoid compromising my coding values because of deadline pressure, silver bullet technologies, or existing poor codebases.  
 
-[Twitter](https://twitter.com/geoffcoxlive)
+The craftsman/apprentice partnership is one of the best ways to learn software development. This site is my attempt to share what I've learned.
 
-[Linked In](http://www.linkedin.com/in/geoffcoxlive/)
-
-[Stack Overflow Careers](http://careers.stackoverflow.com/geoffcox)
-
-[GitHub](https://github.com/geoffcox)
+As of 01/2019 I'm refactoring a lot of my previous posts and projects, so your patience is appreciated.
