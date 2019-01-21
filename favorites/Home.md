@@ -8,7 +8,7 @@
 ## Cycling
 * [Cascade](http://www.cascade.org)
 * [Cascade - Major Rides](https://cascade.org/rides/major-rides)
-* [Cascade - Free Rides](https://cascade.org/calendar?f[0]=field_event_type%3A38&f[1]=field_daily_pace%3A243&f[2]=field_daily_pace%3A244)
+* [Cascade - Free Rides](https://cascade.org/calendar)
 
 ## Professional
 * [Linked In](http://linkedin.com)
