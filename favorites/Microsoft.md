@@ -1,9 +1,5 @@
 # Microsoft Favorites
 
-[Recruiting](https://ms.icims.com)
-
-[Job Posting](https://careers.microsoft.com/us/en/job/452522/RSDE-2)
-
 ## Machine Teaching
 
 [CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/board/Stories)
@@ -18,17 +14,22 @@
 
 [MLG VSTS](https://msr-mlg.visualstudio.com/)
 
+[Position Paper](http://aka.ms/machineteachingpaper)
+
+### PICL builds
+
 [picl-dev-ci](https://picl-dev-ci.azurewebsites.net/)
 
+[production](https://picl.ai/)
+
+[previous](https://piclai-previous.azurewebsites.net/)
+
+### Release management
 [Release Tracker](https://reltrack.azurewebsites.net/activity/628?section=tasks)
 
 [Secure Dev Tools](https://www.1eswiki.com/wiki/Secure_Development_Tools_VSTS_Extension)
 
 [Code Signing ESRP](https://marketplace.visualstudio.com/items?itemName=SFP.build-tasks&targetId=54f19ac5-0f33-4cff-8289-7cb5c295fdcb&utm_source=vstsproduct&utm_medium=ExtHubManageList)
-
-[Position Paper](http://aka.ms/machineteachingpaper)
-
-[Unison](https://johnwer.visualstudio.com/Unison)
 
 ## Web Development
 
@@ -44,3 +45,8 @@
 
 [Wiki](https://www.1eswiki.com/wiki/Stack_Overflow_At_Microsoft)
 
+## Other
+
+[Recruiting Tool](https://ms.icims.com)
+
+[Unison](https://johnwer.visualstudio.com/Unison)
