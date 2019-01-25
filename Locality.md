@@ -3,7 +3,7 @@ Within each file, I like to keep fields and class members near the functions tha
 
 This goes against the conventional practices of grouping by access (public, protected, private), by member type (constant, property, and method), or by lifetime (instance, static).
 
-Several style check & correct tools follow what I think are antiquated rules often based on the constraints of other languages.
+Several style check & correct tools follow what I think are antiquated rules. These rules are often based on the constraints of older languages.
 
 # Locality
 In case you aren't familiar with the principle of locality, checkout the [Wikipedia](http://en.wikipedia.org/wiki/Locality_of_reference)  definition.
