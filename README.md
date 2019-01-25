@@ -10,3 +10,6 @@ At my first job, the dev lead I worked for mentored me in quality software devel
 The craftsman/apprentice partnership is one of the best ways to learn software development. This site is my attempt to share what I've learned.
 
 As of 01/2019 I'm refactoring a lot of my previous posts and projects, so your patience is appreciated.
+
+# Code Locality
+I organize my code within files a little differently than most developers. By following the computer science principle of code locality I dramatically improve the readability and maintainability of my code.  [Read more](/Locality) 
