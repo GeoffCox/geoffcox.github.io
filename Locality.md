@@ -8,13 +8,12 @@ Several style check & correct tools follow what I think are antiquated rules. Th
 # Locality
 In case you aren't familiar with the principle of locality, checkout the [Wikipedia](http://en.wikipedia.org/wiki/Locality_of_reference)  definition.
 
-While locality is discussed in the context of grouping data in that are accessed near each other in time, it can also be applied to how we group code within files.
-
 - If a particular location is referenced at a particular time, then it is likely that nearby locations will be referenced in the near future (Spatial Locality).
 
 - If at one point in time a particular location is referenced, then it is likely that the same location will be referenced again in the near future (Temporal Locality)
 
 # Code Locality
+While locality is discussed in the context of grouping data in that are accessed near each other in time, it can also be applied to how we group code within files.
 
 If one function is referenced, then it is likely that the fields and functions it uses will be referenced in the near future.  
 
