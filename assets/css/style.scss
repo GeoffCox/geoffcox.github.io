@@ -46,14 +46,14 @@ a {
         color:#00001a;
         text-decoration: none;
     };
-    &:hover {
-        color:rgb(255, 136, 0);
-        text-decoration: underline;
-    }
     &:visited {
         color:#00001a;
         text-decoration: none;
     };
+    &:hover {
+        color:rgb(255, 136, 0);
+        text-decoration: underline;
+    }    
 }
 
 code {
@@ -98,14 +98,14 @@ header {
             color:#ededed;
             text-decoration: none;
         };
-        &:hover {
-            color:white;
-            text-decoration: underline;
-        }
         &:visited {
             color:#ededed;
             text-decoration: none;
-        };    
+        };  
+        &:hover {
+            color:white;
+            text-decoration: underline;
+        }          
     }
 
     blockquote {
