@@ -2,6 +2,8 @@
 
 ## Machine Teaching
 
+[CHIL Wiki](https://msr-mlg.visualstudio.com/CHIL.Wiki/_wiki/wikis/CHIL.Wiki.wiki)
+
 [CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/board/Stories)
 
 [My Work](https://msr-mlg.visualstudio.com/CHIL.Work/_queries?id=a2108d31-086c-4fb0-afda-097e4cc46df4&_a=query)
