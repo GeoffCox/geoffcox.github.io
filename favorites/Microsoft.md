@@ -2,6 +2,8 @@
 
 ## Machine Teaching
 
+[Trello](https://trello.com/b/FkF6YDtp/machine-teaching)
+
 [CHIL Wiki](https://msr-mlg.visualstudio.com/CHIL.Wiki/_wiki/wikis/CHIL.Wiki.wiki)
 
 [CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/board/Stories)
