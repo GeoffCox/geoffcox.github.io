@@ -51,6 +51,8 @@
 
 ## Other
 
+[Pluralsight](http://aka.ms/pluralsight)
+
 [Recruiting Tool](https://ms.icims.com)
 
 [Unison](https://johnwer.visualstudio.com/Unison)
