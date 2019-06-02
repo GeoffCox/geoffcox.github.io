@@ -36,7 +36,9 @@ Smart, talented, self-motivated people don't need process (or managers) to force
 
 Technology is complicated. Software problems are very hard. The software business is brutal.  I've seen code reviews that read like a comedy central roast.  I've witnessed a dev lead brag about how they could make a test lead cry in meeting and then demonstrate it (worst of all motivated by gender differences). I've I know plenty of solid developers with deep imposter syndrome cut down by arrogant peers who had to be more hard-core.
 
-I'm an eagle scout and the scout law (Trustworthy, Loyal, Helpful, Friendly, Courteous, Kind, Obedient, Cheerful, Thrifty, Brave, Clean, and Reverent) is a touchstone for me.  I work at all of them and find that kindness has the most impact as a dev manager.  I evaluate every action I take with 'is this kind?'  Kind doesn't mean I'm a doormat to be trampled or that my loyalties to the company and software are compromised. It helps me put my own fears in check to give people opportunity and support to succeed.  
+I'm an eagle scout and the scout law (Trustworthy, Loyal, Helpful, Friendly, Courteous, Kind, Obedient, Cheerful, Thrifty, Brave, Clean, and Reverent) is a touchstone for me.  I work at all of them and find that kindness has the most impact as a dev manager.  I evaluate every action I take with 'is this kind?'  
+
+Kind doesn't mean I'm a doormat, that I speak only in terms of flowers and rainbows, or that priorities as a manager are compromised. Instead, it helps me put my own fears in check to give people opportunity and support to succeed.  It helps me avoid being passive-agressive when there are conflicts I would rather avoid. It he 
 
 
 
