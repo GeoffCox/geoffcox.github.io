@@ -10,7 +10,7 @@ On the plus side, I learned hard lessons on how to balance direction vs. delegat
 I think managers should be able to at least explain their management philosophy to candidates, so I decided to put mine in writing here.  Hopefully this should help answer the question, "why would someone want to work on my team and work for me?"
 
 ## Tenets
-While there are multitudes of things to consider when making decisions as a manager, I follow these tenets.
+While there are a multitude of things to consider when making decisions as a manager, I follow these tenets.
 
 1. Developers deserve individual ownership
 
