@@ -3,13 +3,13 @@
 ## Motivation
 I currently have an open position on my team.  I insist that we get the right person onboard so I'm being patient and putting in the effort scouting, recruiting, and screening.  I was thinking about my own past job hunts and realized how hard it was for me to assess my potential manager before applying.  I've been lucky that most of my managers have been good and several great.
 
-I think managers should be able to at least explain their management philosophy to candidates, so I decided to put mine in writing here.  Hopefully this should help answer the question, "why would someone want to work on my team and work for me?"
-
 Most developers that have worked for me said they liked how I managed the team (or I naiively accepted their disingenuous praise).  Of course, I've made plenty of mistakes on the job as I learned to be a better manager.  I've been over-controlling of every line of code. I tried to do most of the coding for my team. I've demanded a level of unit testing converage that created a molasses of grueling technical debt.  Once, I delivered a review that I didn't agree with and wasn't decided by me (I should have quit my job on the spot - it will always haunt me that I didn't).  I took on being the acting manager for a very large team without understanding what I had stepped in.  
 
 On the plus side, I learned hard lessons on how to balance direction vs. delegation, better assess performance, and manage (i.e. negotiate) down, up, and across.  I've learned to take difficult conversations head on, be open and vulnerable to push through politics, and distinguish between management and coaching.  I listened and considered the management philosophies of my previous managers and my peer managers.  I  find it facinating to closely observe managers in their natural habitats and try to deduce their management philopsophy soley from their words and actions.
 
-## Tenents
+I think managers should be able to at least explain their management philosophy to candidates, so I decided to put mine in writing here.  Hopefully this should help answer the question, "why would someone want to work on my team and work for me?"
+
+## Tenets
 While there are multitudes of things to consider when making decisions as a manager, I follow these tenets.
 
 1. Developers deserve individual ownership
