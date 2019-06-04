@@ -22,3 +22,6 @@ I have found a technology and tool stack that I really like and would strongly r
 I considered creating a Yeoman template. but it feels like too much magic; it is hard to trace back the sequence used to build the template from the end result.
 
 I created [Code Kits](https://github.com/GeoffCox/CodeKits) to document each of the steps.  My first one is for [web apps](https://github.com/GeoffCox/CodeKits/blob/master/webapp/README.md).  I'll be adding some additional flavors in the near future.
+
+# My Management Tenets
+I have formed and followed some management tenets for many years. I've verbalized them to my teams in one-on-ones, during reviews, and when talking to potential candidates, but I haven't posted them.  If you are working on my team, considering working on my team, or end up working with me you can [read more here](/Management) to understand what guides my management decisions.    
