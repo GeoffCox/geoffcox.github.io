@@ -24,7 +24,7 @@ I'm a developer first. I love writing code and take pride in keeping my skills s
 
 Having development chops lets me ask the right questions, detect when we are fooling ourselves, and resist technology hype.  It lets me help the team get code done.  I only ask developers to code solutions when I know problems are solvable and when I know I could (eventually) code it myself.  I can help scope work down to something tractable. I can be a human shield for distractions.
 
-We can converse as developers so we don't talk past each other by having to 'dumb it down' or 'not get lost in the weeds'. I value the same things they do: time in flow, the beauty of well written code, and elegant data structures and algorithms. I know how hard some of the work is. I am genuinely grateful when a dev solves a tough problem or slogs through fixing a tedious bug.
+We can converse as developers so we don't talk past each other by having to 'dumb it down' or 'not get lost in the weeds'. I value the same things they do: time in flow, the beauty of well written code, and elegant data structures and algorithms. I know how hard it is to write code so I am genuinely grateful when a dev solves a tough problem or slogs through fixing a tedious bug.
 
 ## Summary
 
