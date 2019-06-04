@@ -8,7 +8,7 @@ While there are a multitude of things to consider when making decisions as a man
 
 1. Developers deserve individual ownership
 
-Every developer I've met wants to be  proud of something they built on their own. The scope doesn't matter - system, feature, component, class, or function - just something they can point at as their contribution. Teamwork and collaboration are great amplifiers of productivity, but we get kinda sad if there isn't something that is just ours, something that shows off our unique talent, something that proves we could solve a hard problem.  
+Every developer I've met wants to be  proud of something they built on their own. The scope doesn't matter - system, feature, component, class, or function - just something they can point at as their contribution. Teamwork and collaboration are great amplifiers of productivity, but we aren't happy if there isn't something that is just ours, something that shows off our unique talent, something that proves we could overcome a challenge ourselves.  
 
 I try to give each developer something that they control, where they make the call, and where they are accountable.  Basically, I treat them like adult professional software developers (gasp).
 
