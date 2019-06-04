@@ -1,7 +1,7 @@
 # Geoff's Management Tenets
 
 ## Motivation
-I currently have an open position on my team.  I insist that we get the right person onboard so I'm being patient and putting in the effort scouting, recruiting, and screening.  I was thinking about my own past job hunts and realized how hard it was for me to assess my potential manager before applying.  I've been lucky that most of my managers have been good and several great.
+I currently have an open position on my team.  I was thinking about my own past job hunts and realized how hard it was for me to assess my potential manager before applying.  I've been lucky that most of my managers have been good and several great.
 
 Most developers that have worked for me said they liked how I managed the team (or I naiively accepted their disingenuous praise).  Of course, I've made plenty of mistakes on the job as I learned to be a better manager.  I've been over-controlling of every line of code. I tried to do most of the coding for my team. I've demanded a level of unit testing converage that created a molasses of grueling technical debt.  Once, I delivered a review that I didn't agree with and wasn't decided by me (I should have quit my job on the spot - it will always haunt me that I didn't).  I took on being the acting manager for a very large team without understanding what I had stepped in.  
 
