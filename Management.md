@@ -1,7 +1,7 @@
 # Geoff's Management Tenets
 
 ## Motivation
-I currently have an open position on my team.  I was thinking about my own past job hunts and realized how difficult it was for me to assess my potential manager before applying.  I think managers should be able to at least explain their management tenets to candidates, so I decided to put mine in writing here.  Hopefully this should help answer the question, "why would someone want to work on my team and work for me?"
+I currently have an open position on my team.  I was thinking about my own past job hunts and realized how difficult it was for me to assess my potential manager before applying.  I think managers should be able to explain their management tenets to candidates, so I decided to put mine in writing here.  Hopefully this should help answer the question, "why would someone want to work on my team and work for me?"
 
 ## Tenets
 While there are a multitude of things to consider when making decisions as a manager, I follow these tenets.
