@@ -6,7 +6,7 @@ I currently have an open position on my team.  I was thinking about my own past 
 ## Tenets
 While there are a multitude of things to consider when making decisions as a manager, I follow these tenets.
 
-1. Developers deserve individual ownership
+1. Give developers individual ownership
 
 Every developer I've met wants to be  proud of something they built on their own. The scope doesn't matter - system, feature, component, class, or function - just something they can point at as their contribution. Teamwork and collaboration are great amplifiers of productivity, but we aren't happy if there isn't something that is just ours, something that shows off our unique talent, something that proves we could overcome a challenge ourselves.  
 
@@ -28,5 +28,5 @@ We can converse as developers so we don't talk past each other by having to 'dum
 
 ## Summary
 
-I think my team understands my tenets. I've certainly repeated them several times in 1:1s, meetings, and hopefully with my actions. As I continue improving as a manager, I discover new techniques to detect and solve problems earlier, but I still make lots of mistakes. My expectation is that each of the devs on my team wants to be there because they know where I stand.
+I think my team understands my tenets and hopefully I demonstrate them in my actions. As I continue improving as a manager, I discover new techniques to detect and solve problems earlier, but I still make lots of mistakes. My expectation is that developers will challenge me when I stray off course. In the end, I think developers stay on my team and like being on the team in part because how I make decisions is transparent.
 
