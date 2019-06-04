@@ -10,7 +10,7 @@ While there are a multitude of things to consider when making decisions as a man
 
 Every developer I've met wants to be  proud of something they built on their own. The scope doesn't matter - system, feature, component, class, or function - just something they can point at as their contribution. Teamwork and collaboration are great amplifiers of productivity, but we aren't happy if there isn't something that is just ours, something that shows off our unique talent, something that proves we could overcome a challenge ourselves.  
 
-I give each developer something that they control, where they make the call, and where they are accountable.  I find this makes the software development processes straightforward.  Estimates are grounded in the reality of the developer owning the work.  Others can help without causing a power struggle - it is clear who is responsible.  I can better measure their accomplishments and coach them where things could have gone better. Basically, I treat my team like professional software developers (gasp).
+I give each developer something that they control, where they make the call, and where they are accountable.  I find this makes managing the software development processes straightforward.  Estimates are grounded in the reality of the developer owning the work.  Others can help without causing a power struggle - it is clear who is responsible.  I can better measure their accomplishments and coach them where things could have gone better. Basically, I treat my team like professional software developers (gasp).
 
 2. Minimize process
 
@@ -20,13 +20,13 @@ I take time every sprint to see what parts of the process are unnecesary and can
 
 3. Value technical competence by example
 
-I'm a developer first. I write code and work hard to keep my skills sharp.  I try to be equally good at management, but people are much harder to compile and debug.  I don't need to be the best developer on the team and it is impossible to track every line of code anyway. 
+I'm a developer first. I love writing code and take pride in keeping my skills sharp.  I strive to be equally good at management, but people are much harder to compile and debug.  I don't need to be the best developer on the team (it is impossible to track every line of code anyway), and I don't have to make every decision.
 
 Having development chops lets me ask the right questions, detect when we are fooling ourselves, and resist technology hype.  It lets me help the team get code done.  I only ask developers to code solutions when I know problems are solvable and when I know I could (eventually) code it myself.  I can help scope work down to something tractable. I can be a human shield for distractions.
 
-We can converse as developers so we don't talk past each other by having to 'dumb it down' or 'not get lost in the weeds'. I value the same things they do: time in flow, the beauty of well written code, and elegant data structures and algorithms. I know how hard some of the work is and I am genuinely grateful when they solve a tough problem or slog through fixing a tedious bug.
+We can converse as developers so we don't talk past each other by having to 'dumb it down' or 'not get lost in the weeds'. I value the same things they do: time in flow, the beauty of well written code, and elegant data structures and algorithms. I know how hard some of the work is. I am genuinely grateful when a dev solves a tough problem or slogs through fixing a tedious bug.
 
 ## Summary
 
-
+I think my team understands my tenets. I've certainly repeated them several times in 1:1s, meetings, and hopefully with my actions. As I continue improving as a manager, I discover new techniques to detect and solve problems earlier, but I still make lots of mistakes. My expectation is that each of the devs on my team continues working for me, feels free to challenge me, and can be successful because they know where I stand.
 
