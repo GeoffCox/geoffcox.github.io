@@ -28,5 +28,5 @@ We can converse as developers so we don't talk past each other by having to 'dum
 
 ## Summary
 
-I think my team understands my tenets. I've certainly repeated them several times in 1:1s, meetings, and hopefully with my actions. As I continue improving as a manager, I discover new techniques to detect and solve problems earlier, but I still make lots of mistakes. My expectation is that each of the devs on my team continues working for me, feels free to challenge me, and can be successful because they know where I stand.
+I think my team understands my tenets. I've certainly repeated them several times in 1:1s, meetings, and hopefully with my actions. As I continue improving as a manager, I discover new techniques to detect and solve problems earlier, but I still make lots of mistakes. My expectation is that each of the devs on my team wants to be there because they know where I stand.
 
