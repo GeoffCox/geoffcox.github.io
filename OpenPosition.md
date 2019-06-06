@@ -15,9 +15,9 @@ I need your help!  It is hard to find the right person for this job.  I'm not lo
 
 I am looking for someone who is ready to grow into a great web developer and is talented and tenacious enough to take on the challenge. 
 
-If you know this person, please have them apply here: https://careers.microsoft.com/us/en/job/622724
+If you know this person, please have them apply here: [https://careers.microsoft.com/us/en/job/622724](https://careers.microsoft.com/us/en/job/622724)
 
-I expect the right candidate will want to make sure I fit the bill as their manager and development lead.  You can point them here: https://geoffcox.github.io/Management to learn my management tenets.
+I expect the right candidate will want to make sure I fit the bill as their manager and development lead.  You can point them here: [https://geoffcox.github.io/Management](https://geoffcox.github.io/Management) to learn my management tenets.
 
 Thanks!
 
