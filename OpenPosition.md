@@ -1,6 +1,6 @@
 I'm hiring for one of the best jobs at Microsoft.  I've had a lot of experience inside and outside Microsoft (startups, contracting, consulting, full time) and worked with most groups at Microsoft.  I can tell you that the group I'm in right now is wonderful; full of wonderful people and poised to accomplish some seriously amazing things.
 
-My team is amazing.  We take the time to thoughtfully solve tough problems while delivering valuable innovations to product teams.  Everyone on the team is talented, is driven to get things done, helps each other succeed, and is kind and considerate.
+My team is awesome!  We take the time to thoughtfully solve tough problems while delivering valuable innovations to product teams.  Everyone on the team is talented, is driven to get things done, helps each other succeed, and is kind and considerate.
 
 It is an rare opportunity for a junior web developer. 
 I want someone with a creative spark that can think about problems from new angles and is willing to voice their ideas.
