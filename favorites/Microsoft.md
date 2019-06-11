@@ -26,6 +26,8 @@
 
 [Repo](https://luisai.visualstudio.com/LUIS/_git/LuisFrontendNext)
 
+[Coding Standars](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki?wikiVersion=GBwikiMaster&pageId=22&pagePath=%2FLUIS%20Front%20End)
+
 ### PICL builds
 
 [picl-dev-ci](https://picl-dev-ci.azurewebsites.net/)
