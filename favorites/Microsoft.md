@@ -20,6 +20,12 @@
 
 [Position Paper](http://aka.ms/machineteachingpaper)
 
+### LUIS Angular to React
+
+[Work Items](https://luisai.visualstudio.com/LUIS/_queries/query/cb501cde-4501-429c-95e3-486e5bd8fe53/)
+
+[Repo](https://luisai.visualstudio.com/LUIS/_git/LuisFrontendNext)
+
 ### PICL builds
 
 [picl-dev-ci](https://picl-dev-ci.azurewebsites.net/)
