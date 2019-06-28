@@ -14,6 +14,8 @@
 
 [CHIL.SDK](https://msr-mlg.visualstudio.com/CHIL.PICL.SDK)
 
+[Subscription](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/9450f1da-c7bd-4c44-8e19-60cac1bcb97a)
+
 [Sharepoint](https://microsoft.sharepoint.com/teams/CHIL/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120006ADF84F0F40BD8418425D129239C51EB)
 
 [MLG VSTS](https://msr-mlg.visualstudio.com/)
