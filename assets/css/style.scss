@@ -16,7 +16,7 @@ body {
     line-height: 1.5;
     margin: 0; 
     padding: 10px;
-    background-color:#fef9d2;
+    background-color:#fefbd8;
 }
 
 h1 {
@@ -40,19 +40,19 @@ h4 {
 }
 
 a {    
-    color:#47b8d1;
+    color:#80ced6;
     text-decoration: none;
     font-weight: bold;    
     &:active {
-        color:#47b8d1;
+        color:#80ced6;
         text-decoration: none;
     };
     &:visited {
-        color:#47b8d1;
+        color:#80ced6;
         text-decoration: none;
     };
     &:hover {
-        color:#47b8d1;
+        color:#80ced6;
         text-decoration: underline;
     }    
 }
@@ -89,29 +89,29 @@ header {
     }
 
     .links {
-        color:  #ffc400;
+        color:  #ffc40d;
     }
 
     a {    
-        color:#ffc400;
+        color:#ffc40d;
         text-decoration: none;    
         &:active {
-            color:#ffc400;
+            color:#ffc40d;
             text-decoration: none;
         };
         &:visited {
-            color:#ffc400;
+            color:#ffc40d;
             text-decoration: none;
         };  
         &:hover {
-            color:#ffc400;
+            color:#ffc40d;
             text-decoration: underline;
         }          
     }
 
     blockquote {
         border-left: '4px solid';
-        border-left-color: #ffc400;
+        border-left-color: #ffc40d;
         padding: '0 0 0 4px'
     }
 }
