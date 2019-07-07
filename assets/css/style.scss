@@ -96,7 +96,7 @@ header {
         color:#F4F5E7;
         text-decoration: none;    
         &:active {
-            color:#F4F5E7;
+            color:#BACFE4;
             text-decoration: none;
         };
         &:visited {
@@ -104,14 +104,14 @@ header {
             text-decoration: none;
         };  
         &:hover {
-            color:#F4F5E7;
+            color:#BACFE4;
             text-decoration: underline;
         }          
     }
 
     blockquote {
         border-left: '4px solid';
-        border-left-color: rgb(255, 136, 0);
+        border-left-color: #82A9D0;
         padding: '0 0 0 4px'
     }
 }
