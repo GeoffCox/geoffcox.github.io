@@ -39,19 +39,19 @@ h4 {
 }
 
 a {    
-    color:#00001a;
+    color:#FF9900;
     text-decoration: none;
     font-weight: bold;    
     &:active {
-        color:#00001a;
+        color:#FF9900;
         text-decoration: none;
     };
     &:visited {
-        color:#00001a;
+        color:#FF9900;
         text-decoration: none;
     };
     &:hover {
-        color:rgb(255, 136, 0);
+        color:#FF9900;
         text-decoration: underline;
     }    
 }
@@ -66,7 +66,7 @@ code {
 //----------------------------------------
 
 header {
-    background-color: #222222;
+    background-color: #333333;
     height: 90px;    
     padding: 30px;
 
@@ -92,18 +92,18 @@ header {
     }
 
     a {    
-        color:#ededed;
+        color:#666666;
         text-decoration: none;    
         &:active {
-            color:#ededed;
+            color:#666666;
             text-decoration: none;
         };
         &:visited {
-            color:#ededed;
+            color:#666666;
             text-decoration: none;
         };  
         &:hover {
-            color:white;
+            color:#666666;
             text-decoration: underline;
         }          
     }
