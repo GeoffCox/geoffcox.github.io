@@ -11,10 +11,10 @@ The craftsman/apprentice partnership is one of the best ways to learn software d
 
 As of early 2019 I'm refactoring a lot of my previous posts and projects, so your patience is appreciated.
 
-# Code Locality
-I organize my code within files a little differently than most developers. By following the computer science principle of code locality I dramatically improve readability, maintainability, and editing speed.  [Read more](/Locality) 
+# [Code Locality](/Locality)
+I organize my code within files a little differently than most developers. By following the computer science principle of code locality I dramatically improve readability, maintainability, and editing speed.
 
-# Code Kits - Web Application
+# [Code Kits - Web Application](https://github.com/GeoffCox/CodeKits/blob/master/webapp/README.md)
 In each new web application project, I end up starting from scratch. Past projects can be kind of hard to tear down to the base libraries I need.  
 
 I have found a technology and tool stack that I really like and would strongly recommend to anyone doing professional or hobby web development. 
@@ -23,5 +23,5 @@ I considered creating a Yeoman template. but it feels like too much magic; it is
 
 I created [Code Kits](https://github.com/GeoffCox/CodeKits) to document each of the steps.  My first one is for [web apps](https://github.com/GeoffCox/CodeKits/blob/master/webapp/README.md).  I'll be adding some additional flavors in the near future.
 
-# My Management Tenets
-I have formed and followed some management tenets for many years. I've verbalized them to my teams in one-on-ones, during reviews, and when talking to potential candidates, but I haven't posted them.  If you are working on my team, considering working on my team, or end up working with me you can [read more here](/Management) to understand what guides my management decisions.    
+# [Management Tenets](/Management)
+I have formed and followed some management tenets for many years. I've verbalized them to my teams in one-on-ones, during reviews, and when talking to potential candidates, but I haven't posted them.  If you are working on my team, considering working on my team, or end up working with me you can ready to understand what guides my management decisions.    
