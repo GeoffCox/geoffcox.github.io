@@ -16,6 +16,7 @@ body {
     line-height: 1.5;
     margin: 0; 
     padding: 10px;
+    background-color:#F4F5E7;
 }
 
 h1 {
@@ -39,19 +40,19 @@ h4 {
 }
 
 a {    
-    color:#FF9900;
+    color:#82A9D0;
     text-decoration: none;
     font-weight: bold;    
     &:active {
-        color:#FF9900;
+        color:#FF9E01;
         text-decoration: none;
     };
     &:visited {
-        color:#FF9900;
+        color:#82A9D0;
         text-decoration: none;
     };
     &:hover {
-        color:#FF9900;
+        color:#FF9E01;
         text-decoration: underline;
     }    
 }
@@ -66,7 +67,7 @@ code {
 //----------------------------------------
 
 header {
-    background-color: #333333;
+    background-color: #6D8CA0;
     height: 90px;    
     padding: 30px;
 
@@ -92,18 +93,18 @@ header {
     }
 
     a {    
-        color:#666666;
+        color:#F4F5E7;
         text-decoration: none;    
         &:active {
-            color:#666666;
+            color:#F4F5E7;
             text-decoration: none;
         };
         &:visited {
-            color:#666666;
+            color:#F4F5E7;
             text-decoration: none;
         };  
         &:hover {
-            color:#666666;
+            color:#F4F5E7;
             text-decoration: underline;
         }          
     }
