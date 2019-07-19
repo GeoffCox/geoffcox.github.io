@@ -63,6 +63,8 @@
 
 ## Other
 
+[Safari Books](https://learning.oreilly.com/home/)
+
 [Pluralsight](http://aka.ms/pluralsight)
 
 [Recruiting Tool](https://ms.icims.com)
