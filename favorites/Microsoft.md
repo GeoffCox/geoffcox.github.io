@@ -2,27 +2,25 @@
 
 ## Machine Teaching
 
-[Source Code](https://dev.azure.com/MachineTeaching/)
+[PICL](https://dev.azure.com/MachineTeaching/PICL)
 
-[Trello](https://trello.com/b/FkF6YDtp/machine-teaching)
+[MachineTeaching](https://dev.azure.com/MachineTeaching/)
+
+[Position Paper](http://aka.ms/machineteachingpaper)
+
+[Sharepoint](https://microsoft.sharepoint.com/teams/CHIL/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120006ADF84F0F40BD8418425D129239C51EB)
+
+### Machine Teaching - Archived
 
 [CHIL Wiki](https://msr-mlg.visualstudio.com/CHIL.Wiki/_wiki/wikis/CHIL.Wiki.wiki)
 
 [CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/board/Stories)
-
-[My Work](https://msr-mlg.visualstudio.com/CHIL.Work/_queries?id=a2108d31-086c-4fb0-afda-097e4cc46df4&_a=query)
 
 [CHIL.UI](https://msr-mlg.visualstudio.com/CHIL.PICL.UI)
 
 [CHIL.SDK](https://msr-mlg.visualstudio.com/CHIL.PICL.SDK)
 
 [Subscription](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/9450f1da-c7bd-4c44-8e19-60cac1bcb97a)
-
-[Sharepoint](https://microsoft.sharepoint.com/teams/CHIL/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120006ADF84F0F40BD8418425D129239C51EB)
-
-[MLG VSTS](https://msr-mlg.visualstudio.com/)
-
-[Position Paper](http://aka.ms/machineteachingpaper)
 
 ### LUIS Angular to React
 
@@ -32,22 +30,11 @@
 
 [Coding Standars](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki?wikiVersion=GBwikiMaster&pageId=22&pagePath=%2FLUIS%20Front%20End)
 
-### PICL builds
+## Software Development
 
-[picl-dev-ci](https://picl-dev-ci.azurewebsites.net/)
+[Safari Books](https://learning.oreilly.com/home/)
 
-[production](https://picl.ai/)
-
-[previous](https://piclai-previous.azurewebsites.net/)
-
-### Release management
-[Release Tracker](https://reltrack.azurewebsites.net/activity/628?section=tasks)
-
-[Secure Dev Tools](https://www.1eswiki.com/wiki/Secure_Development_Tools_VSTS_Extension)
-
-[Code Signing ESRP](https://marketplace.visualstudio.com/items?itemName=SFP.build-tasks&targetId=54f19ac5-0f33-4cff-8289-7cb5c295fdcb&utm_source=vstsproduct&utm_medium=ExtHubManageList)
-
-## Web Development
+[Pluralsight](http://aka.ms/pluralsight)
 
 [Office Fabric Best Practices](https://github.com/OfficeDev/office-ui-fabric-react/blob/master/ghdocs/BESTPRACTICES.md)
 
@@ -61,12 +48,6 @@
 
 [Wiki](https://www.1eswiki.com/wiki/Stack_Overflow_At_Microsoft)
 
-## Other
-
-[Safari Books](https://learning.oreilly.com/home/)
-
-[Pluralsight](http://aka.ms/pluralsight)
+## Recruiting
 
 [Recruiting Tool](https://ms.icims.com)
-
-[Unison](https://johnwer.visualstudio.com/Unison)
