@@ -28,7 +28,7 @@
 
 [Repo](https://luisai.visualstudio.com/LUIS/_git/LuisFrontendNext)
 
-[Coding Standars](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki?wikiVersion=GBwikiMaster&pageId=22&pagePath=%2FLUIS%20Front%20End)
+[Coding Standards](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki?wikiVersion=GBwikiMaster&pageId=22&pagePath=%2FLUIS%20Front%20End)
 
 ## Software Development
 
