@@ -10,6 +10,7 @@
 * [Cascade - Major Rides](https://cascade.org/rides/major-rides)
 * [Cascade - Free Rides](https://cascade.org/calendar)
 * [WA Cycling Calendar](http://www.bikingbis.com/washington-bicycle-ride-calendar-index/)
+* [Meetup](https://www.meetup.com/)
 
 ## Professional
 * [Linked In](http://linkedin.com)
