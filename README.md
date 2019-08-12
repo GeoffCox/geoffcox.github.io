@@ -1,27 +1,26 @@
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
+Hi,
 
-# Software Craftmanship
-While I have been practicing software development for many years, before I read Robert C. Martin's (aka Uncle Bob) blog and the [software craftsmanship manifesto](http://manifesto.softwarecraftsmanship.org/), I didn't have the right term to express my goal.
+I’m Geoff Cox.  I currently work as a software development lead at Microsoft.  I love writing code so I prefer to spend the majority of my time in an IDE.  I am also a student of software architecture, software development practices, and the mystic art of managing software developers.  In my spare time, I am an avid (or maybe rabid) cyclist.  
 
-The craftsmanship manifesto resonates with me. It doesn't have religious overtones, vanity certification, or the hype of other movements and methodologies.  
+I’ve seen a lot of languages and operating systems over the years:
 
-At my first job, the dev lead I worked for mentored me in quality software development practices. Because I had this early inspiration, I've strived to avoid compromising my coding values because of deadline pressure, silver bullet technologies, or existing poor codebases.  
+* Middle school: I started out writing Basic on my Apple II.
+* High school: I wrote several applications and won a couple of contests in HyperCard and Think C++ on my Mac IIsi.
+* College: The CS department changed official languages every year. I dutifully progressed from Ada to C and then C++ on Unix.
+* Career: I built strong skills in C++/MFC, C++/COM, C#, TSQL, and Javascript/Typescript on Windows.  Tack on learning a million different server technologies and frameworks.
 
-The craftsman/apprentice partnership is one of the best ways to learn software development. This site is my attempt to share what I've learned.
+I’ve spent 9 years of my career working as a consultant software developer for big and small software companies.  I value my time as a consultant because it forced me to be a quick learner, exposed to a wide variety of problems, and tenacious at overcoming challenges.
 
-As of early 2019 I'm refactoring a lot of my previous posts and projects, so your patience is appreciated.
+I’ve also spent 15 years at Microsoft.  It is an incredible company to work for (almost all of the time) and I’m lucky that it was near my home town and college.  I value my time at Microsoft because I get to work on incredibly tough problems, work with people from around the world with wildly different ways of thinking, and can make a difference in the lives of others. I’ve gone back and forth between individual developer and lead as the situation required.  Keeping my development skills sharp has proven invaluable in developing my leadership, coaching, and management skills.  As a bonus, it has helped me keep my job during times of crisis.
 
-# [Code Locality](/Locality)
-I organize my code within files a little differently than most developers. By following the computer science principle of code locality I dramatically improve readability, maintainability, and editing speed.
+On the topic of cycling, I pretty much grew up on my Rampar dirt bike.  In high school, I got a black and gold Nishiki 10 speed I would use to go everywhere in town.  It probably weighed more than my first car.  In college, I rode single track all over the PNW on my Univega mountain bike.  After college, I bought a Specialized Rockhopper A1 mountain bike, but had trouble keeping up mountain biking with a busy work schedule and family life.  About 7 years ago, I got into road cycling on a Giant Defy Advanced 1.  I managed to ride Seattle-To-Portland (208 miles) first in 2 days one year and in 1 day the next.  It is the most difficult physical challenge I have ever completed and I am immensely proud of myself and my supportive friends and family.  Today I ride a Specialized Diverge Pro which lets my ride both road and gravel.  Finally, I can’t say enough good things about Edge & Spoke, the bike shop that has helped me countless times with countless problems.
 
-# [Code Kits - Web Application](https://github.com/GeoffCox/CodeKits/blob/master/webapp/README.md)
-In each new web application project, I end up starting from scratch. Past projects can be kind of hard to tear down to the base libraries I need.  
+This web pages are where I’ll share my thoughts, experiences, and solutions about all of these topics with you.  I hope it helps.
 
-I have found a technology and tool stack that I really like and would strongly recommend to anyone doing professional or hobby web development. 
+- Geoff
 
-I considered creating a Yeoman template. but it feels like too much magic; it is hard to trace back the sequence used to build the template from the end result.
-
-I created [Code Kits](https://github.com/GeoffCox/CodeKits) to document each of the steps.  My first one is for [web apps](https://github.com/GeoffCox/CodeKits/blob/master/webapp/README.md).  I'll be adding some additional flavors in the near future.
-
-# [Management Tenets](/Management)
-I have formed and followed some management tenets for many years. I've verbalized them to my teams in one-on-ones, during reviews, and when talking to potential candidates, but I haven't posted them.  If you are working on my team, considering working on my team, or end up working with me you can ready to understand what guides my management decisions.    
+More articles are coming soon.  For now, check out these:
+* [Management Tenets](/Management)
+* [Code Locality](/Locality)
+* [Code Kits](https://github.com/GeoffCox/CodeKits)
