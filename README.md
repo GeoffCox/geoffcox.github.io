@@ -18,7 +18,7 @@ On the topic of cycling, I grew up riding my Rampar dirt bike.  In high school, 
 
 These web pages are where I’ll share my thoughts, experiences, and solutions about all of these topics with you.  I hope it helps.
 
-- Geoff
+-- Geoff
 
 More articles are coming soon.  For now, check out these:
 * [Management Tenets](/Management)
