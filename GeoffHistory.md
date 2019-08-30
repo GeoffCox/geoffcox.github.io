@@ -2,16 +2,16 @@
 
 * Basic
 * Hypercard
-* ADA
-* C
+* ADA (CS)
+* C (CS)
+* C++ (CS)
+* ML/Prolog/LISP/Smalltalk (CS)
 * C++
-* ML/Prolog/LISP/Smalltalk
-* C++ (professionally)
 * C#
 * T-SQL
 * Javascript
 * Typescript
-* Rust
+* Rust (in progress)
 
 # Technologies
 
@@ -28,6 +28,14 @@
 * Angular
 * React (MobX)
 * Node & Express
+
+# Operating Systems
+* Apple II
+* Apple Macintosh
+* UNIX
+* X-Windows (UNIX)
+* Silicon Graphics
+* Windows (3.x, 95, 98, ME, NT, 2000, 7, 8, 10)
 
 # Developer Tools
 * SLM
@@ -110,6 +118,38 @@
    * MSRAI/MachineTeaching
    * Office/MachineTeaching
    
+# Process
+* Bug Driven Design
+* Feature Driven Design
+* Contract by hour
+* Contract by fixed bid
+* Waterfall
+* Agile
+* Scrum-but
+* Scrum
+* Kanban
+
+# Focus
+Application/Library implementation
+Client/Server (tcp)
+NT services
+High-performance/scale code
+User interfaces (Windows, HTML, UX design)
+Design Patterns
+Refactoring
+API design (SOA, Rest)
+TDD, pair programming, extreme programming
+Patterns and Practices
+Open Source
+Software estimation
+Software requirements development
+Systems thinking
+Security (auth/authn)
+Negotiation & Persuasion in tech
+Architecture principles
+Clean architecture
+
+
    
     
   
