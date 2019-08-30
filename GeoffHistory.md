@@ -73,3 +73,43 @@
 * Open space - Paired
 * Mobile - backpack and coffee shops
 * Office - fishbowl
+
+# Companies
+* Chelan County PUD (internship)
+* Latitude Resource (startup)
+* Jestream Software (consulting company)
+  * Vulcan
+  * Confirma
+  * ActiveVoice
+  * Microsoft
+    * Exchange
+    * Windows NT
+    * BackOffice
+    * Outlook
+    * eBooks
+    * Visual Studio
+    * COM/DCOM (PDC)
+    * Windows
+ * Microsoft (fte)
+   * MSN Messenger Server
+   * Microsoft.com
+   * MS-Individual
+   * MSDN
+ * Southworks (consulting company)
+   * KEXP
+   * Microsoft
+     * Developer Evangelism Platform
+     * Patterns & Practices
+     * Rough Cut Editor (silverlight)
+   * Olympics   
+ * Microsoft (fte)
+   * SQL ES
+   * SQL Analytics & Insights
+   * 1ES
+   * VSTS Analytics
+   * MSRAI/MachineTeaching
+   * Office/MachineTeaching
+   
+   
+    
+  
