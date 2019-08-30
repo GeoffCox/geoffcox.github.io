@@ -1,5 +1,4 @@
 # Languages
-
 * Basic
 * Hypercard
 * ADA (CS)
@@ -14,7 +13,6 @@
 * Rust (in progress)
 
 # Technologies
-
 * MFC
 * COM & DCOM
 * ASP
@@ -48,7 +46,6 @@
 * Subversion
 * Mecurial
 * GIT
-
 
 * Emacs
 * Visual Studio
