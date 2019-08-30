@@ -19,10 +19,13 @@
 * COM & DCOM
 * ASP
 * ATL & WTL
+* Actve Directory
+* Passport
 * WPF (MVVM)
 * ASPX & WS* & WCF
 * ASP.NET MVC & Web API
 * JQuery
+* Azure
 * D3
 * Knockout
 * Angular
