@@ -46,3 +46,30 @@
 * VSCode
 
 # Role
+* SDE (startup)
+* SDE (a-)
+* SDE (v-)
+* SDE II (v-)
+* Senior SDE (v-)
+* Program Manager I
+* SDE
+* SDE II
+* Senior SDE
+* Senior SDE Lead
+* Principal SDE (v-)
+* Principal SDE
+* Principal SDE Lead
+* Principal RSDE Lead
+
+# Workspace
+* Lobby (by reception)
+* Office
+* Window Office
+* Corner Window Office
+* Open space - lab
+* Cubical
+* Open space - 30+ bay
+* Open space - <15 neighborhood
+* Open space - Paired
+* Mobile - backpack and coffee shops
+* Office - fishbowl
