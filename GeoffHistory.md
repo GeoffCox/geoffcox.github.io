@@ -46,7 +46,6 @@
 * Subversion
 * Mecurial
 * GIT
-
 * Emacs
 * Visual Studio
 * InterDev
