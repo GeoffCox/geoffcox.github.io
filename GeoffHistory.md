@@ -133,24 +133,24 @@
 * Kanban
 
 # Focus
-Application/Library implementation
-Client/Server (tcp)
-NT services
-High-performance/scale code
-User interfaces (Windows, HTML, UX design)
-Design Patterns
-Refactoring
-API design (SOA, Rest)
-TDD, pair programming, extreme programming
-Patterns and Practices
-Open Source
-Software estimation
-Software requirements development
-Systems thinking
-Security (auth/authn)
-Negotiation & Persuasion in tech
-Architecture principles
-Clean architecture
+* Application/Library implementation
+* Client/Server (tcp)
+* NT services
+* High-performance/scale code
+* User interfaces (Windows, HTML, UX design)
+* Design Patterns
+* Refactoring
+* API design (SOA, Rest)
+* TDD, pair programming, extreme programming
+* Patterns and Practices
+* Open Source
+* Software estimation
+* Software requirements development
+* Systems thinking
+* Security (auth/authn)
+* Negotiation & Persuasion in tech
+* Architecture principles
+* Clean architecture
 
 
    
