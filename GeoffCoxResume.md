@@ -107,7 +107,8 @@
 - Open Source (GitHub)
 
 # Links #
-- Web & Open Source - [http://bellacode.github.io](http://bellacode.github.io)
+- Blog - [http://geoffcox.github.io](http://geoffcox.github.io)
+- GitHub - [https://github.com/geoffcox](https://github.com/geoffcox)
 - Linked In - [http://www.linkedin.com/in/geoffcoxlive/](http://www.linkedin.com/in/geoffcoxlive/)
 - Stack Overflow - [https://stackoverflow.com/users/30505/geoff-cox](https://stackoverflow.com/users/30505/geoff-cox)
 - Twitter - [https://twitter.com/geoffcoxlive](https://twitter.com/geoffcoxlive)
