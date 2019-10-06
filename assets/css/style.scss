@@ -40,19 +40,19 @@ h4 {
 }
 
 a {    
-    color:#004b66;
+    color:#0f9acc;
     text-decoration: none;
     font-weight: bold;    
     &:active {
-        color:#004b66;
+        color:#0f9acc;
         text-decoration: none;
     };
     &:visited {
-        color:#004b66;
+        color:#0f9acc;
         text-decoration: none;
     };
     &:hover {
-        color:#004b66;
+        color:#0f9acc;
         text-decoration: underline;
     }    
 }
@@ -67,7 +67,7 @@ code {
 //----------------------------------------
 
 header {
-    background-color: #004b66;
+    background-color: #0f9acc;
     height: 90px;    
     padding: 30px;
 
