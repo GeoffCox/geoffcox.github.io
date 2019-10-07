@@ -1,14 +1,22 @@
 # Microsoft Favorites
 
-## Machine Teaching
+## P.I.C.L.
 
-[PICL](https://dev.azure.com/MachineTeaching/PICL)
+[Work](https://dev.azure.com/MachineTeaching/PICL/_boards/board/t/PICL%20Team/Stories/)
+
+[Roadmap](https://dev.azure.com/MachineTeaching/PICL/_boards/board/t/PICL%20Team/Features/)
+
+[Pull Requests](https://dev.azure.com/MachineTeaching/_git/PICL/pullrequests?_a=active)
+
+[Wiki](https://dev.azure.com/MachineTeaching/PICL/_wiki/wikis/PICL-Dev%20Wiki/19/Welcome)
+
+## Machine Teaching
 
 [MachineTeaching](https://dev.azure.com/MachineTeaching/)
 
 [Position Paper](http://aka.ms/machineteachingpaper)
 
-[Sharepoint](https://microsoft.sharepoint.com/teams/CHIL/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120006ADF84F0F40BD8418425D129239C51EB)
+[Sharepoint](https://microsoft.sharepoint.com/teams/MachineTeachingatMicrosoft)
 
 ### Machine Teaching - Archived
 
