@@ -16,7 +16,7 @@ body {
     line-height: 1.5;
     margin: 0; 
     padding: 10px;
-    background-color:#fffcf0;
+    background-color:#ffffff;
 }
 
 h1 {
@@ -40,19 +40,19 @@ h4 {
 }
 
 a {    
-    color:#004b66;
+    color:#0f9acc;
     text-decoration: none;
     font-weight: bold;    
     &:active {
-        color:#004b66;
+        color:#0f9acc;
         text-decoration: none;
     };
     &:visited {
-        color:#004b66;
+        color:#0f9acc;
         text-decoration: none;
     };
     &:hover {
-        color:#004b66;
+        color:#0f9acc;
         text-decoration: underline;
     }    
 }
@@ -67,7 +67,7 @@ code {
 //----------------------------------------
 
 header {
-    background-color: #004b66;
+    background-color: #0f9acc;
     height: 90px;    
     padding: 30px;
 
@@ -78,7 +78,7 @@ header {
 
     .title {
         font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-        color:  #ffc400;
+        color:  #ffffff;
         font-size: 38pt;
         line-height: 34pt;
     }    
@@ -89,29 +89,29 @@ header {
     }
 
     .links {
-        color:  #ffc40d;
+        color:  #ffffff;
     }
 
     a {    
-        color:#ffc40d;
+        color:#ffffff;
         text-decoration: none;    
         &:active {
-            color:#ffc40d;
+            color:#ffffff;
             text-decoration: none;
         };
         &:visited {
-            color:#ffc40d;
+            color:#ffffff;
             text-decoration: none;
         };  
         &:hover {
-            color:#ffc40d;
+            color:#ffffff;
             text-decoration: underline;
         }          
     }
 
     blockquote {
         border-left: '4px solid';
-        border-left-color: #ffc40d;
+        border-left-color: #ffffff;
         padding: '0 0 0 4px'
     }
 }
