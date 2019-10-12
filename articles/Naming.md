@@ -1,26 +1,28 @@
 # Naming
 
-The name chosen for each and every part of a code base is important. Naming is critical for code at the heart of a system because it influences all the code that depends upon it.  
+Words matter. The names you choose in code matter.
 
-A good name describes what a function, parameter, interface, class, class member, or component does; it removes as much of the need for a comment as possible. A great name defines the purpose of the code so that its contract is immediately clear to callers; what it does and what it doesn't do. The best names also amplify the architectural principles and reinforce the structure of the entire system.
+Architecture is structure with a purpose. The right name explains the purpose of structure. Every component, class, property, function, and variable needs a good name. Name choices help or hurt the architecture.  
 
-The process of defining the semantically right name is very difficult. Even a small software system has a lot of parts with complex relationships between them. Software is virtual and often shouldn't map one-to-one to concepts within problem domains. We work to encapsulate and abstract the implementation details from the caller which introduces new concepts that must be named.
+The right names relate the code to the problem being solved. Code that looks like the problem it is solving is called *screaming architecture*. For example, if you look at the the architecture for a shopping application, it *screams* shopping. It doesn't scream password management or programming framework. Poor names can indicate a lack of understanding the problem, solving the wrong problem, or over-abstraction.
 
-Fortunately, names doesn't have to be perfect at inception. Development tools continue to improve at refactoring and renaming and languages are providing more consistent naming guidelines. As the implementation takes shape and is refactored, better names are discovered. We learn more about the problem domain as we code and make better distinctions between names.
+The right name also increases developer productivity. Self-describing code requires fewer code comments. Clear code is easier to understand, call, test, and maintain.
 
-# Leverage language constructs
+So now that you're motivated, how do you choose the right name?  Software is complex. There are many ways to code any solution. People are complex. They have personal preferences for different names. Problems are complex. It can be hard to chose names that explain subtle problem semantics.  Here are my recommendations for effective naming.   
 
-Assuming you are writing code in English, then code name should follow English constructs.  
+* Always look for a better name
 
-# Prefer minimal and complete names
-# Default to the most familiar name
-# Test the name by using it
-# Document imperfect choices
-# Avoid unimportant metrics
-  - name length
-  - alphabetizing
-  - future collisions (most of the time)
-# Avoid hubris
-# Avoid synonym hell
-# Be a chameleon for consistency
+
+
+* Always document imperfection
+* Always verify top down
+* Prefer correct grammar 
+* Prefer the common tongue 
+* Judiciously provide abstraction
+* Judiciously distinguish differences
+* Judiciously enforce consistency
+* Avoid hubris
+* Avoid being too clever
+* Avoid false metrics (length, alphabetizing, future-proofing)
+* Avoid synonyms
 
