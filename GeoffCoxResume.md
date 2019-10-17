@@ -5,7 +5,11 @@
 ## Principal Software Developer Lead @ Microsoft/Research/AI & R ##
 2017 to Present
 
-- Leading a team of research developers to advance the field of Machine Teaching.
+- Led a team of research developers to advance the field of Machine Teaching.
+- Created a disciplined engineering process optimized for speed of innovation with high quality. 
+- Built a culture of clean architecture that delivered key innovations and quality improvements.
+- Delivered an integrated machine teaching environment UI (React, Typescript, MobX) and SDK (C#/.Net).
+- Redefined my management philosophy and coaching approach to increase developer productivity when facing the ambiguity of research.
 
 ## Principal Software Developer @ Microsoft/Visual Studio Team Services ##
 2015 to 2017
@@ -49,7 +53,7 @@
 ## Senior Software Development Lead @ Microsoft/MSDN ##
 2007 to 2010
 
-### MSDN Web Site ###
+### MSDN Web ###
 - Engineering lead of MSN web team.
 - Led the complete rewrite the MSDN/TechNet web site to leverage ASP.NET MVC 1.0. 
     - Delivered a new branded web experience sim-shipping with Visual Studio 2010. 
@@ -60,7 +64,7 @@
 ### MSDN Authentication/Authorization ###
 - Delivered user authentication, authorization, and profile management system to integrate with Passport and store data in a geo-distributed ADFS system.
 
-## Senior Software Development Lead @ Microsoft.com ##
+## Senior Software Development Lead @ Microsoft/Microsoft.com ##
 2003 to 2007
 
 ### MS-Individual ###
@@ -79,7 +83,7 @@
 - Designed and coordinated physical data center migration of the entire service with zero downtime.
 - Architected and managed shipping a new high-scale, dynamic repartitioning system for the presence and buddy-list servers.
 
-## Software Developer @ Jetstream ##
+## Software Developer @ Jetstream Software, Inc. ##
 1996 to 2001
 
 - Designed and implemented the central job scheduler and multi-media/home automation hardware controllers in owner’s personal residences worldwide for Vulcan Northwest.
@@ -95,16 +99,14 @@
 - Focus courses included: Advanced Graphics, Operating Systems, Compilers, and Advanced Data Structures & Algorithms.
 
 # Expertise #
+- React, Angular, jQuery, Typescript
 - C#/.NET
 - ASP.NET MVC, ASP.NET Web API
-- React JS, Angular JS, jQuery, Typescript, D3
 - WPF/Silverlight
 - SQL, SQL Azure, OData
 - C++/C, COM, DCOM
 - Kanban, Scrum, Agile
-- Test Driven Development (TDD), Unit Testing methodologies
-- Architecture, Enterprise Design Patterns, Presentation Patterns (MVC, MVVM, MVP)
-- Open Source (GitHub)
+- Clean Architecture, Design Patterns
 
 # Links #
 - Blog - [http://geoffcox.github.io](http://geoffcox.github.io)
