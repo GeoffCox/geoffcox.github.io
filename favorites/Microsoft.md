@@ -12,6 +12,8 @@
 
 [Vibranium Worksheet](https://microsoft.sharepoint.com/:x:/t/luis_core/Ee2oxtT3eRJBoYnpVwqABLEBM8rFe4w_GO11QCg5ULJ7Bg?e=yimdDS&CID=DEF0076E-D00F-4455-A86E-7F5411CF15CA&wdLOR=c02691F2C-6773-4FB7-B94C-F5AACDA36A6F)
 
+[Figma - Navigation](https://www.figma.com/file/09pm5k4zkJqtGwhjvSiEnk/10-LUIS-D-IA-and-navigation?node-id=0%3A1)
+
 [Figma - Document Flows](https://www.figma.com/file/MTBI3v4Qv6NphGMWJVWgt0/12-LUIS-for-Docs-Flows?node-id=1028%3A801)
 
 [Figma - Labeling Flows](https://www.figma.com/file/W7jsiH7g8JY7z2nHHMcJUx/11-LUIS-for-Docs-entity-labeling?node-id=1759%3A139919)
