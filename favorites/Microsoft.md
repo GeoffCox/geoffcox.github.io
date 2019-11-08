@@ -30,6 +30,8 @@
 
 [Recruiting Tool](https://ms.icims.com)
 
+[Dynamics](https://attract.talent.dynamics.com/)
+
 ## Software Development
 
 [Safari Books](https://learning.oreilly.com/home/)
