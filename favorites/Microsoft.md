@@ -16,13 +16,9 @@
 
 [Telemetry Worksheet](https://microsoft.sharepoint.com/:x:/r/teams/luis_core/_layouts/15/Doc.aspx?sourcedoc=%7BC065FA62-F6F1-421C-82F8-C7EC89E24913%7D&file=Telemetry.xlsx&action=default&mobileredirect=true&cid=db56fa1d-670c-42f4-b3a5-1c8134a231da)
 
-[Figma - Navigation](https://www.figma.com/file/09pm5k4zkJqtGwhjvSiEnk/10-LUIS-D-IA-and-navigation?node-id=0%3A1)
+[Figma - Specs](https://www.figma.com/files/588096576863690753/project/4734710/LUIS-D-specs)
 
-[Figma - Document Flows](https://www.figma.com/file/MTBI3v4Qv6NphGMWJVWgt0/12-LUIS-for-Docs-Flows?node-id=1028%3A801)
-
-[Figma - Labeling Flows](https://www.figma.com/file/W7jsiH7g8JY7z2nHHMcJUx/11-LUIS-for-Docs-entity-labeling?node-id=1759%3A139919)
-
-[Figma - Accessibility](https://www.figma.com/file/155qJzFC3Ahd1D9wdDkwnw/AccessibilityDataViz-Copy?node-id=1720%3A8358)
+[Figma - WIP](https://www.figma.com/files/588096576863690753/project/2273799/LUIS)
 
 ## Recruiting
 
