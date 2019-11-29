@@ -1,42 +1,38 @@
 # Microsoft Favorites
 
-## P.I.C.L.
+## L.U.I.S
 
-[Work](https://dev.azure.com/MachineTeaching/PICL/_boards/board/t/PICL%20Team/Stories/)
+[Code (vNext)](https://luisai.visualstudio.com/LUIS/_git/LuisFrontendNext)
 
-[Roadmap](https://dev.azure.com/MachineTeaching/PICL/_boards/board/t/PICL%20Team/Features/)
+[Work - Epics](https://luisai.visualstudio.com/LUIS/_backlogs/backlog/LUIS%20Front%20end/Epics/)
 
-[Pull Requests](https://dev.azure.com/MachineTeaching/_git/PICL/pullrequests?_a=active)
+[Work - Features](https://luisai.visualstudio.com/LUIS/_backlogs/backlog/LUIS%20Front%20end/Features/)
 
-[Wiki](https://dev.azure.com/MachineTeaching/PICL/_wiki/wikis/PICL-Dev%20Wiki/19/Welcome)
+[Work - Backlog](https://luisai.visualstudio.com/LUIS/_backlogs/backlog/LUIS%20Front%20end/Backlog%20items/)
 
-## Machine Teaching
+[Work - Sprint](https://luisai.visualstudio.com/LUIS/_sprints/taskboard/LUIS%20Front%20end/LUIS/)
 
-[MachineTeaching](https://dev.azure.com/MachineTeaching/)
+[Wiki](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki/22/LUIS-Front-End)
 
-[Position Paper](http://aka.ms/machineteachingpaper)
+[User Stories](https://microsoft.sharepoint.com/:x:/r/teams/luis_core/_layouts/15/Doc.aspx?sourcedoc=%7Bf08a106d-2376-4ef5-b5cd-e1b2fcc93d8a%7D&action=default&uid=%7BF08A106D-2376-4EF5-B5CD-E1B2FCC93D8A%7D&ListItemId=13042&ListId=%7BB2E84809-24B1-45C5-AD0C-B0BBD7291705%7D&odsp=1&env=prodbubble)
 
-[Sharepoint](https://microsoft.sharepoint.com/teams/MachineTeachingatMicrosoft)
+[Staging UX](https://dialogice4.azurewebsites.net/)
 
-### Machine Teaching - Archived
+[Vibranium Worksheet](https://microsoft.sharepoint.com/:x:/t/luis_core/Ee2oxtT3eRJBoYnpVwqABLEBM8rFe4w_GO11QCg5ULJ7Bg?e=yimdDS&CID=DEF0076E-D00F-4455-A86E-7F5411CF15CA&wdLOR=c02691F2C-6773-4FB7-B94C-F5AACDA36A6F)
 
-[CHIL Wiki](https://msr-mlg.visualstudio.com/CHIL.Wiki/_wiki/wikis/CHIL.Wiki.wiki)
+[Telemetry Worksheet](https://microsoft.sharepoint.com/:x:/r/teams/luis_core/_layouts/15/Doc.aspx?sourcedoc=%7BC065FA62-F6F1-421C-82F8-C7EC89E24913%7D&file=Telemetry.xlsx&action=default&mobileredirect=true&cid=db56fa1d-670c-42f4-b3a5-1c8134a231da)
 
-[CHIL Work](https://msr-mlg.visualstudio.com/CHIL.Work/_backlogs/board/Stories)
+[Figma - Specs](https://www.figma.com/files/588096576863690753/project/4734710/LUIS-D-specs)
 
-[CHIL.UI](https://msr-mlg.visualstudio.com/CHIL.PICL.UI)
+[Figma - WIP](https://www.figma.com/files/588096576863690753/project/2273799/LUIS)
 
-[CHIL.SDK](https://msr-mlg.visualstudio.com/CHIL.PICL.SDK)
+## Recruiting
 
-[Subscription](https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/9450f1da-c7bd-4c44-8e19-60cac1bcb97a)
+[Hiring Worksheet](https://microsoft.sharepoint.com/:x:/t/luis_core/EXxkp4udY51JsOzh3HeE7xQBQnHST_vCf7g1wcvmXmzFXA?e=1yyEUN&CID=CC0250C6-C1BA-4294-B049-F83C387C01BD&wdLOR=cC9E5E407-E979-4E75-A0CE-A733EAD87DBC)
 
-### LUIS Angular to React
+[Recruiting Tool](https://ms.icims.com)
 
-[Work Items](https://luisai.visualstudio.com/LUIS/_queries/query/cb501cde-4501-429c-95e3-486e5bd8fe53/)
-
-[Repo](https://luisai.visualstudio.com/LUIS/_git/LuisFrontendNext)
-
-[Coding Standards](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki?wikiVersion=GBwikiMaster&pageId=22&pagePath=%2FLUIS%20Front%20End)
+[Dynamics](https://attract.talent.dynamics.com/)
 
 ## Software Development
 
@@ -48,14 +44,9 @@
 
 [VS Code Open Source](https://github.com/Microsoft/vscode)
 
-## SO@MS
+## Other
 
-[SO@MS](https://stackoverflow.microsoft.com/)
+[Archive](Archive)
 
-[Kanban](https://mseng.visualstudio.com/DefaultCollection/Domino/StackOverflow%20At%20Microsoft/_backlogs/board)
+[Geoff Home](Home)
 
-[Wiki](https://www.1eswiki.com/wiki/Stack_Overflow_At_Microsoft)
-
-## Recruiting
-
-[Recruiting Tool](https://ms.icims.com)
