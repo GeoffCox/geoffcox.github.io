@@ -9,4 +9,4 @@ Here's some stuff I've learned along with a few of my opinions. I hope you find 
 
 * [Management Tenets](/Management)
 * [Code Locality](/Locality)
-* [Naming] (coming soon)
+* [Naming] (/NamingCode)
