@@ -1,2 +1,5 @@
-theme: jekyll-theme-slate
 title: Geoff Cox
+description: geoffcox.github.io
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-architect
