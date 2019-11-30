@@ -115,7 +115,7 @@ header a.button {
 aside a.button {
   display: block;
   width: 138px;
-  padding-left: 64px;
+  padding: '0 32px';
   margin-bottom: 20px;
   font-size: 21px;  
   background: transparent url(../images/sidebar-button.png) 0 0 no-repeat;
