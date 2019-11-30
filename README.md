@@ -8,5 +8,5 @@ I'm also an avid cyclist so I'll have some posts about that too.
 Here's some stuff I've learned along with a few of my opinions. I hope you find them useful.
 
 * [Management Tenets](/Management)
-* [Code Locality](/Locality)
+* [Code Locality](/articles/Locality)
 * [Naming](/articles/NamingCode)
