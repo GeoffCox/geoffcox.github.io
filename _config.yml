@@ -1,5 +1,6 @@
 title: Geoff Cox
+logo: /assets/img/logo.png
 description: geoffcox.github.io
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
