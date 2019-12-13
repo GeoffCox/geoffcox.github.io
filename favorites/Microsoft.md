@@ -2,15 +2,11 @@
 
 ## L.U.I.S
 
-[Code (vNext)](https://luisai.visualstudio.com/LUIS/_git/LuisFrontendNext)
+[Pull Requests](https://luisai.visualstudio.com/LUIS/_git/LuisFrontendNext/pullrequests?_a=active)
 
-[Work - Epics](https://luisai.visualstudio.com/LUIS/_backlogs/backlog/LUIS%20Front%20end/Epics/)
+[Backlog](https://luisai.visualstudio.com/LUIS/_backlogs/backlog/LUIS%20Front%20end/Features/?showParents=true)
 
-[Work - Features](https://luisai.visualstudio.com/LUIS/_backlogs/backlog/LUIS%20Front%20end/Features/)
-
-[Work - Backlog](https://luisai.visualstudio.com/LUIS/_backlogs/backlog/LUIS%20Front%20end/Backlog%20items/)
-
-[Work - Sprint](https://luisai.visualstudio.com/LUIS/_sprints/taskboard/LUIS%20Front%20end/LUIS/)
+[Kanban Board](https://luisai.visualstudio.com/LUIS/_boards/board/t/LUIS%20Front%20end/Backlog%20items)
 
 [Wiki](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki/22/LUIS-Front-End)
 
