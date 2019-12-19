@@ -11,9 +11,9 @@
 
 [Wiki](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki/22/LUIS-Front-End)
 
+[Swagger](https://luisai.visualstudio.com/_git/LUIS?path=%2FScripts%2FSwagger%2FSwagger&version=GBdevelop)
+
 [User Stories](https://microsoft.sharepoint.com/:x:/r/teams/luis_core/_layouts/15/Doc.aspx?sourcedoc=%7Bf08a106d-2376-4ef5-b5cd-e1b2fcc93d8a%7D&action=default&uid=%7BF08A106D-2376-4EF5-B5CD-E1B2FCC93D8A%7D&ListItemId=13042&ListId=%7BB2E84809-24B1-45C5-AD0C-B0BBD7291705%7D&odsp=1&env=prodbubble)
-
-
 
 [Vibranium Worksheet](https://microsoft.sharepoint.com/:x:/t/luis_core/Ee2oxtT3eRJBoYnpVwqABLEBM8rFe4w_GO11QCg5ULJ7Bg?e=yimdDS&CID=DEF0076E-D00F-4455-A86E-7F5411CF15CA&wdLOR=c02691F2C-6773-4FB7-B94C-F5AACDA36A6F)
 
