@@ -20,3 +20,4 @@
 * [Geoff Cox](https:geoffcox.github.io)
 * [GitHub](http://www.github.com)
 * [OWA](https://outlook.com/owa/microsoft.com)
+* [Microsoft Favorites](https://geoffcox.github.io/favorites/Microsoft)
