@@ -39,6 +39,10 @@
 
 [Dynamics](https://attract.talent.dynamics.com/)
 
+## Management
+
+[Training Reports](aka.ms/fri)
+
 ## Software Development
 
 [Safari Books](https://learning.oreilly.com/home/)
