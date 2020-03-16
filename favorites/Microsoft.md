@@ -5,11 +5,15 @@
 
 [Pull Requests](https://luisai.visualstudio.com/LUIS/_git/LuisFrontendNext/pullrequests?_a=active)
 
+[Wiki](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki/22/LUIS-Front-End)
+
+[Board](https://luisai.visualstudio.com/LUIS/_boards/board/t/LUIS%20Front%20end/Backlog%20items)
+
 [Backlog](https://luisai.visualstudio.com/LUIS/_backlogs/backlog/LUIS%20Front%20end/Features/?showParents=true)
 
-[Kanban Board](https://luisai.visualstudio.com/LUIS/_boards/board/t/LUIS%20Front%20end/Backlog%20items)
+[Queries](https://luisai.visualstudio.com/LUIS/_queries)
 
-[Wiki](https://luisai.visualstudio.com/LUIS/_wiki/wikis/LUIS.wiki/22/LUIS-Front-End)
+[Builds](https://luisai.visualstudio.com/LUIS/_build)
 
 [Swagger](https://luisai.visualstudio.com/_git/LUIS?path=%2FScripts%2FSwagger%2FSwagger&version=GBdevelop)
 
