@@ -27,6 +27,8 @@
 
 [Figma - WIP](https://www.figma.com/files/588096576863690753/project/2273799/LUIS)
 
+[S1 Key Creation](https://ms.portal.azure.com/?feature.csapiconfigbloburi=https%3A%2F%2Fportalextensionconfigs.blob.core.windows.net%2Fmukeshag#create/Microsoft.CognitiveServicesLUISAllInOne)
+
 ## Dev environments
 
 [Local](https://dialogice3.azurewebsites.net:5000/)
