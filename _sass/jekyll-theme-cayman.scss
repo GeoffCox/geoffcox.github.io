@@ -375,7 +375,7 @@ a {
     }
 
     &:before {
-      background: linear-gradient(90deg, $bg 0%, $bg 50%, transparent 50%, transparent 100%);
+      background: linear-gradient(90deg, white 0%, white 50%, transparent 50%, transparent 100%);
       background-size: $barsize;
       background-position: center;
       z-index: 1;
