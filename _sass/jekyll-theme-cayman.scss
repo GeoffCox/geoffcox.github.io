@@ -362,6 +362,7 @@ a {
     position: relative;
     margin-bottom: 0em;
     padding: 2em 0;
+    border: none;
 
     &:after,
     &:before {
@@ -375,7 +376,7 @@ a {
     }
 
     &:before {
-      background: linear-gradient(90deg, #10111F 0%, #10111F 50%, transparent 50%, transparent 100%);
+      background: linear-gradient(90deg, white 0%, white 50%, transparent 50%, transparent 100%);
       background-size: 15px;
       background-position: center;
       z-index: 1;
