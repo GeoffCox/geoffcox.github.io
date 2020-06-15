@@ -375,8 +375,8 @@ a {
     }
 
     &:before {
-      background: linear-gradient(90deg, white 0%, white 50%, transparent 50%, transparent 100%);
-      background-size: $barsize;
+      background: linear-gradient(90deg, #10111F 0%, #10111F 50%, transparent 50%, transparent 100%);
+      background-size: 15px;
       background-position: center;
       z-index: 1;
     }
