@@ -15,12 +15,6 @@ A robust Windows service that pings URLS at regular intervals.
 * [Code Locality](/articles/Locality)
 * [Naming](/articles/NamingCode)
 
----
-
-***
-
-___
-
 
 
 
