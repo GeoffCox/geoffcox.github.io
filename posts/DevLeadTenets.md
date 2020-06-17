@@ -2,7 +2,7 @@
 
 These are the tenets that guide me as a software development lead.
 
- ## Empower developers through ownership
+## Empower developers through ownership
 
 Writing good code takes creativity and discipline. There is something special about having crafted something entirely yours. It doesn't matter if it is an entire product, one module, or just one function. Developers love to proudly point at their code and have it appreciated.
 
@@ -10,7 +10,7 @@ Don't get me wrong. I don't think developers should work in complete isolation. 
 
 Give each developer something they own, where they make the decisions, and where they are accountable. It makes measuring contribution straightforward. It lets you coach each individual in the specifics of their work. It encourages developers to try new things and show them to the rest of the team. It builds strong team loyalty because you treat them as you want to be treated.
 
- ## Minimize process
+## Minimize process
 
 Smart, talented, self-motivated people don't need strict process nor authoritarian management. All they need is just enough process to create shared understanding, build a team culture, and coordinate work. When process is done right, people won't even know its there.
 
