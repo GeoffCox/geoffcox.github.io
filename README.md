@@ -1,5 +1,12 @@
   
-# Code
+# 3 tenets for leading software development teams
+These are the tenets that guide me as a software development lead.
+
+- Empower developers through ownership
+- Minimize process
+- Lead by example
+
+[Read More](posts/DevLeadTenets.md)
 
 ## [Web Application Guide](https://github.com/GeoffCox/WebAppGuide)
 A step-by-step guide to building a modern web application using React, Electron, Typescript, and Webpack.
