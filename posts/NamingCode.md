@@ -1,15 +1,13 @@
-# Naming Code
+# Naming things in code
 
-The names you choose in your code matter. Names give meaning to the structure of code. Paying attention to naming is critical to software architecture.
+The names you choose in your code matter. Names give meaning to the structure of code. Paying attention to naming is critical to software architecture. Good names make developers more productive. Well named code is easier to understand, easier to maintain, less likely to have bugs, and requires fewer code comments.
 
-Good names make developers more productive. Well named code is easier to understand, easier to maintain, less likely to have bugs, and requires fewer code comments.
-
-Finding the perfect names isn't easy. It is a natural language problem. 
+Finding the perfect name isn't easy. It is a problem made messy by natural language. 
 - There are often multiple definitions for the same word. 
 - People can interpret words differently and have personal preferences.
 - We build on top of a history of existing names and an evolving dictionary.
 
-Here are my naming best practices.
+Here are my best practices for naming things in code.
 
 ## Always look for better names
 
@@ -47,7 +45,7 @@ These are some rules for English. If you code in another language, they may not 
 
 ## Avoid false metrics
 
-- Don't overvalue short names. Auto-complete and intellisense are everywhere.
+- Don't overvalue short names. Auto-complete and intelli-sense are everywhere.
 - Don't allow a desire for consistency make you stick with a bad name.
 - Don't choose names so they are alphabetized on disk. Modern IDEs can search and browse code easily.
 - Choose a name for today, not tomorrow.  Avoid choosing a "future-proof" name for code you haven't written.
