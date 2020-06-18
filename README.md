@@ -31,11 +31,6 @@ A lightweight library for following the Model-View-ViewModel (M-V-VM) pattern us
 ## [KeepSiteAlive](https://github.com/GeoffCox/KeepSiteAlive)
 A robust Windows service that pings URLS at regular intervals.
 
-# Best Practices
-
-* [Code Locality](/articles/Locality)
-* [Naming](/articles/NamingCode)
-
 
 
 
