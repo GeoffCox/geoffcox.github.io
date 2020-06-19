@@ -1,4 +1,4 @@
-# Naming things in code
+# How to name things in code
 
 The names you choose in your code matter. Names give meaning to the structure of code. Paying attention to naming is critical to software architecture. Good names make developers more productive. Well named code is easier to understand, easier to maintain, less likely to have bugs, and requires fewer code comments.
 

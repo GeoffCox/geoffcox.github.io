@@ -1,4 +1,4 @@
-# Organizing code using the principle of locality
+# Organize code using the principle of locality
 
 The conventional coding standard for many projects requires grouping code by access (e.g. public, protected, private), by member type (e.g. properties, methods), or by lifetime (e.g. constants, instance types, static types). There are many tools that enforce these groupings. These rules were defined based on programming languages where the order of statements in the text file determined the compiled memory layout. Following the same rules in modern languages and when modern editors is an archaic process.
 
