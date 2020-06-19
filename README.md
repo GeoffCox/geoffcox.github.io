@@ -10,7 +10,7 @@ These are the tenets that guide me as a software development lead.
 
 # How to name things in code
 
-The names you choose in your code matter. Names give meaning to the structure of code. Paying attention to naming is critical to software architecture. Good names make developers more productive. Well named code is easier to understand, easier to maintain, less likely to have bugs, and requires fewer code comments.
+The names you choose in your code are important. Names give meaning to the structure of code. Paying attention to naming is critical to software architecture. Good names make developers more productive. Well named code is easier to understand, easier to maintain, less likely to have bugs, and requires fewer code comments.
 
 Here are my best practices for naming things in code.
 
