@@ -1,4 +1,10 @@
-  
+# Recoil JS examples
+[Recoil JS](http://recoiljs.org) is a new application state management library for React applications. Developed under facebook/experimental, it is still in its early stages (i.e. unstable). It solves the same problems that Redux and MobX tackle. Recoil shows a lot of promise as a very lightweight library built for the hooks API.
+
+The documentation is good, but the Recoil site doesn't have runnable examples. I decided to create running examples for each of the tutorials. I also provide a tutorial on how to implement a dispatcher pattern using recoil.
+
+[recoil-examples](https://github.com/GeoffCox/recoil-examples)
+
 # 3 tenets for leading software development teams
 These are the tenets that guide me as a software development lead.
 
