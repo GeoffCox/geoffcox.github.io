@@ -3,7 +3,7 @@
 
 The documentation is good, but the Recoil site doesn't have runnable examples. I decided to create running examples for each of the tutorials. I also provide a tutorial on how to implement a dispatcher pattern using recoil.
 
-[recoil-examples](https://github.com/GeoffCox/recoil-examples)
+[recoil-examples](https://github.com/GeoffCox/recoil-examples) <a href="https://github.com/GeoffCox/recoil-examples"><i class="fa fa-github"/></a>
 
 # 3 tenets for leading software development teams
 These are the tenets that guide me as a software development lead.
