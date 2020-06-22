@@ -28,7 +28,7 @@ Here are my best practices for naming things in code.
 
 [Read More](posts/NamingCode.md)
 
-# Organize code using the principle of locality <i class="fa fa-map-marked-alt"/>
+# Organize code using the principle of locality <i class="fas fa-map-marked-alt"/>
 
 Code is edited as text to optimize human understanding and productivity. Organizing code for the computer's sake is counter-productive. The computer prefers binary and you don't want to be typing zeros and ones all day.  Use the the principle of locality to organize your code.
 
