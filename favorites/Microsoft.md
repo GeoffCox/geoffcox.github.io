@@ -26,12 +26,12 @@
 
 ## Personal
 
-[Geoff Home](Home.html)
+[Geoff Home](Home)
 
 ## Archive
 
-[LUIS](Luis.html)
+[LUIS](Luis)
 
-[MachineTeaching](MachineTeaching.html)
+[MachineTeaching](MachineTeaching)
 
-[SO@MS](Soams.html)
+[SO@MS](Soams)
