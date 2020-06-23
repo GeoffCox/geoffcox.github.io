@@ -6,16 +6,7 @@
 
 
 
-
-[Recruiting Tool](https://ms.icims.com)
-
-[Dynamics](https://attract.talent.dynamics.com/)
-
-## Management
-
-[Training Reports](aka.ms/fri)
-
-## Software Development
+## Dev
 
 [Safari Books](https://learning.oreilly.com/home/)
 
@@ -25,11 +16,22 @@
 
 [VS Code Open Source](https://github.com/Microsoft/vscode)
 
-## Other
+## Management
+
+[Training Reports](aka.ms/fri)
+
+[Recruiting Tool](https://ms.icims.com)
+
+[Dynamics](https://attract.talent.dynamics.com/)
+
+## Personal
+
+[Geoff Home](Home)
+
+## Archive
 
 [LUIS](Luis)
 
 [MachineTeaching](MachineTeaching)
 
-[Geoff Home](Home)
-
+[SO@MS](Soams)
