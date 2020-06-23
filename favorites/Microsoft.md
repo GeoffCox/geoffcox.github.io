@@ -2,11 +2,15 @@
 
 ## Conversational AI
 
+[Composer Github](https://github.com/microsoft/BotFramework-Composer)
+
+[.NET SDK Github](https://github.com/microsoft/botbuilder-dotnet)
+
+[Samples GiHub](https://github.com/microsoft/BotBuilder-Samples)
+
 [Sharepoint](https://microsoft.sharepoint.com/teams/ConversationalAI785/Shared%20Documents/Forms/AllItems.aspx)
 
 [Bot Framework Home](https://dev.botframework.com/)
-
-
 
 ## Dev
 
