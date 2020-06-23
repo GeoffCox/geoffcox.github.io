@@ -27,9 +27,9 @@
 
 ## Other
 
-[Archive](Archive)
-
 [LUIS](Luis)
+
+[MachineTeaching](MachineTeaching)
 
 [Geoff Home](Home)
 
