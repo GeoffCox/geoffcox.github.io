@@ -22,6 +22,8 @@
 
 [VS Code Open Source](https://github.com/Microsoft/vscode)
 
+[UX Principles](https://www.zivtech.com/blog/ux-principles-constraints-discoverability-feedback-and-more)
+
 ## Management
 
 [Training Reports](aka.ms/fri)
