@@ -39,14 +39,35 @@ Code is edited as text to optimize human understanding and productivity. Organiz
 
 [Read More](posts/Locality.md)
 
-## [Web Application Guide](https://github.com/GeoffCox/WebAppGuide)
-A step-by-step guide to building a modern web application using React, Electron, Typescript, and Webpack.
+## <i class="fa fa-wpexplorer"/> [Web Application Guide](https://github.com/GeoffCox/WebAppGuide)
+There are lots of helpful tools that can generate code as a starting point for a web application. I find they are too auto-magical. They don't explain what each piece does nor how they are configured to work together. It leaves you stuck if something doesn't work, you have a breaking change when upgrading a library or tool, or if you need to incorporate a new piece of technology.
 
-## [MVVM](https://github.com/GeoffCox/MVVM)
-A lightweight library for following the Model-View-ViewModel (M-V-VM) pattern using WPF.
+I wrote this step-by-step guide to building a web application on the technology stack I consider minimal and modern.
+- React
+- Typescript
+- Webpack
+- Optional: Hot Module Reloading
+- Optional: Electron
 
-## [KeepSiteAlive](https://github.com/GeoffCox/KeepSiteAlive)
-A robust Windows service that pings URLS at regular intervals.
+The readme files take you through every single change so you can recreate the application by following along. You can also download the existing code to get started building you app.
+
+Additionally I created a more complete application - The memory game. Players take turns trying to find matching cards.  This example extends the application to leverage the libraries I often use to handle state mangement, styling, and data manipulation.
+
+## <i class="fa fa-cogs"/> [MVVM](https://github.com/GeoffCox/MVVM)
+Back when I was doing a lot of WPF programming, I created this library to support following Model-View-ViewModel (M-V-VM) pattern. 
+
+Many other libraries out there (i.e. Model-View-Controller, Model-View-Presenter, or Model-View-ViewModel) require you to write a bunch of code to connect your views to your view models. Sometimes this is implmeents as a separate View Model Locator. This unncessary tax was the reason I created this library.
+
+This MVVM library lets you provide your view a view model from directly within the XAML. Connecting your view and view models using the visual hierarchy is both simple and powerful. This library also supports custom styled controls, dependency injection frameworks, and customized view/view-model binding.
+
+The library has been used in major software projects and is heavily unit tested. I also included several custom actions, behaviors, and converters that most applications will want to leverage.
+
+Of course, Windows client application platforms continue to evolve. This library is built for WPF and may not function with Silverlight, Windows Universal Store apps, or WPF converted to run in the store.
+
+## <i class="fa fa-heartbeat"/> [KeepSiteAlive](https://github.com/GeoffCox/KeepSiteAlive)
+If you are hosting your web application or site using a discount commercial hosting company, you might be on shared infrastructure. These companies often put web applications to sleep if there hasn't been any traffic for awhile. This can mean a poor experience for the user that shows up and has to wait for your application to be resurected.  
+
+I wrote this very small Windows service to ping a set of URLs at configurable intervals. It supports hours, minutes, and seconds (HH:MM:SS) intervals. I recommend using different seconds offsets between different URLs to stagger the calls.
 
 
 
