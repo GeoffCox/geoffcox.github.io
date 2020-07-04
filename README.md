@@ -1,3 +1,10 @@
+# Swag-O (A useful swagger viewer)
+The Swagger open API specification is an amazing and popular way to describe APIs. The folks at swagger.io have done a great job with the specification standardization and the tools for creating swagger files and generating client code in multiple lanuages. However, the Swagger UI viewer leaves a lot to be desired. 
+
+I built Swag-O to make navigating complex and larger swagger files more pleasant. The entire application is open source.
+
+<i class="fa fa-github"/> [Swag-O on GitHub](https://github.com/GeoffCox/swago)
+
 #  Recoil JS examples
 [Recoil JS](http://recoiljs.org) is a new application state management library for React applications. Developed under facebook/experimental, it is still in its early stages (i.e. unstable). It solves the same problems that Redux and MobX tackle. Recoil shows a lot of promise as a very lightweight library built for the hooks API.
 
