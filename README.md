@@ -1,18 +1,24 @@
-# Swag-O (A useful swagger viewer)
-The Swagger open API specification is an amazing and popular way to describe APIs. The folks at swagger.io have done a great job with the specification standardization and the tools for creating swagger files and generating client code in multiple lanuages. However, the Swagger UI viewer leaves a lot to be desired. 
+<hr />
 
-I built Swag-O to make navigating complex and larger swagger files more pleasant. The entire application is open source.
+# Geoff
 
-<i class="fa fa-github"/> [Swag-O on GitHub](https://github.com/GeoffCox/swago)
+<hr />
 
-#  Recoil JS examples
-[Recoil JS](http://recoiljs.org) is a new application state management library for React applications. Developed under facebook/experimental, it is still in its early stages (i.e. unstable). It solves the same problems that Redux and MobX tackle. Recoil shows a lot of promise as a very lightweight library built for the hooks API.
+<i class="fa fa-id-badge"/>[Resume](Resume.html)
+<i class="fa fa-id-book"/>[My reading recommendations](Bookshelf.html)
 
-The documentation is good, but the Recoil site doesn't have runnable examples. I decided to create running examples for each of the tutorials. I also provide a tutorial on how to implement a dispatcher pattern using recoil.
+<i class="fa fa-github"/>[GitHub](https://github.com/geoffcox)
+<i class="fa fa-linkedin"/>[Linked In](http://www.linkedin.com/in/geoffcoxlive/)
+<i class="fa fa-stack-overflow"/>[Stack Overflow](https://stackoverflow.com/users/30505/geoff-cox)
+<i class="fa fa-stack-twitter"/>[Twitter](https://twitter.com/geoffcoxlive)
 
-<i class="fa fa-github"/> [recoil-examples on GitHub](https://github.com/GeoffCox/recoil-examples)
+<hr />
 
-#  3 tenets for leading software development teams
+# Best Practices, Advice, and Opinions
+
+<hr />
+
+##  3 tenets for leading software development teams
 These are the tenets that guide me as a software development lead.
 
 - Empower developers through ownership
@@ -21,7 +27,7 @@ These are the tenets that guide me as a software development lead.
 
 <i class="fa fa-people-carry"/> [Read more](posts/DevLeadTenets.md)
 
-# How to name things in code
+## How to name things in code
 
 The names you choose in your code are important. Names give meaning to the structure of code. Paying attention to naming is critical to software architecture. Good names make developers more productive. Well named code is easier to understand, easier to maintain, less likely to have bugs, and requires fewer code comments.
 
@@ -35,7 +41,7 @@ Here are my best practices for naming things in code.
 
 <i class="fa fa-file-code"/> [Read more](posts/NamingCode.md)
 
-# Organize code using the principle of locality
+## Organize code using the principle of locality
 
 Code is edited as text to optimize human understanding and productivity. Organizing code for the computer's sake is counter-productive. The computer prefers binary and you don't want to be typing zeros and ones all day.  Use the the principle of locality to organize your code.
 
@@ -45,6 +51,26 @@ Code is edited as text to optimize human understanding and productivity. Organiz
 - Let the modern IDE do the heavy-lifting for you.
 
 <i class="fas fa-map-marked-alt"/> [Read more](posts/Locality.md)
+
+<hr />
+
+# Code Projects
+
+<hr />
+
+# Swag-O (A useful swagger viewer)
+The Swagger open API specification is an amazing and popular way to describe APIs. The folks at swagger.io have done a great job with the specification standardization and the tools for creating swagger files and generating client code in multiple lanuages. However, the Swagger UI viewer leaves a lot to be desired. 
+
+I built Swag-O to make navigating complex and larger swagger files more pleasant. The entire application is open source.
+
+<i class="fa fa-github"/> [Swag-O on GitHub](https://github.com/GeoffCox/swago)
+
+#  Recoil JS examples
+[Recoil JS](http://recoiljs.org) is a new application state management library for React applications. Developed under facebook/experimental, it is still in its early stages (i.e. unstable). It solves the same problems that Redux and MobX tackle. Recoil shows a lot of promise as a very lightweight library built for the hooks API.
+
+The documentation is good, but the Recoil site doesn't have runnable examples. I decided to create running examples for each of the tutorials. I also provide a tutorial on how to implement a dispatcher pattern using recoil.
+
+<i class="fa fa-github"/> [recoil-examples on GitHub](https://github.com/GeoffCox/recoil-examples)
 
 # Web Application Guide
 There are lots of helpful tools that can generate code as a starting point for a web application. I find they are too auto-magical. They don't explain what each piece does nor how they are configured to work together. It leaves you stuck if something doesn't work, you have a breaking change when upgrading a library or tool, or if you need to incorporate a new piece of technology.
@@ -82,4 +108,4 @@ I wrote this very small Windows service to ping a set of URLs at configurable in
 
 <i class="fa fa-github"/> [KeepSiteAlive on GitHub](https://github.com/GeoffCox/KeepSiteAlive)
 
-
+<hr/>
