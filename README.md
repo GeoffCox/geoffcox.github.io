@@ -1,4 +1,3 @@
-<hr />
 # Best Practices, Advice, and Opinions
 <hr />
 
@@ -36,7 +35,6 @@ Code is edited as text to optimize human understanding and productivity. Organiz
 
 <i class="fas fa-map-marked-alt"/> [Read more](posts/Locality.md)
 
-<hr />
 # Code Projects
 <hr />
 
@@ -89,5 +87,3 @@ If you are hosting your web application or site using a discount commercial host
 I wrote this very small Windows service to ping a set of URLs at configurable intervals. It supports hours, minutes, and seconds (HH:MM:SS) intervals. I recommend using different seconds offsets between different URLs to stagger the calls.
 
 <i class="fa fa-github"/> [KeepSiteAlive on GitHub](https://github.com/GeoffCox/KeepSiteAlive)
-
-<hr/>
