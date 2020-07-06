@@ -1,10 +1,14 @@
-<i class="fa fa-id-badge"/>[Resume](Resume.html)
-<i class="fa fa-id-book"/>[My reading recommendations](Bookshelf.html)
+<i class="fa fa-id-badge"/> [Resume](Resume.html)
 
-<i class="fa fa-github"/>[GitHub](https://github.com/geoffcox)
-<i class="fa fa-linkedin"/>[Linked In](http://www.linkedin.com/in/geoffcoxlive/)
-<i class="fa fa-stack-overflow"/>[Stack Overflow](https://stackoverflow.com/users/30505/geoff-cox)
-<i class="fa fa-stack-twitter"/>[Twitter](https://twitter.com/geoffcoxlive)
+<i class="fa fa-book"/> [Reading recommendations](Bookshelf.html)
+
+<i class="fa fa-github"/> [GitHub](https://github.com/geoffcox)
+
+<i class="fa fa-linkedin"/> [Linked In](http://www.linkedin.com/in/geoffcoxlive/)
+
+<i class="fa fa-stack-overflow"/> [Stack Overflow](https://stackoverflow.com/users/30505/geoff-cox)
+
+<i class="fa fa-twitter"/> [Twitter](https://twitter.com/geoffcoxlive)
 
 <hr />
 # Best Practices, Advice, and Opinions
