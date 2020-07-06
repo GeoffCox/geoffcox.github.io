@@ -1,7 +1,3 @@
-<hr />
-# Geoff
-<hr />
-
 <i class="fa fa-id-badge"/>[Resume](Resume.html)
 <i class="fa fa-id-book"/>[My reading recommendations](Bookshelf.html)
 
