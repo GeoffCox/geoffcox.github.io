@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <title>{{ site.title }}</title>
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
 
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/v4-shims.css">
-  </head>
-  <body>    
-    <header class="page-header" role="banner">
-      <h1 class="site-title">{{ site.title }}</h1>
-      <h2 class="site-name"><a href="/">{{ site.name }}</a></h2>
-      <h3 class="site-description">{{ site.description }}</h3>     
-    </header>
-    <main id="content" class="main-content" role="main">
-      {{ content }}     
-    </main>
-    <footer class="site-footer">        
-    </footer>
-  </body>
+<head>
+  <title>{{ site.title }}</title>
+  {% if site.google_analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
+  {% endif %}
+  <meta charset="UTF-8">
+
+  {% seo %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/v4-shims.css">
+</head>
+
+<body>
+  <header class="page-header" role="banner">
+    <h1 class="site-title">{{ site.title }}</h1>
+    <h2 class="site-name"><a href="/">{{ site.name }}</a></h2>
+    <h3 class="site-description">{{ site.description }}</h3>
+  </header>
+  <section>
+    <i class="fa fa-id-badge" /><a href="/Resume.html">Resume</a> &#124;
+    <i class="fa fa-book" /><a href="/RBookshelf.html">Bookshelf</a> &#124;
+    <i class="fa fa-github" /><a href="https://github.com/geoffcox">GitHub</a> &#124;
+    <i class="fa fa-linkedin" /><a href="http://www.linkedin.com/in/geoffcoxlive/">LinkedIn</a> &#124;
+    <i class="fa fa-stack-overflow" /><a href="https://stackoverflow.com/users/30505/geoff-cox">Stack Overflow</a> &#124;
+    <i class="fa fa-twitter" /><a href="https://twitter.com/geoffcoxlive">Twitter</a>
+  </section>
+  <main id="content" class="main-content" role="main">
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+  </footer>
+</body>
+
 </html>

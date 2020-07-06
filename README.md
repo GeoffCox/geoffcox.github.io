@@ -1,10 +1,3 @@
-<i class="fa fa-id-badge"/> [Resume](Resume.html) &#124;
-<i class="fa fa-book"/> [Bookshelf](Bookshelf.html) &#124;
-<i class="fa fa-github"/> [GitHub](https://github.com/geoffcox) &#124;
-<i class="fa fa-linkedin"/> [Linked In](http://www.linkedin.com/in/geoffcoxlive/) &#124;
-<i class="fa fa-stack-overflow"/> [Stack Overflow](https://stackoverflow.com/users/30505/geoff-cox) &#124;
-<i class="fa fa-twitter"/> [Twitter](https://twitter.com/geoffcoxlive)
-
 <hr />
 # Best Practices, Advice, and Opinions
 <hr />
