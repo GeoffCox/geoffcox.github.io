@@ -1,7 +1,5 @@
 <hr />
-
 # Geoff
-
 <hr />
 
 <i class="fa fa-id-badge"/>[Resume](Resume.html)
@@ -13,9 +11,7 @@
 <i class="fa fa-stack-twitter"/>[Twitter](https://twitter.com/geoffcoxlive)
 
 <hr />
-
 # Best Practices, Advice, and Opinions
-
 <hr />
 
 ##  3 tenets for leading software development teams
@@ -53,26 +49,24 @@ Code is edited as text to optimize human understanding and productivity. Organiz
 <i class="fas fa-map-marked-alt"/> [Read more](posts/Locality.md)
 
 <hr />
-
 # Code Projects
-
 <hr />
 
-# Swag-O (A useful swagger viewer)
+## Swag-O (A useful swagger viewer)
 The Swagger open API specification is an amazing and popular way to describe APIs. The folks at swagger.io have done a great job with the specification standardization and the tools for creating swagger files and generating client code in multiple lanuages. However, the Swagger UI viewer leaves a lot to be desired. 
 
 I built Swag-O to make navigating complex and larger swagger files more pleasant. The entire application is open source.
 
 <i class="fa fa-github"/> [Swag-O on GitHub](https://github.com/GeoffCox/swago)
 
-#  Recoil JS examples
+##  Recoil JS examples
 [Recoil JS](http://recoiljs.org) is a new application state management library for React applications. Developed under facebook/experimental, it is still in its early stages (i.e. unstable). It solves the same problems that Redux and MobX tackle. Recoil shows a lot of promise as a very lightweight library built for the hooks API.
 
 The documentation is good, but the Recoil site doesn't have runnable examples. I decided to create running examples for each of the tutorials. I also provide a tutorial on how to implement a dispatcher pattern using recoil.
 
 <i class="fa fa-github"/> [recoil-examples on GitHub](https://github.com/GeoffCox/recoil-examples)
 
-# Web Application Guide
+## Web Application Guide
 There are lots of helpful tools that can generate code as a starting point for a web application. I find they are too auto-magical. They don't explain what each piece does nor how they are configured to work together. It leaves you stuck if something doesn't work, you have a breaking change when upgrading a library or tool, or if you need to incorporate a new piece of technology.
 
 I wrote this step-by-step guide to building a web application on the technology stack I consider minimal and modern.
@@ -88,7 +82,7 @@ Additionally I created a more complete application - The memory game. Players ta
 
 <i class="fa fa-github"/> [WebAppGuide on GitHub](https://github.com/GeoffCox/WebAppGuide)
 
-# Model-View-ViewModel for WPF
+## Model-View-ViewModel for WPF
 Back when I was doing a lot of WPF programming, I created this library to support following Model-View-ViewModel (M-V-VM) pattern. 
 
 Many other libraries out there (i.e. Model-View-Controller, Model-View-Presenter, or Model-View-ViewModel) require you to write a bunch of code to connect your views to your view models. Sometimes this is implmeents as a separate View Model Locator. This unncessary tax was the reason I created this library.
@@ -101,7 +95,7 @@ Of course, Windows client application platforms continue to evolve. This library
 
 <i class="fa fa-github"/> [MVVM on GitHub](https://github.com/GeoffCox/MVVM)
 
-# KeepSiteAlive Windows Service
+## KeepSiteAlive Windows Service
 If you are hosting your web application or site using a discount commercial hosting company, you might be on shared infrastructure. These companies often put web applications to sleep if there hasn't been any traffic for awhile. This can mean a poor experience for the user that shows up and has to wait for your application to be resurected.  
 
 I wrote this very small Windows service to ping a set of URLs at configurable intervals. It supports hours, minutes, and seconds (HH:MM:SS) intervals. I recommend using different seconds offsets between different URLs to stagger the calls.
