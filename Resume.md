@@ -3,7 +3,7 @@
 
 # Experience
 
-## Principle Software Development Lead @ Microsoft/LUIS
+## Principal Software Development Lead @ Microsoft/LUIS
 2019 to Present
 
 - Delivered a massive new web experience for the Language Understanding Intelligence Service (LUIS).
