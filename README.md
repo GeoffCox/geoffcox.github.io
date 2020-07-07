@@ -11,7 +11,6 @@ These are the tenets that guide me as a software development lead.
 <i class="fa fa-people-carry"/> [Read more](posts/DevLeadTenets.md)
 
 ## How to name things in code
-
 The names you choose in your code are important. Names give meaning to the structure of code. Paying attention to naming is critical to software architecture. Good names make developers more productive. Well named code is easier to understand, easier to maintain, less likely to have bugs, and requires fewer code comments.
 
 Here are my best practices for naming things in code.
@@ -25,7 +24,6 @@ Here are my best practices for naming things in code.
 <i class="fa fa-file-code"/> [Read more](posts/NamingCode.md)
 
 ## Organize code using the principle of locality
-
 Code is edited as text to optimize human understanding and productivity. Organizing code for the computer's sake is counter-productive. The computer prefers binary and you don't want to be typing zeros and ones all day.  Use the the principle of locality to organize your code.
 
 - Keep fields and subroutines near the functions that use them.
