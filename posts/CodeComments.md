@@ -1,0 +1,109 @@
+# How to comment code
+
+Code comments are one of the best ways to ensure your code is maintainable and built to last. They are time capsules left by you for the next developer. Whenever you come back to code you wrote long ago, you *are* the next developer.
+
+Most codebases contain too few meaningful comments and too many (useless) boilerplate comments. This happens for a variety of reasons:
+- Developers get into the habit of spamming useless comments to satisfy the code quality tools that require comments on everything.
+- Developers often assume their code is perfectly self-documenting. It can be hard to remember everyone else doesn't have the same expertise in the problem domain. 
+- Proper code documentation is often the first sacrifice to hit a deadline. Few teams schedule time to come back and add missing comments.
+
+## Always document the why (not the how)
+Commenting exactly what the code is doing doesn't add much value. This is even more true for well written code. Well named types, methods, and functions help code be self-describing. Why describe it again? At best you restate the exact behavior. More likely you add confusion.
+
+Less experienced developers often write comments detailing the code mechanics. This can be a habit left over from when they were learning to program. Students often pseudo-code the function in comments but  don't delete the comments when the code is written and properly factored. 
+
+Example of low value 'how' comments:
+
+```csharp
+    // Loop over the items
+    foreach (var item in items)
+    {
+        // Process each item
+        ....
+    }
+```
+
+Add comments explaining **why** the code is written this way. Describe the reasons for coding decisions. Call out the nuances of how the code was crafted. Bonus: It will help other developers appreciate awesome code.
+
+Example of a high value 'why' comment:
+
+```csharp
+    // 0.75 minimizes disk space with no visual quality loss to the image.
+    public const double CompressionRatio = 0.75;
+    public const string JpegImageType = "JPEG";
+    
+    public void Save()
+    {
+       this._image.Save(this._data, CompressionRatio, JpegImageType);
+    }
+```
+
+Practice will make it easier to identify cases that need 'why' comments:
+- Why does the code call one overload of an API vs. another?
+- Why does the code update the database index before and after the row was updated?
+- Why does this class property need to be marked with [NonSerialized]?
+- Why does this function take an async lock on the entire object rather than only the one updated field?
+
+Why comments will quickly identify bad code. If why the code is this way can't be explained or justified, it should be rewritten.
+
+## Consider writing comments in 1st person
+Writing in 1st person can feel like vanity, but don't think of it as your comment. Instead pretend it is the code talking. A little code personification can make comments easy to digest and keep the tone friendly. Try it for a week and see if you like it.
+
+Let's look at some comment examples:
+
+```csharp
+// minimizes disk space with no visual quality loss to the image.
+```
+This comment lacks a subject. This makes it harder to read and more likely use passive verb tense. I explain why to avoid the passive voice in the next section.
+    
+```csharp
+// We increment the value before the loop because we need to skip the first element.
+```
+This comment uses the "kingly we". It assumes agreement from the reader or that the reader is somehow outnumbered. The reader shouldn't feel like a peasant in a feudal system.
+
+```csharp
+// Min comp to qual ratios per algo
+```
+This comment is robotic gibberish. Please don't encrypt your comments in abbreviations and acronyms.  
+    
+```csharp
+// I reindexed to a temp file so that the swap is atomic and won't blocker reader threads.
+```
+This comment is a full sentence that is easy to read. The reader is allowed disagree with the code. 
+
+## Prefer active voice
+Code is a running activity, so the comment's voice should match. Use active verbs. Passive voice make sentences longer and harder to read.
+
+Compare these comments and consider which is easier to read.
+
+```csharp
+// The list is filtered to active users then was mapped to matching customer IDs.
+```
+
+```csharp
+// I filtered to active users and mapped to matching customers.
+```
+
+An added benefit of active voice is that it goes hand-in-hand with the 1st person perspective.
+
+## Prefer concise single sentences
+Writing concise informative comments is an art. Prefer each comment to be a single sentence on a single line. Avoid wrapping comments across multiple lines. Others should be able to quickly understand key points. Don't leave out critical information, but keep comments short and sweet. Concise comments are better comments.
+
+Compare these examples:
+
+```csharp
+    // I update the database record by including a client ID to combine with a generated seed value. The row id exists to ensure that rows generated by each client can be retrieved later on and easily. The row ID is a GUID that is base-64 encoded as a string and is then reversed for maximum cluster distribution.
+```
+
+vs.
+
+```csharp
+    // I include a client ID that is combined with the generated seed value to create the row ID.
+    // A row ID based on the client ID allows clients to retrieve their rows easily.
+    // The row ID is a base-64 encoded string that is reversed for maximum cluster distribution.
+```    
+
+## Know when to stop
+If a method is very long and needs lots of comments to delimit the phases or steps of the method, the method should be refactored. Breaking up long methods allows you to have good names for the subroutines. This can help reduce the need for comments.
+
+Keep in mind, no amount of commenting can fix bad code.  If you are writing too many comments trying to explain messy details, consider fixing the code first.

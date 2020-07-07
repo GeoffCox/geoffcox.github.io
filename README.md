@@ -35,6 +35,19 @@ Code is edited as text to optimize human understanding and productivity. Organiz
 
 <i class="fas fa-map-marked-alt"/> [Read more](posts/Locality.md)
 
+## How to comment code
+Code comments are one of the best ways to ensure your code is maintainable and built to last. Most codebases contain too few meaningful comments and too many (useless) boilerplate comments. 
+
+Here are my best practices for commenting code.
+
+- Always document the why (not the how)
+- Consider writing comments in 1st person
+- Prefer active voice
+- Prefer concise single sentences
+- Know when to stop
+
+<i class="fa fa-file-comment"/> [Read more](posts/CodeComments.md)
+
 # Code Projects
 <hr />
 
