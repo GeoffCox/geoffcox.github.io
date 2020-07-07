@@ -44,7 +44,7 @@ Here are my best practices for commenting code.
 - Prefer concise single sentences
 - Know when to stop
 
-<i class="fa fa-file-comment"/> [Read more](posts/CodeComments.md)
+<i class="fa fa-comment"/> [Read more](posts/CodeComments.md)
 
 # Code Projects
 <hr />
