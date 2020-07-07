@@ -30,7 +30,7 @@
 - Adopted cross-company by 30K+ engineers and as a primary Q&A channel for teams including Cosmos, 1ES, Azure, Skype, Office, Bing, and WDG.
 - Independently built solutions for high-fidelity email notifications, AAD security, and cross-system data migration to SQL Azure.
 
-### VSTS Analytic
+### VSTS Analytics
 - Key contributor shipping v1 of  the Analytics system in the VSTS product.
 - Architected and implemented high performance staging jobs, transformations, aggregate models, and query endpoints.
 - Implemented the OASIS OData v4 aggregation standard for Microsoft’s open source implementation.
