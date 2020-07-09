@@ -56,6 +56,15 @@ I built Swag-O to make navigating complex and larger swagger files more pleasant
 
 <i class="fa fa-github"/> [Swag-O on GitHub](https://github.com/GeoffCox/swago)
 
+## react-splitter
+If you aren't familiar with splitter controls, they allow the user to drag a separator to change the relative size of two panes. The split can be vertical or horizontal. Splitters can often be nested to allow for more sophsticated control of layouts.
+
+I found problems with all of the popular splitter libraries that I tried (about 5 of them). I didn't feel good using any of them in shipping projects. I realized that using CSS grid templates along with the high performance dynamic style updates from styled-components could be used to create a responsive splitter that used CSS layout to correctly set the sizes.
+
+I wrote this simple splitter using CSS grid templates, styled-components, and react-measure. There are still some features to add, which I'll be working on in the near future.
+
+<i class="fa fa-github"/> [react-splitter on GitHub](https://github.com/GeoffCox/react-splitter)
+
 ##  Recoil JS examples
 [Recoil JS](http://recoiljs.org) is a new application state management library for React applications. Developed under facebook/experimental, it is still in its early stages (i.e. unstable). It solves the same problems that Redux and MobX tackle. Recoil shows a lot of promise as a very lightweight library built for the hooks API.
 
