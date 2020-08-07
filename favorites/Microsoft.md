@@ -24,6 +24,8 @@
 
 [Bot Framework Home](https://dev.botframework.com/)
 
+[Open Bot Initiative](https://github.com/Microsoft/botframework-obi)
+
 ## Dev
 
 [Safari Books](https://learning.oreilly.com/home/)
