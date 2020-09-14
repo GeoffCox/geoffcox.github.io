@@ -8,9 +8,11 @@
 
 [Pull Requests](https://github.com/microsoft/BotFramework-Composer/pulls)
 
-[Sprint 33](https://github.com/microsoft/BotFramework-Composer/projects/39)
+[R11-Authoring Board](https://github.com/microsoft/BotFramework-Composer/projects/45?card_filter_query=label%3A%22Team%3A+Authoring%22)
 
-[R10](https://github.com/microsoft/BotFramework-Composer/projects/31)
+[R11 Board](https://github.com/microsoft/BotFramework-Composer/projects/45)
+
+[R11 - All issues](https://github.com/microsoft/BotFramework-Composer/milestone/5)
 
 ## Conversational AI
 
