@@ -5496,7 +5496,7 @@ Measure.displayName = 'Measure';
 Measure.propTypes.children = propTypes.func;
 
 // -------------------- STYLE --------------------
-const splitterWidth = 5;
+const defaultSplitterWidth = 5;
 const fullDivCss = css `
   width: 100%;
   height: 100%;
@@ -5507,7 +5507,7 @@ const fullDivCss = css `
 const MeasureDiv = styled.div `
   ${fullDivCss}
 `;
-const Root = styled.div.attrs(({ leftColWidth }) => ({
+const Root = styled.div.attrs(({ leftColWidth, splitterWidth, }) => ({
     style: {
         gridTemplateColumns: `${leftColWidth} ${splitterWidth}px 1fr`,
     },
@@ -5515,7 +5515,7 @@ const Root = styled.div.attrs(({ leftColWidth }) => ({
   ${fullDivCss}
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-areas: 'left split right';
+  grid-template-areas: "left split right";
 `;
 const Left = styled.div `
   height: 100%;
@@ -5529,13 +5529,24 @@ const Split = styled.div `
   box-sizing: border-box;
   outline: none;
   overflow: hidden;
-  background: silver;
   grid-area: split;
   cursor: col-resize;
-  outline: none;
-  &:hover {
+  background: transparent;
+  &:hover .default-split-visual {
     background: gray;
   }
+`;
+const DefaultSplitVisual = styled.div.attrs(({ splitterWidth }) => ({
+    halfWidth: `${splitterWidth / 2}px`,
+})) `
+  height: 100%;
+  width: 1px;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  background: silver;
+  cursor: col-resize;
+  margin-left: ${(props) => props.halfWidth};
 `;
 const Right = styled.div `
   height: 100%;
@@ -5549,13 +5560,13 @@ const Right = styled.div `
 // defaults to 'auto'
 const toGridWidth = (value) => {
     if (value === undefined || value === null) {
-        return 'auto';
+        return "auto";
     }
-    if (typeof value === 'string') {
+    if (typeof value === "string") {
         if (value.trim().length === 0) {
-            return 'auto';
+            return "auto";
         }
-        if (value.endsWith('px') || value.endsWith('%') || value.endsWith('fr')) {
+        if (value.endsWith("px") || value.endsWith("%") || value.endsWith("fr")) {
             return value;
         }
     }
@@ -5579,17 +5590,25 @@ const constrainPaneExtent = (primary, constraints) => {
     return Math.max(0, Math.min(newPrimary, total - splitter));
 };
 const LeftRightSplit = (props) => {
-    const { initialLeftGridWidth: defaultLeftWidth, minRightPixels, minLeftPixels } = props;
+    const { initialLeftGridWidth: defaultLeftWidth, minRightPixels, minLeftPixels, splitterWidth = defaultSplitterWidth, renderSplitter, } = props;
     // -------------------- HOOKS --------------------
     const [currentContentWidth, setCurrentContentWidth] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
     const [currentLeftWidth, setCurrentLeftWidth] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
     const [leftWidth, setLeftWidth] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(() => {
         // If the default is a number, then use it or the left minimum as a value.
         const numericValue = Number(defaultLeftWidth);
-        return isNaN(numericValue) ? -1 : Math.max(numericValue, minLeftPixels !== null && minLeftPixels !== void 0 ? minLeftPixels : numericValue);
+        return isNaN(numericValue)
+            ? -1
+            : Math.max(numericValue, minLeftPixels !== null && minLeftPixels !== void 0 ? minLeftPixels : numericValue);
     });
     const [leftStart, setLeftStart] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
     const [screenStart, setScreenStart] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
+    Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+        if (leftWidth !== -1) {
+            const newLeft = constrainLeft(leftWidth);
+            setLeftWidth(newLeft);
+        }
+    }, [currentContentWidth, splitterWidth]);
     // -------------------- MEASUREMENT --------------------
     const constrainLeft = (value) => {
         return constrainPaneExtent(value, {
@@ -5631,76 +5650,89 @@ const LeftRightSplit = (props) => {
     const children = react__WEBPACK_IMPORTED_MODULE_0__["Children"].toArray(props.children);
     const leftChild = children.length > 0 ? children[0] : Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", null);
     const rightChild = children.length > 1 ? children[1] : Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", null);
+    const renderSplitVisual = renderSplitter !== null && renderSplitter !== void 0 ? renderSplitter : (() => {
+        return (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(DefaultSplitVisual, { className: "default-split-visual", splitterWidth: splitterWidth }));
+    });
     return (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Measure, { bounds: true, onResize: onContentMeasure }, ({ measureRef }) => (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(MeasureDiv, { ref: measureRef },
-        Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Root, { leftColWidth: renderLeftWidth },
+        Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Root, { leftColWidth: renderLeftWidth, splitterWidth: splitterWidth },
             Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Left, null,
-                Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Measure, { bounds: true, onResize: onLeftMeasure }, ({ measureRef: leftRef }) => Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(MeasureDiv, { ref: leftRef }, leftChild))),
-            Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Split, { tabIndex: -1, onMouseDown: onSplitMouseDown, onMouseMove: onSplitMouseMove, onMouseUp: onSplitMouseUp }),
+                Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Measure, { bounds: true, onResize: onLeftMeasure }, ({ measureRef: leftRef }) => (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(MeasureDiv, { ref: leftRef }, leftChild)))),
+            Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Split, { tabIndex: -1, onMouseDown: onSplitMouseDown, onMouseMove: onSplitMouseMove, onMouseUp: onSplitMouseUp }, renderSplitVisual()),
             Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Right, null, rightChild))))));
 };
 
 // -------------------- STYLE --------------------
-const splitterHeight = 5;
-const splitterHeightPx = `${splitterHeight}px`;
+const defaultSplitterHeight = 5;
 const fullDivCss$1 = css `
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    outline: none;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
 `;
 const MeasureDiv$1 = styled.div `
-    ${fullDivCss$1}
+  ${fullDivCss$1}
 `;
-const Root$1 = styled.div.attrs(({ topRowHeight }) => ({
+const Root$1 = styled.div.attrs(({ topRowHeight, splitterHeight, }) => ({
     style: {
-        gridTemplateRows: `${topRowHeight} ${splitterHeightPx} 1fr`,
+        gridTemplateRows: `${topRowHeight} ${splitterHeight}px 1fr`,
     },
 })) `
-    ${fullDivCss$1}
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: 'top' 'split' 'bottom';
+  ${fullDivCss$1}
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "top" "split" "bottom";
 `;
 const Top = styled.div `
-    width: 100%;
-    box-sizing: border-box;
-    outline: none;
-    overflow: hidden;
-    grid-area: top;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  grid-area: top;
 `;
 const Split$1 = styled.div `
-    width: 100%;
-    box-sizing: border-box;
-    outline: none;
-    overflow: hidden;
-    background: silver;
-    grid-area: split;
-    cursor: row-resize;
-    outline: none;
-    &:hover {
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  grid-area: split;
+  cursor: row-resize;
+  background: transparent;
+  &:hover .default-split-visual {
     background: gray;
-    }
+  }
+`;
+const DefaultSplitVisual$1 = styled.div.attrs(({ splitterHeight }) => ({
+    halfHeight: `${splitterHeight / 2}px`,
+})) `
+  width: 100%;
+  height: 1px;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  background: silver;
+  cursor: row-resize;
+  margin-top: ${(props) => props.halfHeight};
 `;
 const Bottom = styled.div `
-    width: 100%;
-    box-sizing: border-box;
-    outline: none;
-    overflow: hidden;
-    grid-area: bottom;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  grid-area: bottom;
 `;
 // -------------------- UTILITIES --------------------
 // ensures a value can be used in gridTemplateColumns
 // defaults to '1fr'
 const toGridExtent = (value) => {
     if (value === undefined || value === null) {
-        return '1fr';
+        return "1fr";
     }
-    if (typeof value === 'string') {
+    if (typeof value === "string") {
         if (value.trim().length === 0) {
-            return '1fr';
+            return "1fr";
         }
-        if (value.endsWith('px') || value.endsWith('%') || value.endsWith('fr')) {
+        if (value.endsWith("px") || value.endsWith("%") || value.endsWith("fr")) {
             return value;
         }
     }
@@ -5724,17 +5756,25 @@ const constrainPaneExtent$1 = (primary, constraints) => {
     return Math.max(0, Math.min(newPrimary, total - splitter));
 };
 const TopBottomSplit = (props) => {
-    const { initialTopGridHeight, minBottomPixels, minTopPixels } = props;
+    const { initialTopGridHeight, minBottomPixels, minTopPixels, splitterHeight = defaultSplitterHeight, renderSplitter, } = props;
     // -------------------- HOOKS --------------------
     const [currentContentHeight, setCurrentContentHeight] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
     const [currentTopHeight, setCurrentTopHeight] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
     const [topHeight, setTopHeight] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(() => {
         // If the default is a number, then use it or the top minimum as a value.
         const numericValue = Number(initialTopGridHeight);
-        return isNaN(numericValue) ? -1 : Math.max(numericValue, minTopPixels !== null && minTopPixels !== void 0 ? minTopPixels : numericValue);
+        return isNaN(numericValue)
+            ? -1
+            : Math.max(numericValue, minTopPixels !== null && minTopPixels !== void 0 ? minTopPixels : numericValue);
     });
     const [topStart, setTopStart] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
     const [screenStart, setScreenStart] = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0);
+    Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+        if (topHeight != -1) {
+            const newTop = constrainTop(topHeight);
+            setTopHeight(newTop);
+        }
+    }, [currentContentHeight, splitterHeight]);
     // -------------------- MEASUREMENT --------------------
     const constrainTop = (value) => {
         return constrainPaneExtent$1(value, {
@@ -5776,11 +5816,14 @@ const TopBottomSplit = (props) => {
     const children = react__WEBPACK_IMPORTED_MODULE_0__["Children"].toArray(props.children);
     const topChild = children.length > 0 ? children[0] : Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", null);
     const bottomChild = children.length > 1 ? children[1] : Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])("div", null);
+    const renderSplitVisual = renderSplitter !== null && renderSplitter !== void 0 ? renderSplitter : (() => {
+        return (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(DefaultSplitVisual$1, { className: "default-split-visual", splitterHeight: splitterHeight }));
+    });
     return (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Measure, { bounds: true, onResize: onContentMeasure }, ({ measureRef }) => (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(MeasureDiv$1, { ref: measureRef },
-        Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Root$1, { topRowHeight: renderTopHeight },
+        Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Root$1, { topRowHeight: renderTopHeight, splitterHeight: splitterHeight },
             Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Top, null,
-                Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Measure, { bounds: true, onResize: onTopMeasure }, ({ measureRef: topRef }) => Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(MeasureDiv$1, { ref: topRef }, topChild))),
-            Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Split$1, { tabIndex: -1, onMouseDown: onSplitMouseDown, onMouseMove: onSplitMouseMove, onMouseUp: onSplitMouseUp }),
+                Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Measure, { bounds: true, onResize: onTopMeasure }, ({ measureRef: topRef }) => (Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(MeasureDiv$1, { ref: topRef }, topChild)))),
+            Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Split$1, { tabIndex: -1, onMouseDown: onSplitMouseDown, onMouseMove: onSplitMouseMove, onMouseUp: onSplitMouseUp }, renderSplitVisual()),
             Object(react__WEBPACK_IMPORTED_MODULE_0__["createElement"])(Bottom, null, bottomChild))))));
 };
 
@@ -8783,17 +8826,21 @@ const fullDivCss = styled_components_1.css `
 const Root = styled_components_1.default.div `
   ${fullDivCss}
   display: grid;
+  font-family: "Consolas", "Courier New", Courier, monospace;
+  font-size: 10pt;
   grid-template-rows: auto 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: 'header' 'content';
+  grid-template-areas: "header" "content";
 `;
 const Header = styled_components_1.default.div `
+  font-size: 14pt;
   width: 100%;
   outline: none;
   overflow: hidden;
   grid-area: header;
-  font-family: 'Consolas';
   padding: 10px;
+  background: #222;
+  color: #ddd;
 `;
 const Content = styled_components_1.default.div `
   width: 100%;
@@ -8823,6 +8870,8 @@ exports.App = () => {
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __webpack_require__(/*! react */ "react");
 const react_splitter_1 = __webpack_require__(/*! @geoffcox/react-splitter */ "./node_modules/@geoffcox/react-splitter/build/index.es.js");
+// import { LeftRightSplit } from "../../../package/src/LeftRightSplit";
+// import { TopBottomSplit } from "../../../package/src/TopBottomSplit";
 const styled_components_1 = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
 const fullDivCss = styled_components_1.css `
   width: 100%;
@@ -8835,11 +8884,11 @@ const Root = styled_components_1.default.div `
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: 'content';
+  grid-template-areas: "content";
 `;
 const DemoActions = styled_components_1.default.div `
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -8850,33 +8899,169 @@ const DemoActions = styled_components_1.default.div `
   margin: auto auto;
 `;
 const DemoAction = styled_components_1.default.button `
+  font-family: "Consolas", "Courier New", Courier, monospace;
+  font-size: 10pt;
   min-width: 150px;
   min-height: 25px;
   padding: 5px;
   margin: 5px;
 `;
+const DemoOption = styled_components_1.default.div `
+  padding: 5px;
+  margin: 5px;
+`;
+const stripeVars = styled_components_1.css `
+  --stripe-size: 50px;
+  --color1: silver;
+  --color2: gray;
+  --duration: 2s;
+`;
+const verticalStripeAnimation = styled_components_1.keyframes `  
+  ${stripeVars}
+  0% {
+    transform: translateX(0);
+  }  
+  100% {
+    transform: translateX(calc(var(--stripe-size) * -1));
+  }
+`;
+const horizontalStripeAnimation = styled_components_1.keyframes `  
+  ${stripeVars}
+  0% {
+    transform: translateX(calc(var(--stripe-size) * -1));    
+  }  
+  100% {
+    transform: translateX(0);
+  }
+`;
+const HorizontalStripeSplitter = styled_components_1.default.div `
+  ${stripeVars}
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + var(--stripe-size));
+    height: 100%;
+    background: repeating-linear-gradient(
+      45deg,
+      var(--color2) 25%,
+      var(--color2) 50%,
+      var(--color1) 50%,
+      var(--color1) 75%
+    );
+    background-size: var(--stripe-size) var(--stripe-size);
+    animation: ${horizontalStripeAnimation} var(--duration) linear infinite;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(#1b2735, 0) 0%,
+      #090a0f 100%
+    );
+  }
+`;
+const VerticalStripeSplitter = styled_components_1.default.div `
+  ${stripeVars}
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + var(--stripe-size));
+    height: 100%;
+    background: repeating-linear-gradient(
+      45deg,
+      var(--color2) 25%,
+      var(--color2) 50%,
+      var(--color1) 50%,
+      var(--color1) 75%
+    );
+    background-size: var(--stripe-size) var(--stripe-size);
+    animation: ${verticalStripeAnimation} var(--duration) linear infinite;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(#1b2735, 0) 0%,
+      #090a0f 100%
+    );
+  }
+`;
 exports.DynamicPane = () => {
     const [split, setSplit] = React.useState(undefined);
+    const [customize, setCustomize] = React.useState(false);
+    const renderCustomHorizontalSplit = () => {
+        return React.createElement(HorizontalStripeSplitter, null);
+    };
+    const renderCustomVerticalSplit = () => {
+        return React.createElement(VerticalStripeSplitter, null);
+    };
     const renderActions = () => {
-        return (React.createElement(DemoActions, null,
-            React.createElement(DemoAction, { onClick: () => setSplit('LR') }, "Left | Right"),
-            React.createElement(DemoAction, { onClick: () => setSplit('TB') }, "Top / Bottom")));
+        return (React.createElement(React.Fragment, null,
+            React.createElement(DemoActions, null,
+                React.createElement(DemoAction, { onClick: () => setSplit("LR") }, "Left | Right"),
+                React.createElement(DemoAction, { onClick: () => setSplit("TB") }, "Top / Bottom"),
+                React.createElement(DemoOption, null,
+                    React.createElement("label", null,
+                        React.createElement("input", { type: "checkbox", checked: customize, onChange: () => setCustomize(!customize) }),
+                        "Use custom split")))));
     };
     const renderLR = () => {
-        return (React.createElement(react_splitter_1.LeftRightSplit, { initialLeftGridWidth: '50%' },
-            React.createElement(exports.DynamicPane, null),
-            React.createElement(exports.DynamicPane, null)));
+        if (customize) {
+            return (React.createElement(react_splitter_1.LeftRightSplit, { initialLeftGridWidth: "50%", renderSplitter: renderCustomVerticalSplit, splitterWidth: 10 },
+                React.createElement(exports.DynamicPane, null),
+                React.createElement(exports.DynamicPane, null)));
+        }
+        else {
+            return (React.createElement(react_splitter_1.LeftRightSplit, { initialLeftGridWidth: "50%" },
+                React.createElement(exports.DynamicPane, null),
+                React.createElement(exports.DynamicPane, null)));
+        }
     };
     const renderTB = () => {
-        return (React.createElement(react_splitter_1.TopBottomSplit, { initialTopGridHeight: '50%' },
-            React.createElement(exports.DynamicPane, null),
-            React.createElement(exports.DynamicPane, null)));
+        if (customize) {
+            return (React.createElement(react_splitter_1.TopBottomSplit, { initialTopGridHeight: "50%", renderSplitter: renderCustomHorizontalSplit, splitterHeight: 10 },
+                React.createElement(exports.DynamicPane, null),
+                React.createElement(exports.DynamicPane, null)));
+        }
+        else {
+            return (React.createElement(react_splitter_1.TopBottomSplit, { initialTopGridHeight: "50%" },
+                React.createElement(exports.DynamicPane, null),
+                React.createElement(exports.DynamicPane, null)));
+        }
     };
     const renderLayout = () => {
         switch (split) {
-            case 'TB':
+            case "TB":
                 return renderTB();
-            case 'LR':
+            case "LR":
                 return renderLR();
             default:
                 return renderActions();
