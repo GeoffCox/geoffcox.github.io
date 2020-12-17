@@ -1,18 +1,14 @@
 # Microsoft Favorites
 
-## Composer
+## Bot Framework GitHub
 
-[Code](https://github.com/microsoft/BotFramework-Composer)
+[Composer](https://github.com/microsoft/BotFramework-Composer)
 
-[My issues](https://github.com/microsoft/BotFramework-Composer/issues/assigned/GeoffCoxMSFT)
+[TS/JS SDK](https://github.com/microsoft/botbuilder-js)
 
-[Pull Requests](https://github.com/microsoft/BotFramework-Composer/pulls)
+[.NET SDK](https://github.com/microsoft/botbuilder-dotnet)
 
-[R11-Authoring Board](https://github.com/microsoft/BotFramework-Composer/projects/45?card_filter_query=label%3A%22Team%3A+Authoring%22)
-
-[R11 Board](https://github.com/microsoft/BotFramework-Composer/projects/45)
-
-[R11 - All issues](https://github.com/microsoft/BotFramework-Composer/milestone/5)
+[Samples](https://github.com/microsoft/BotBuilder-Samples)
 
 ### R11 Specs
 
@@ -46,11 +42,6 @@
 
 [Sharepoint](https://microsoft.sharepoint.com/teams/ConversationalAI785/Shared%20Documents/Forms/AllItems.aspx)
 
-[TS/JS SDK](https://github.com/microsoft/botbuilder-js)
-
-[.NET SDK](https://github.com/microsoft/botbuilder-dotnet)
-
-[Samples](https://github.com/microsoft/BotBuilder-Samples)
 
 [Bot Framework Home](https://dev.botframework.com/)
 

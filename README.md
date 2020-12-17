@@ -49,6 +49,11 @@ Here are my best practices for commenting code.
 # Code Projects
 <hr />
 
+## Photiso 2.0
+Photiso organizes photos in year/month folders and names them chronologically (yyyy-mm-dd hh-mm-ss-fs). This allows backup services to not have constantly shifting files. This program was written in Rust!
+
+<i class="fa fa-github"/> [Photiso on GitHub](https://github.com/GeoffCox/photiso)
+
 ## Swag-O (A useful swagger viewer)
 The Swagger open API specification is an amazing and popular way to describe APIs. The folks at swagger.io have done a great job with the specification standardization and the tools for creating swagger files and generating client code in multiple lanuages. However, the Swagger UI viewer leaves a lot to be desired. 
 
