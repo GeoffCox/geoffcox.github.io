@@ -52,7 +52,7 @@
 - Led SQL TechFest for entire SQL organization which included judging 300+ submissions, coordinating the event logistics, and finalists tour with CEO.
 
 ## Principal Software Developer @ Southworks
-2010 to 1012
+2010 to 2012
 
 - Developed WPF, Silverlight, and web guidance for Microsoft’s Patterns & Practices. Co-authored  Developer’s Guide to Microsoft Prism 4 (Microsoft Press) and Project Silk: Client-Side Web Development for Modern Browsers (Microsoft Press).
 - Key contributor to video and audio track editing for Microsoft’s Silverlight Rough Cut Editor.
