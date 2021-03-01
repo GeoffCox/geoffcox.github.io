@@ -35,6 +35,8 @@
 
 [UX Principles](https://www.zivtech.com/blog/ux-principles-constraints-discoverability-feedback-and-more)
 
+[Frontend Bootcamp](https://microsoft.github.io/frontend-bootcamp/)
+
 ## Management
 
 [Training Reports](aka.ms/fri)
