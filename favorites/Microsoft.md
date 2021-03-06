@@ -10,9 +10,9 @@
 
 [Samples](https://github.com/microsoft/BotBuilder-Samples)
 
-### R12 
+### R13 
 
-[R12 SDK Status PPTs](https://microsoft.sharepoint.com/:f:/t/BotFrameworkSDKTeam/Eoxib1-43ZxAm8aDEb2xZuEB6Z2YAN7IZeWbQDdlZxcOvQ?e=mwpp5W)
+[Provisioning Spec](https://microsoft.sharepoint.com/:w:/t/ConversationalAI785/EboSTjn8oXRAktJOQzCcQe0BFJQV-yPCE_tnMRF9HpBeDw?e=tlxVE2)
 
 ## Conversational AI
 
