@@ -37,6 +37,8 @@
 
 [Frontend Bootcamp](https://microsoft.github.io/frontend-bootcamp/)
 
+[Icon Cloud](iconcloud.design)
+
 ## Management
 
 [Training Reports](aka.ms/fri)
