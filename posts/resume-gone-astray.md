@@ -1,3 +1,12 @@
+The traditional resume format is terrible.
+It was built for a 1950s career path, workplace, and hiring process that no longer exists.
+When I'm hiring, I'm looking for more than big company names and a laundry list of technologies.
+I want to understand the context of a candidate's experience, the depth and nuances of their skills, where they are on their career journey, and what they are passionate about doing next.
+A resume should convey meaningful information that builds confidenence the jobs is a great fit for them.
+
+
+
+
 Every six months to a year, I update my resume. 
 I find it is easier to spend thirty minutes on it every so often rather than have to do a complete overhaul just before applying to the next job.
 Working from home during the pandemic left me feeling of a bit disconnected, and after updating my resume this year, I came to hate it; not the content, but the format.
