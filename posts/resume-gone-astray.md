@@ -1,14 +1,8 @@
-The traditional resume format is terrible.
-It was built for a 1950s career path, workplace, and hiring process that no longer exists.
-
-When I'm hiring, I'm looking for more than big company names and a laundry list of technologies.
-I want to understand the context of a candidate's experience, the depth and nuances of their skills, where they are on their career journey, and what they are passionate about doing next.
-A resume should convey meaningful information that gives confidenence the job is right them..
-
-
 Let's look at all the ways the resume format inhibits hiring:
 
-1. Reverse-chronological ordering of experience implies that your most recent work was the most important and most applicable to the job. This ordering is predicated on some notion that people are 
+Experience is listed in reverse-chronological order. It implies that your recent work is the most important and applicable to the job; a ridiculous notion. Candidates are looking for a new job, not the exact same job they just had. The formative lessons candidates learn that make them great happen early to mid-career, not always in the last job they had.
+Reverse-chronological order also creates a 'but what have you done lately' bias. 
+A well written news article should list the most important information first and then cover the details. Journalists refer to this as the inverted pyramid.
 
 
 Every six months to a year, I update my resume. 
@@ -37,3 +31,4 @@ The problems with resumes
 - Company focused != Experience focused
 - Skill word cloud != Real expertise and != trust
 - Abbreviated format != personal tone
+- Resume length != complete story
