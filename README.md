@@ -2,6 +2,20 @@
 
 <hr />
 
+## 2021-05-01 <i class="fa fa-github"/> [svelte-splitter](https://github.com/GeoffCox/svelte-splitter)
+
+After learning about Svelte from a colleague and watching Rich Harris talk about the reactivity and performance, I decided to write my splitter from scratch in Svelte. I also kept with Typescript. I couldn't quite get typescript definition files from the Svelte components, but that's OK as Svelte apps can consume it easily enough.
+
+Svelte's features out-of-the-box are awesome.  
+- It gives you the infrastructure you would otherwise have to wire together with a bunch of packages and tools. 
+- The HTML, script, and style sit cohesively in a module that gets compiled to lightning fast JS. 
+- Reactive properties and stores mean you don't have to pick one of the many state packages (e.g. redux, mobx, recoil).
+- There is way less ceremony required to define the properties, events, methods, and slots in a Svelte component.
+- Whether you choose rollup or webpack, the amount of required configuration is significantly reduced. 
+- And the best feature is no runtime dependencies. If the Svelte compiler improves, just recompile your code and you get the benefits.
+
+I was able to add several new features and improvements to my splitter because of Svelte's animation helpers, ability to expose imperative methods, and fast reactive properties. Svelte 3 feels like a mature and powerful way to build components and applications. I think the ecosystem of packages needs more time to get to the abundance of React's vast set of libraries.  It will be interesting to see how React reacts :) to the gauntlet Svelte has thrown down. I plan on doing all my hobby weekend programming in Svelte although I will stick to React for my day job.
+
 ## 2020-12-16 <i class="fa fa-github"/> [react-splitter](https://github.com/GeoffCox/react-splitter)
 
 I overhauled my react-splitter control to publish version 2.0. A colleague, Soroush Ghorashi, recommended using CSS minmax for controlling the minimum pane sizes. This idea lead to incredible improvements. It caused me to realize a common flaw of most splitter controls: they set the pane sizes in pixels.
