@@ -12,7 +12,9 @@
 
 ### R13 
 
-[Provisioning Spec](https://microsoft.sharepoint.com/:w:/t/ConversationalAI785/EboSTjn8oXRAktJOQzCcQe0BFJQV-yPCE_tnMRF9HpBeDw?e=tlxVE2)
+[Bot Management and Configuration Feature Specification](https://microsoft.sharepoint.com/:w:/t/ConversationalAI785/EVOcT1jPtWJDvhH1RWScPssBrlKKTt5BpOL1REyvJ-d43A?e=TjlIEc)
+
+[Composer Provisioning Feature Specification](https://microsoft.sharepoint.com/:w:/t/ConversationalAI785/EboSTjn8oXRAktJOQzCcQe0BFJQV-yPCE_tnMRF9HpBeDw?e=QN4nex)
 
 ## Conversational AI
 
