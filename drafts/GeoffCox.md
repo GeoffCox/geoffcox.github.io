@@ -2,11 +2,32 @@
 
 - Briefly tell me about yourself (aka overview)
 
-(Trajectory)
+# (Trajectory)
 
-- What are your top skills? (what are you good at)
-- What are you top professional accomplishments? (what have you done)
-- What are you working on right now? What are you looking to do next? (where are you going?)
+## What are your top skills? (what are you good at)
+
+I'm an expert in web development (10 years) and C#/.NET developer (20 years). I have previous expertise in C++ (10 years).
+
+I have developed globally available, production web applications and web APIs in Typescript/Javascript. I have created sophisticated UIs with React, Angular, Knockout, and jQuery; built analytics experiences using D3; and leverged MobX, Redux, and Recoil for state management. I have also developed electron client apps and node web APIs. I am well versed in web toolchains including webpack, jest, and CSS-in-JS libraries. I have recently been learning Svelte and rollup.
+
+I have built globally available, production web sites in C#/.NET using ASP.NET MVC and Web API; created client applications in WPF, Silverlight, and WinForms; and developed Visual Studio plug-ins, NT services, big-data ETL pipelines, and
+command-line developer tools.
+
+I have studied and applied software architecture, design patterns, and software development approaches across many different systems and technology stacks. One of my _superpowers_ is transforming and refactoring existing software into properly architected systems. One aspect of my talent is finding the right name for concepts and parts that support the architecture.
+
+Architecture
+Coaching/Mentoring People
+Planning & Process
+
+## What are you top professional accomplishments? (what have you done)
+
+## What are you working on right now? What are you looking to do next? (where are you going?)
+
+# Tell me about your web development experience
+
+# Tell me about your .NET development experience
+
+I have 20 years experience developing with C# and .NET, starting with the C# 1.0 beta in 2001. I've used it to build large web applications and web APIs; WPF, Silverlight, and WinForms client applications; Visual Studio plug-ins, NT services; big-data ETL pipelines, and command-line developer tools.
 
 # What fields have you worked on?
 
