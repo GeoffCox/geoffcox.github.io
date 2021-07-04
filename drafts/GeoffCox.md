@@ -1,3 +1,13 @@
+I have been a professional software developer for over 25 years. I'm an expert in web development (10 years) and C#/.NET development (20 years). I have previous deep expertise in C++ development (7 years). I love designing and writing code to solve tough problems.
+
+I have studied software architecture, design patterns, and software development approaches across a wide variety of system domains and technology stacks. One of my talents is refactoring and engineering a codebase into a well architected system.
+
+I enjoy designing user interfaces and exploring how information visualization, layout geometries, and interaction sequences can create an engaging user experience.
+
+I gravitate toward building applications, components, and command-line tools for developers that help them be more productive.
+
+---
+
 # Outline
 
 - Briefly tell me about yourself (aka overview)
