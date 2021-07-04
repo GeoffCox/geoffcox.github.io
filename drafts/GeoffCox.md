@@ -1,3 +1,14 @@
+# Tell me about yourself
+I am a talented, dedicated, and experienced professional software developer; a thoughtful technical leader; a skilled architect; and a kind coach. I am an expert in modern web development (10 years) and C#/.NET (20 years). I have previous significant expertise in C++ (7 years). 
+
+I have the opportunity to work across a wide variety of problem domains, leadership roles, and organizational structures.
+
+
+
+
+
+---
+
 I have been a professional software developer for over 25 years. I'm an expert in web development (10 years) and C#/.NET development (20 years). I have previous deep expertise in C++ development (7 years). I love designing and writing code to solve tough problems.
 
 I have studied software architecture, design patterns, and software development approaches across a wide variety of system domains and technology stacks. One of my talents is refactoring and engineering a codebase into a well architected system.
