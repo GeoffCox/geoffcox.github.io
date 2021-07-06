@@ -1,11 +1,14 @@
 # Tell me about yourself
 I am a talented, dedicated, and experienced professional software developer; a thoughtful technical leader; a skilled architect; and a kind coach. I am full-stack expert in modern web development (10 years) and C#/.NET (20 years). I have significant previous expertise in C++ (7 years). 
 
-I have shipped large web applications and web API services, rich client applications, big-data ETL pipelines, as well as analytics, content management, and engineering systems.
-
 I am passionate about software architecture, user interface design, crafting resuable components, and developer tools. One of my top abilities is refactoring and transforming an existing codebase into a well architected system that enables developer productivity.
 
+# Tell me about your top 3 accomplishments
+As a dev lead for Microsoft Developer Network (MSDN), we rewrote the entire front-end. It was a tough undertaking. We needed to convert from ASP.NET forms to MVC 1.0 which was a release candidate at the time, support new Visual Studio integration features, and produce both an completely refreshed UI along with a low bandwidth version for developers with limited internet. 
+
 # Tell me about your work history
+
+I have shipped large web applications and web API services, rich client applications, big-data ETL pipelines, as well as analytics, content management, and engineering systems.
 
 
 
