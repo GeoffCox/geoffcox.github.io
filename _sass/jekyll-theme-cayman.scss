@@ -114,15 +114,15 @@ a {
   animation: gradient 15s ease infinite;
 
   @include large {
-    padding: 5rem 6rem;
+    padding: 0.2rem 0.4rem;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 0.2rem 0.4rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 0.2rem 0.4rem;
   }
 
   @keyframes gradient {
