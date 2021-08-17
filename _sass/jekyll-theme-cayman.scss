@@ -183,20 +183,20 @@ a {
 }
 
 .site-description {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: normal;
   opacity: 0.7;
 
   @include large {
-    font-size: 0.5rem;
+    font-size: 1.25rem;
   }
 
   @include medium {
-    font-size: 0.5rem;
+    font-size: 1.15rem;
   }
 
   @include small {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 
