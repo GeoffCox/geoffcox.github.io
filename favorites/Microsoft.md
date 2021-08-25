@@ -22,6 +22,8 @@
 
 [Can I use](https://caniuse.com/)
 
+[ShapeUp Book - 37 Signals](https://basecamp.com/shapeup)
+
 ## Other
 
 [Geoff Home](Home)
