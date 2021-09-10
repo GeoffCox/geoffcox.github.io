@@ -6,6 +6,8 @@
 
 [GitHub Issues](https://github.com/microsoft/fluentui/issues)
 
+[HackMD](https://hackmd.io/team/fluentui?nav=overview)
+
 [Shield Info](https://hackmd.io/dXwUmqHATBur_tTzgqJgkw)
 
 [Onboarding Doc](https://microsoft.sharepoint-df.com/:w:/t/FluentUIInternal/EdY10JaRwAZFmnFwT6UNydgB1376ysTpy_WfpP26Sx4HeA?e=wB8nvE)
