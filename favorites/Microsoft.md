@@ -14,6 +14,8 @@
 
 [vNext Docs](https://6002298f95a00c00213f4d55-lcvckwxhic.chromatic.com)
 
+[vNext Doc Issue](https://github.com/microsoft/fluentui/issues/19390)
+
 [vNext Figma](https://www.figma.com/file/9jiFh1w1g96cekjRjCX2tL/Design-specification-guide?node-id=1%3A1191)
 
 [Convergence Figmas](https://www.figma.com/files/588096576863690753/recent?fuid=768573784357879650)
