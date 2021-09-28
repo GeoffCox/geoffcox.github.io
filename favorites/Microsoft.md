@@ -2,6 +2,8 @@
 
 ## Fluent UI
 
+[Fluent Site](https://developer.microsoft.com/en-us/fluentui#/controls/web)
+
 [Fork](https://github.com/GeoffCoxMSFT/fluentui)
 
 [GitHub Issues](https://github.com/microsoft/fluentui/issues)
@@ -19,8 +21,6 @@
 [vNext Figma](https://www.figma.com/file/9jiFh1w1g96cekjRjCX2tL/Design-specification-guide?node-id=1%3A1191)
 
 [Convergence Figmas](https://www.figma.com/files/588096576863690753/recent?fuid=768573784357879650)
-
-[Home](https://developer.microsoft.com/en-us/fluentui#/)
 
 [Wiki](https://github.com/microsoft/fluentui/wiki)
 
