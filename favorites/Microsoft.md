@@ -2,11 +2,9 @@
 
 ## Fluent UI
 
-[Fluent Site](https://developer.microsoft.com/en-us/fluentui#/controls/web)
+**GitHub:** [Code](https://github.com/microsoft/fluentui) | [Issues](https://github.com/microsoft/fluentui/Issues) | [PRs](https://github.com/microsoft/fluentui/pulls) | [Projects](https://github.com/microsoft/fluentui/projects) | [Wiki](https://github.com/microsoft/fluentui/wiki) | [Fork](https://github.com/GeoffCoxMSFT/fluentui)
 
-[Fork](https://github.com/GeoffCoxMSFT/fluentui)
-
-[GitHub Issues](https://github.com/microsoft/fluentui/issues)
+[Web Controls Home](https://developer.microsoft.com/en-us/fluentui#/controls/web)
 
 [HackMD](https://hackmd.io/team/fluentui?nav=overview)
 
@@ -21,8 +19,6 @@
 [vNext Figma](https://www.figma.com/file/9jiFh1w1g96cekjRjCX2tL/Design-specification-guide?node-id=1%3A1191)
 
 [Convergence Figmas](https://www.figma.com/files/588096576863690753/recent?fuid=768573784357879650)
-
-[Wiki](https://github.com/microsoft/fluentui/wiki)
 
 [Component Naming Matrix](https://open-ui.org/research/component-matrix)
 
