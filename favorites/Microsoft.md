@@ -2,7 +2,7 @@
 
 ## Fluent UI
 
-**GitHub:** [Code](https://github.com/microsoft/fluentui) | [Issues](https://github.com/microsoft/fluentui/Issues) | [PRs](https://github.com/microsoft/fluentui/pulls) | [Projects](https://github.com/microsoft/fluentui/projects) | [Wiki](https://github.com/microsoft/fluentui/wiki) | [Fork](https://github.com/GeoffCoxMSFT/fluentui)
+**GitHub:** [Code](https://github.com/microsoft/fluentui) | [Issues](https://github.com/microsoft/fluentui/issues) | [PRs](https://github.com/microsoft/fluentui/pulls) | [Projects](https://github.com/microsoft/fluentui/projects) | [Wiki](https://github.com/microsoft/fluentui/wiki) | [Fork](https://github.com/GeoffCoxMSFT/fluentui)
 
 [Web Controls Home](https://developer.microsoft.com/en-us/fluentui#/controls/web)
 
