@@ -18,6 +18,10 @@
 
 [vNext Figma](https://www.figma.com/file/9jiFh1w1g96cekjRjCX2tL/Design-specification-guide?node-id=1%3A1191)
 
+[vNext Component Ownership](https://microsoft.sharepoint.com/:x:/t/Office_CXE/PM/EZcraGN8NohOrI8RGOWIT3UBpnhN_MaISSenUJtTWy8e1Q?e=oH5jzg)
+
+[OKRs Oct-Dec](https://microsoft.sharepoint.com/:p:/t/Office_CXE/PM/EcUehv2_fx5JlRLf83gICbYBMyFQrrwPTyp2M_djQDjixg?e=T8bdDN)
+
 [Convergence Figmas](https://www.figma.com/files/588096576863690753/recent?fuid=768573784357879650)
 
 [Component Naming Matrix](https://open-ui.org/research/component-matrix)
