@@ -1,48 +1,57 @@
 Software is complex; great code requires thoughtful and patient determination; successful collaboration is strenuous; and humans have to stop to refuel and recharge.
 
 ## 3 things per day
-Like almost all developers, I have an infinite list of things to get done. I can't get them all done in a day, so I have to choose. If a deliberate choice isn't made, then the choice will be made by the crisis of the day. 
 
-Every morning, I choose three tasks for the day. I make the conscious decision to ignore the remaining ocean of work. Any day when I complete my three tasks, I mentally congratulate myself. I would never pick up a fourth task unless all three were done early in the day (this has never happened anyway). If I don't get them done, I forgive myself and commit to do a little better tomorrow.
+Each morning, choose three tasks. You can do this as you get ready in the morning, over your first coffee, or as you commute to work. You can write them down or repeat them to yourself throughout the day like Arya Stark's hit list.
 
-It is disturbingly easy to choose three tasks that are interesting, fun, and achievable in a day. This would starve out the important work that challenges me to grow. I don't choose the most horrible tasks every day either.
+Ignore the remaining ocean of work. You should feel great if you complete all three. If you don't, forgive yourself, consider why things went sideways, and try again tomorrow.
 
-I choose the most important, difficult, and urgent task first. I often try to find the one that I most want to procrastinate doing; the one that puts a few butterflies in my stomach. Maybe it is blocked and requires a difficult conversation. Maybe there is existing spaghetti code. Maybe there is a deadline and I'm not sure that I can get it done in time. Maybe it is just really tedious and boring. It does need to be done though, and making progress on it always makes me feel better.
+For the first task, choose the most important task. Prefer the more difficult or urgent task: the one that puts some butterflies in your stomach. Maybe there is a tough deadline, you need help to get unblocked, or there is existing spaghetti code to unravel. Imagine how great you will feel once it is done. Avoid 'low hanging fruit'. That is a path to appearing productive but not getting meaningful results.
 
-My second task must also be important, but does not have to be as urgent nor difficult. It should be straightforward and likely achievable in a day. This is my fallback task if I get blocked on my primary task. This task increases my chances of getting at least one thing done if my day goes sideways.
+For task number two, choose another that is important. This one shouldn't be difficult nor urgent. It should be straightforward and likely achievable in a day. This is your fallback task if you get stuck on the first one. It increases your chances of getting at least one thing done each day.
 
-My third task is my dessert task. I choose one where I'm likely to learn something new, have a great time working on it, get to work with someone I like, or that builds on previous work.
+For the last task, choose a dessert task. Something that you are excited to work on. This task should be one where you learn something interesting, have a great time working on it, get to work with someone you like, or that builds on previous work. It is your reward for getting the tough tasks done and should charge you up for tomorrow.
 
-I often figure out my 3 things as I get ready in the morning or right after my first cup of coffee. I either write them down or repeat them to myself through the day like Arya Stark's hit list. It charges me up for the day and helps me feel in control of my destiny. For me, it is the most important key to productivity.
+Deciding your priorities will help you feel control of your destiny and help avoid interruption and distraction.
 
 ## Plan each week in solitude
 
+Take 30 minutes on Monday, alone, to frame your week. Think of your available time like money you're going to spend. Where should you spend your money to get the most value? Decide for yourself and you will naturally get more done.
 
-Piggybank
-Pool tasks
-Don't step on the treadmill
-Say yes and say no
+Pick a theme for the week. For example, make progress on a feature, fix a slew of bugs, delete technical debt, or help customers. If your team process has a theme for the current sprint, consider if your theme aligns.
+
+Next, review your calendar. Figure out which meetings you will or won't attend. If people tend to fill up any of your available time, schedule appointments with yourself to get work done. Look for blocks of sufficient duration that you can get into the flow.
+
+When you find that you have a fragmented schedule or too many back-to-back meetings, don't try to work during those meetings. Instead, be present and participate at the those meetings; your coworkers will appreciate it. Constantly context switching between code and meetings ruins productivity.
+
+Skim over your pool of tasks to identify candidates for your 3 things per day. If you are overwhelmed by too many top priority must-do tasks, list what you can say yes to and what you are going to say no (or not yet) to.
+
+Avoid stepping on the treadmill of infinite work. At the end of the week, you should feel done. Hopefully, you feel this way at the end of each day. When work doesn't bleed over into your personal time, you get to recharge and processes events. Weekly and daily boundaries are critical to avoiding burnout.
 
 ## Record your weekly accomplishments
-EOW sent to yourself - Completed, Next, 
+
+EOW sent to yourself - Completed, Next,
 
 ## Train for flow
-Pomodoro 
+
+Pomodoro
 Have a ritual
 Recognize distraction and move on
 
 ## Communicate with accountability
+
 What did I get done yesterday
 What will I get done today
 Am I blocked
 What could I have done better
 
 ## Focus on outcomes
+
 Use data
 
 ## Listen to your inner kid
+
 Nap when tired
 Amble when blocked
 Exercise when stressed
 Diverify your inputs
-
