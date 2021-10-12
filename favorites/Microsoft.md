@@ -24,8 +24,6 @@
 
 [Convergence Figmas](https://www.figma.com/files/588096576863690753/recent?fuid=768573784357879650)
 
-[Component Naming Matrix](https://open-ui.org/research/component-matrix)
-
 [Open UI](https://open-ui.org/)
 
 [Web UI Frameworks](web-ui-frameworks)
