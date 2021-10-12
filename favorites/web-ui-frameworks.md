@@ -5,8 +5,9 @@
 - [Blueprint](https://blueprintjs.com/)
 - [Chakra](https://chakra-ui.com/)
 - [Elemental](http://elemental-ui.com/)
-- [Evergreen](https://evergreen.segment.com/)
+- [Evergreen](https://evergreen.segment.com/)- 
 - [Fluent UI](https://developer.microsoft.com/en-us/fluentui#/controls/web)
+- [Fluent UI Northstar](https://fluentsite.z22.web.core.windows.net/0.59.0)
 - [Grommet](https://v2.grommet.io/)
 - [Kendo React](https://www.telerik.com/kendo-react-ui/)
 - [Material Kit](https://demos.creative-tim.com/material-kit-react)
@@ -29,3 +30,4 @@
 
 # Web Components
 - [FAST](https://www.fast.design/)
+- [Lion](https://github.com/ing-bank/lion)
