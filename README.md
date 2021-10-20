@@ -2,6 +2,14 @@
 
 <hr />
 
+## 2021-10-11 <i class="fa fa-github"/> [pretty-good-nlp](https://github.com/GeoffCox/pretty-good-nlp)
+
+When an application needs to recognize short sentences (e.g. commands, orders, search queries), it can take significant effort to build all the necessary models. Developers are often blocked waiting on the ML to be ready. While hard-coding recognition is a fine workaround, it makes the app feel incomplete. It also prevents the developer from building expertise in handling different input variations. I built pretty-good-nlp to fill this gap.
+
+This library provides a deterministic, fast, and independent recognizer. It is straightforward to define intents through examples. There are options to get basic control over relative importance, ordering, noise, and negations. You can also substitute your own tokenizer to handle other languages.
+
+I think what is cool is that by defining intents, the configuration captures important information for training ML models. The app developer can get the app working for most expected inputs, contribute to the building of the ML model, and then swap out the ML model at the end.
+
 ## 2021-05-01 <i class="fa fa-github"/> [svelte-splitter](https://github.com/GeoffCox/svelte-splitter)
 
 After learning about Svelte from a colleague and watching Rich Harris talk about the reactivity and performance, I decided to write my splitter from scratch in Svelte. I also kept with Typescript. I couldn't quite get typescript definition files from the Svelte components, but that's OK as Svelte apps can consume it easily enough.
@@ -55,6 +63,8 @@ I can't imagine ever writing a systems-level program in anything other than Rust
 
 <hr />
 
+- [pretty-good-nlp: A basic natural language recognizer you can get working in minutes.](https://github.com/GeoffCox/pretty-good-nlp)
+- [svelte-splitter: A splitter control for web application (Svelte & Typescript)](https://github.com/GeoffCox/svelte-splitter)
 - [react-splitter: A splitter control for web applications (React & Typescript)](https://github.com/GeoffCox/react-splitter)
 - [Photiso: a photo organizer (Rust)](https://github.com/GeoffCox/photiso)
 - [Swag-O: a powerful swagger viewer (React, Typescript & Electron) ](https://github.com/GeoffCox/swago)
