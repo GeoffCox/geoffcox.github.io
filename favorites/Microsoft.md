@@ -12,7 +12,7 @@
 
 [Onboarding Doc](https://microsoft.sharepoint-df.com/:w:/t/FluentUIInternal/EdY10JaRwAZFmnFwT6UNydgB1376ysTpy_WfpP26Sx4HeA?e=wB8nvE)
 
-[vNext Docs](https://6002298f95a00c00213f4d55-lcvckwxhic.chromatic.com)
+[vNext Docs](https://aka.ms/fluentui-storybook)
 
 [vNext Doc Issue](https://github.com/microsoft/fluentui/issues/19390)
 
