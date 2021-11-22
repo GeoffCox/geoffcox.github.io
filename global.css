@@ -1,0 +1,98 @@
+/* Sans-serif font for headings */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Serif font for body text*/
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+/* Monospace font for code examples */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open+Sans", sans-serif;  
+}
+
+body,
+div {
+  box-sizing: border-box;
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-padding: 0.4em 0;
+  padding: 0.4em;  
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+button {
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+button:disabled {
+  color: #999;
+}
+
+button:not(:disabled):active {
+  background-color: #ddd;
+}
+
+button:focus {
+  border-color: #666;
+}
+
+ul {
+  padding-inline-start: 1em;
+  margin: 0;
+}
+
+ol {
+  padding-inline-start: 1.2em;
+  margin: 0;
+}
+
+pre {
+  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  margin: 0;
+}
