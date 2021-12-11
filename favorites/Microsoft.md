@@ -8,6 +8,8 @@
 
 [HackMD](https://hackmd.io/team/fluentui?nav=overview)
 
+[Sharepoint - Community](https://microsoft.sharepoint.com/teams/OfficeUIFabric97/SitePages/Welcome.aspx)
+
 [Shield Info](https://hackmd.io/dXwUmqHATBur_tTzgqJgkw)
 
 [Onboarding Doc](https://microsoft.sharepoint-df.com/:w:/t/FluentUIInternal/EdY10JaRwAZFmnFwT6UNydgB1376ysTpy_WfpP26Sx4HeA?e=wB8nvE)
