@@ -30,6 +30,8 @@
 
 [Web UI Frameworks](web-ui-frameworks)
 
+[Tech Lead Role](https://microsoft-my.sharepoint-df.com/:w:/p/jslone/EaG1TcSrPZBEqB5_T8xd3u4BOooXr28JidIt3aDSmPuFfg?e=42VAGp)
+
 ## Web Development
 
 [Can I use](https://caniuse.com/)
