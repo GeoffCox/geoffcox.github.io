@@ -2,6 +2,14 @@
 
 ## Fluent UI
 
+### cxe-coastal crew
+
+[PRs](https://aka.ms/cxe-coastal-prs)
+
+[Project](https://aka.ms/cxe-coastal-work)
+
+[OneNote](https://aka.ms/cxe-coastal-notes)
+
 ### Repos
 
 **fluentui:** [Code](https://github.com/microsoft/fluentui) | [Issues](https://github.com/microsoft/fluentui/issues) | [PRs](https://github.com/microsoft/fluentui/pulls) | [Projects](https://github.com/microsoft/fluentui/projects) | [Wiki](https://github.com/microsoft/fluentui/wiki) | [Fork](https://github.com/GeoffCoxMSFT/fluentui)
