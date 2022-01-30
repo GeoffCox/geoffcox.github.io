@@ -5,28 +5,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
 
 /* Monospace font for code examples */
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 
-html,
-body {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+* {
+  box-sizing: border-box;
 }
 
 body {
   color: black;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Open+Sans", sans-serif;  
+  font-family: "Open+Sans", sans-serif;
 }
 
-body,
-div {
-  box-sizing: border-box;
-}
 
 a {
   color: rgb(0, 100, 200);
@@ -52,7 +43,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   -webkit-padding: 0.4em 0;
-  padding: 0.4em;  
+  padding: 0.4em;
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 2px;
@@ -81,8 +72,10 @@ button:focus {
 }
 
 ul {
-  padding-inline-start: 1em;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-inline-start: 1.2em;
 }
 
 ol {
@@ -90,8 +83,12 @@ ol {
   margin: 0;
 }
 
+li {
+  margin-block-end: 0.5em;
+}
+
 pre {
-  font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+  font-family: "Source Code Pro", "Courier New", Courier, monospace;
   font-size: 14px;
   white-space: pre-wrap;
   margin: 0;
