@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+iframe {
+  box-sizing: content-box;
+}
+
 body {
   color: black;
   margin: 0;
