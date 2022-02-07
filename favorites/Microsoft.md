@@ -4,11 +4,11 @@
 
 ### cxe-coastal crew
 
-[PRs](https://aka.ms/cxe-coastal-prs)
+[PRs](https://aka.ms/cxe-coastal/prs)
 
-[Project](https://aka.ms/cxe-coastal-work)
+[Project](https://aka.ms/cxe-coastal/work)
 
-[OneNote](https://aka.ms/cxe-coastal-notes)
+[OneNote](https://aka.ms/cxe-coastal/notes)
 
 ### Repos
 
