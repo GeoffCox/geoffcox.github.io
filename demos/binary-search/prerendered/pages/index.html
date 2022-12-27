@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_page-f1a1f5f3.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/start-356ef22a.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-b39776cc.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-8e60f9f9.js">
+		<link rel="modulepreload" href="./_app/immutable/components/layout.svelte-031b767c.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-b7b5277b.js">
+		<link rel="modulepreload" href="./_app/immutable/modules/pages/_page.ts-dc85b7cd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_page-da46b06b.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+
+
+<div class="demo svelte-1wmz7vq"><div class="title svelte-1wmz7vq">@geoffcox/binary-search demo</div>
+
+	<div class="intro svelte-1wmz7vq"><p class="svelte-1wmz7vq">This demo lets you play with the binary search algorithm.</p>
+		<p class="svelte-1wmz7vq">You can create sequence of numbers, remove some of the values, and then search for a value.
+		</p>
+		<p class="svelte-1wmz7vq">If the value isn&#39;t found, the algorithm tells you the low/high range where the number would
+			have been if it was in the array.
+		</p></div>
+
+	<div class="step svelte-1wmz7vq">1. Create an array of numbers to search</div>
+	<div class="section svelte-1wmz7vq"><label class="svelte-1wmz7vq">Length
+			<input class="svelte-1wmz7vq" value="26"></label>
+		<label class="svelte-1wmz7vq">Start Number
+			<input class="svelte-1wmz7vq" value="0"></label>
+		<label class="svelte-1wmz7vq">Remove Count
+			<input class="svelte-1wmz7vq" value="0"></label>
+
+		<button  class="svelte-1wmz7vq">Create Values</button>
+		<div class="values-array svelte-1wmz7vq"><span class="svelte-1wmz7vq">[ ]</span></div></div>
+
+	<div class="step svelte-1wmz7vq">2. Choose a number to find</div>
+	<div class="section svelte-1wmz7vq"><label class="svelte-1wmz7vq">Number
+			<input class="svelte-1wmz7vq" value="10"></label></div>
+
+	<div class="step svelte-1wmz7vq">3. Run the search</div>
+	<div class="section svelte-1wmz7vq"><button class="svelte-1wmz7vq">Search</button>
+		<div class="info svelte-1wmz7vq">We expect log<sub class="svelte-1wmz7vq">2</sub>(length) =&gt; 5 comparisons.
+		</div>
+		<div class="results svelte-1wmz7vq"></div></div>
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="lx6kj0">
+			import { start } from "./_app/immutable/start-356ef22a.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="lx6kj0"]').parentNode,
+				version: "1672177872396",
+				hydrate: {
+					node_ids: [0, 2],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
