@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="./_app/immutable/assets/_layout-c346e213.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/start-9d61747e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-c80dbbb2.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-61b3df1f.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-0064a805.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/lightTheme-71b82665.js">
+		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-e81d6c55.js">
+		<link rel="modulepreload" href="./_app/immutable/modules/pages/_page.ts-dc85b7cd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/_page-da46b06b.js">
+	</head>
+	<body>
+		<div>
+
+
+<div class="layout svelte-8w9c0u"><label><input type="checkbox" >
+		Dark Mode (indeterminate =&gt; follow OS/browser setting)
+	</label>
+	<h1>Overview</h1>
+<p><strong>sterling-svelte</strong> is a modern, accessible, and lightweight component library for Svelte.</p>
+<h2>Why yet another component library?</h2>
+<p>You can choose from a wide spectrum of rich and powerful component libraries. They vary between the unopinionated
+that require significant configuration to look decent and the opinionated ones that start great out-of-the-box, but
+offer little customization. As Svelte is the new kid on the block, most are built for other frameworks like
+React or Angular.</p>
+<p>I want components designed and built to take full advantage of Svelte. I try to balance consistency and customization
+with global, usage, and component-specific theme properties. Since Svelte naturally builds self-contained
+components the layout, behavior, and style, components will be opinionated. I kept the design minimal and neutral to
+allow custom themes to shine.</p>
+<h2>Design Tenets</h2>
+<p>sterling-svelte is designed to:</p>
+<ul><li>be razor thin</li>
+<li>have classic and minimalistic style</li>
+<li>ideomatically Svelte</li>
+<li>target modern, evergreen browser features</li>
+<li>follow the latest accessibility standards</li></ul>
+<h3>Theme and Styles</h3>
+<p>Components have a neutral color scheme with high contrast ratios. Borders are medium weight. To be responsive, each component scales its padding and layout based on font ems. In some cases, pixel spacing or thickness is used but only
+after verifying it looks correct and multiple sizes.</p>
+<p>The theme is implemented using CSS variables. Care was taken to balance between too few and generic variables and an overwhelming number of component-specific variables. Sets of variables are defined for common usage, buttons (i.e. clickable things), form inputs, containers/lists, and information display. Additionally, a set of semantic colors
+display information, success, and errors states.</p>
+<h3>Slots</h3>
+<p>Components leverage Svelte’s slots for customization and replacement of component parts. For example, input components
+have a label slot for changing the label component rather than only providing a string value.</p>
+<h3>Native Element Components</h3>
+<p>Components that wrap an HTML element will forward props to the element and bubble events from the element. If the
+native element type is not suitable, a component may avoid using the native element in favor of its own behavior
+and style via div elements.</p>
+<h2>Dependencies</h2>
+<p>Dependencies are kept to an absolute minimum. All dependencies are reviewed as the library evolves to determine if
+they should be inlined or can be removed.</p>
+<ul><li>uuid to create element identifiers</li>
+<li>floating-ui to position popups and overlays</li>
+<li>lodash-es for data utility functions</li></ul>
+<h2>Roadmap</h2>
+<p>The library will be published first with only the theme infrastructure, light theme, and dark theme.</p>
+<p>This will be followed by basic components that wrap native HTML elements.</p>
+<ul><li>Button</li>
+<li>Input</li>
+<li>Checkbox</li>
+<li>Radio</li>
+<li>Slider</li></ul>
+<p>Then display components.</p>
+<ul><li>Progress</li>
+<li>Notification</li>
+<li>TBD</li></ul>
+<p>Then container components.</p>
+<ul><li>Select</li>
+<li>List</li>
+<li>Menu</li>
+<li>Tree</li></ul>
+<p>Then overlay components</p>
+<ul><li>Tooltip</li>
+<li>Panel</li>
+<li>TBD</li></ul>
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="7envt">
+			import { start } from "./_app/immutable/start-9d61747e.js";
+
+			start({
+				env: {},
+				paths: {"base":"","assets":""},
+				target: document.querySelector('[data-sveltekit-hydrate="7envt"]').parentNode,
+				version: "1672352201804",
+				hydrate: {
+					node_ids: [0, 2],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
