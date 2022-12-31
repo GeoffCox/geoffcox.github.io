@@ -2,44 +2,48 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="../favicon.png" />
+		<link rel="icon" href="/demos/sterling-svelte/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="../_app/immutable/assets/_layout-5bb7d991.css" rel="stylesheet">
-		<link href="../_app/immutable/assets/Button-fc1309bf.css" rel="stylesheet">
-		<link href="../_app/immutable/assets/_page-66d072dc.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/start-1c50692e.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/index-fde511e3.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons-be05366d.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/paths-27d06075.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/_layout.svelte-2a1429d3.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/lightTheme-71b82665.js">
-		<link rel="modulepreload" href="../_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="../_app/immutable/components/pages/components/button/_page.md-0393fcd1.js">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-9371be88.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Button-fc1309bf.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Input-8dc180b9.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-f4bd6e24.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Checkbox-ac2047d0.css" rel="stylesheet">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-4a5e906b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-1684c79f.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-231561f5.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-9f807399.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_layout.svelte-e64edce7.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/lightTheme-aae6d10f.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/button/_page.md-986a4c9f.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Checkbox-22712548.js">
 	</head>
 	<body>
 		<div>
 
 
-<div class="layout svelte-1kn9fsc"><div class="header svelte-1kn9fsc"><label><input type="checkbox"  title="indeterminate => follow OS/browser setting">
+<div class="layout svelte-19rtkoe"><div class="header svelte-19rtkoe"><label><input type="checkbox"  title="indeterminate => follow OS/browser setting">
 			Dark Mode
 		</label></div>
 	<h1>sterling-svelte (in progress)</h1>
 	<h3>A modern, accessible, and lightweight UI component library for Svelte.</h3>
-	<div class="content svelte-1kn9fsc"><div class="nav svelte-1kn9fsc"><a href="/" class="svelte-1kn9fsc">Overview</a>
-			<a href="/theme" class="svelte-1kn9fsc">Theme</a>
-			<a href="/components/button" class="svelte-1kn9fsc">Button</a>
+	<div class="content svelte-19rtkoe"><div class="nav svelte-19rtkoe"><a href="/demos/sterling-svelte/" class="svelte-19rtkoe">Overview</a>
+			<a href="/demos/sterling-svelte/theme" class="svelte-19rtkoe">Theme</a>
+			<a href="/demos/sterling-svelte/components/button" class="svelte-19rtkoe">Button</a>
+			<a href="/demos/sterling-svelte/components/input" class="svelte-19rtkoe">Input</a>
 			</div>
-		<div class="component svelte-1kn9fsc"><h1>Button</h1>
+		<div class="component svelte-19rtkoe"><h1>Button</h1>
 <p>A styled HTML button element.</p>
-<div class="example svelte-18j20bb"><h1 class="svelte-18j20bb"></h1>
-	<div class="description svelte-18j20bb"></div>
+<div class="example svelte-u7ibk1"><h1 class="svelte-u7ibk1"></h1>
+	<div class="description svelte-u7ibk1"></div>
 	
 </div>
 <h2>Design</h2>
 <ul><li>The button size and padding are based on the inherited font</li>
-<li>HTML button props and events are forwarded</li></ul>
+<li>HTML button props are forwarded and events are bubbled</li></ul>
 <h2>Props</h2>
 <table><thead><tr><th>Name</th>
 <th>Type</th>
@@ -60,58 +64,96 @@
 <th>Description</th></tr></thead>
 <tbody><tr><td>(default)</td>
 <td>Content within the button (e.g. text, icon)</td></tr></tbody></table>
-<h2>Theme Variables</h2>
-<table><thead><tr><th>Name</th>
-<th>Usage</th></tr></thead>
-<tbody><tr><td>—Button__background-color</td>
+<h2>Theming</h2>
+<table><thead><tr><th>Part</th>
+<th>State</th>
+<th>Theme variable</th></tr></thead>
+<tbody><tr><td>background</td>
+<td></td>
+<td>—Button__background-color</td></tr>
+<tr><td>border</td>
+<td></td>
+<td>—Button__border-color</td></tr>
+<tr><td>border</td>
+<td></td>
+<td>—Button__border-radius</td></tr>
+<tr><td>border</td>
+<td></td>
+<td>—Button__border-style</td></tr>
+<tr><td>border</td>
+<td></td>
+<td>—Button__border-width</td></tr>
+<tr><td>foreground</td>
+<td></td>
+<td>—Button__color</td></tr>
+<tr><td></td>
+<td></td>
 <td></td></tr>
-<tr><td>—Button__background-color—active</td>
-<td>active</td></tr>
-<tr><td>—Button__background-color—disabled</td>
-<td>disabled</td></tr>
-<tr><td>—Button__background-color—hover</td>
-<td>hover</td></tr>
-<tr><td>—Button__border-color</td>
+<tr><td>background</td>
+<td>hover</td>
+<td>—Button__background-color—hover</td></tr>
+<tr><td>border</td>
+<td>hover</td>
+<td>—Button__border-color—hover</td></tr>
+<tr><td>foreground</td>
+<td>hover</td>
+<td>—Button__color—hover</td></tr>
+<tr><td></td>
+<td></td>
 <td></td></tr>
-<tr><td>—Button__border-color—active</td>
-<td>active</td></tr>
-<tr><td>—Button__border-color—disabled</td>
-<td>disabled</td></tr>
-<tr><td>—Button__border-color—focus</td>
-<td>focus</td></tr>
-<tr><td>—Button__border-color—hover</td>
-<td>hover</td></tr>
-<tr><td>—Button__border-radius</td>
+<tr><td>background</td>
+<td>active</td>
+<td>—Button__background-color—active</td></tr>
+<tr><td>border</td>
+<td>active</td>
+<td>—Button__border-color—active</td></tr>
+<tr><td>foreground</td>
+<td>active</td>
+<td>—Button__color—active</td></tr>
+<tr><td></td>
+<td></td>
 <td></td></tr>
-<tr><td>—Button__border-style</td>
+<tr><td>border</td>
+<td>focus-visible</td>
+<td>—Button__border-color—focus</td></tr>
+<tr><td></td>
+<td></td>
 <td></td></tr>
-<tr><td>—Button__border-width</td>
+<tr><td>outline</td>
+<td>focus-visible</td>
+<td>—Common__outline-color</td></tr>
+<tr><td>outline</td>
+<td>focus-visible</td>
+<td>—Common__outline-offset</td></tr>
+<tr><td>outline</td>
+<td>focus-visible</td>
+<td>—Common__outline-style</td></tr>
+<tr><td>outline</td>
+<td>focus-visible</td>
+<td>—Common__outline-width</td></tr>
+<tr><td></td>
+<td></td>
 <td></td></tr>
-<tr><td>—Button__color</td>
-<td></td></tr>
-<tr><td>—Button__color—active</td>
-<td>active</td></tr>
-<tr><td>—Button__color—disabled</td>
-<td>disabled</td></tr>
-<tr><td>—Common__outline-color</td>
-<td>keyboard focus</td></tr>
-<tr><td>—Common__outline-offset</td>
-<td>keyboard focus</td></tr>
-<tr><td>—Common__outline-style</td>
-<td>keyboard focus</td></tr>
-<tr><td>—Common__outline-width</td>
-<td>keyboard focus</td></tr></tbody></table></div></div>
+<tr><td>background</td>
+<td>disabled</td>
+<td>—Button__background-color—disabled</td></tr>
+<tr><td>border</td>
+<td>disabled</td>
+<td>—Button__border-color—disabled</td></tr>
+<tr><td>foreground</td>
+<td>disabled</td>
+<td>—Button__color—disabled</td></tr></tbody></table></div></div>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="246dnp">
-			import { start } from "../_app/immutable/start-1c50692e.js";
+		<script type="module" data-sveltekit-hydrate="18elez2">
+			import { start } from "/demos/sterling-svelte/_app/immutable/start-4a5e906b.js";
 
 			start({
 				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="246dnp"]').parentNode,
-				version: "1672510365374",
+				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
+				target: document.querySelector('[data-sveltekit-hydrate="18elez2"]').parentNode,
+				version: "1672520399684",
 				hydrate: {
 					node_ids: [0, 3],
 					data: [null,null],

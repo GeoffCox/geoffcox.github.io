@@ -2,36 +2,39 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="/demos/sterling-svelte/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-5bb7d991.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/Button-fc1309bf.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/_page-a50c8ddd.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-1c50692e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-fde511e3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-be05366d.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths-27d06075.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-2a1429d3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/lightTheme-71b82665.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/theme/_page.md-eeb532a7.js">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-9371be88.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Button-fc1309bf.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Input-8dc180b9.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-a50c8ddd.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/ThemeSwatch-d15aeb4d.css" rel="stylesheet">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-4a5e906b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-1684c79f.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-231561f5.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-9f807399.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_layout.svelte-e64edce7.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/lightTheme-aae6d10f.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/theme/_page.md-38b6f638.js">
 	</head>
 	<body>
 		<div>
 
 
-<div class="layout svelte-1kn9fsc"><div class="header svelte-1kn9fsc"><label><input type="checkbox"  title="indeterminate => follow OS/browser setting">
+<div class="layout svelte-19rtkoe"><div class="header svelte-19rtkoe"><label><input type="checkbox"  title="indeterminate => follow OS/browser setting">
 			Dark Mode
 		</label></div>
 	<h1>sterling-svelte (in progress)</h1>
 	<h3>A modern, accessible, and lightweight UI component library for Svelte.</h3>
-	<div class="content svelte-1kn9fsc"><div class="nav svelte-1kn9fsc"><a href="/" class="svelte-1kn9fsc">Overview</a>
-			<a href="/theme" class="svelte-1kn9fsc">Theme</a>
-			<a href="/components/button" class="svelte-1kn9fsc">Button</a>
+	<div class="content svelte-19rtkoe"><div class="nav svelte-19rtkoe"><a href="/demos/sterling-svelte/" class="svelte-19rtkoe">Overview</a>
+			<a href="/demos/sterling-svelte/theme" class="svelte-19rtkoe">Theme</a>
+			<a href="/demos/sterling-svelte/components/button" class="svelte-19rtkoe">Button</a>
+			<a href="/demos/sterling-svelte/components/input" class="svelte-19rtkoe">Input</a>
 			</div>
-		<div class="component svelte-1kn9fsc"><h1>Theme</h1>
+		<div class="component svelte-19rtkoe"><h1>Theme</h1>
 <p>Each theme consists of a set of CSS variables.
 Components use these in styles to follow the theme and respond to theme changes.</p>
 <div>
@@ -56,15 +59,13 @@ Components use these in styles to follow the theme and respond to theme changes.
 			<div>2px</div><div class="key-name">--Common__background-color--disabled</div>
 			<div class="color-block svelte-oe7h8t" style="background-color: var(--Common__background-color--disabled)"></div><div class="key-name">--Common__border-color--disabled</div>
 			<div class="color-block svelte-oe7h8t" style="background-color: var(--Common__border-color--disabled)"></div><div class="key-name">--Common__color--disabled</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--Common__color--disabled)"></div><div class="key-name">--BaseLayer__background-color</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--BaseLayer__background-color)"></div><div class="key-name">--BaseLayer__color</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--BaseLayer__color)"></div><div class="key-name">--BaseLayer__background-color--1</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--BaseLayer__background-color--1)"></div><div class="key-name">--BaseLayer__color--1</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--BaseLayer__color--1)"></div><div class="key-name">--BaseLayer__background-color--2</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--BaseLayer__background-color--2)"></div><div class="key-name">--BaseLayer__color--2</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--BaseLayer__color--2)"></div><div class="key-name">--BaseLayer__background-color--3</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--BaseLayer__background-color--3)"></div><div class="key-name">--BaseLayer__color--3</div>
-			<div class="color-block svelte-oe7h8t" style="background-color: var(--BaseLayer__color--3)"></div><div class="key-name">--Button__background-color</div>
+			<div class="color-block svelte-oe7h8t" style="background-color: var(--Common__color--disabled)"></div><div class="key-name">--Layer__background-color--1</div>
+			<div class="color-block svelte-oe7h8t" style="background-color: var(--Layer__background-color--1)"></div><div class="key-name">--Layer__color--1</div>
+			<div class="color-block svelte-oe7h8t" style="background-color: var(--Layer__color--1)"></div><div class="key-name">--Layer__background-color--2</div>
+			<div class="color-block svelte-oe7h8t" style="background-color: var(--Layer__background-color--2)"></div><div class="key-name">--Layer__color--2</div>
+			<div class="color-block svelte-oe7h8t" style="background-color: var(--Layer__color--2)"></div><div class="key-name">--Layer__background-color--3</div>
+			<div class="color-block svelte-oe7h8t" style="background-color: var(--Layer__background-color--3)"></div><div class="key-name">--Layer__color--3</div>
+			<div class="color-block svelte-oe7h8t" style="background-color: var(--Layer__color--3)"></div><div class="key-name">--Button__background-color</div>
 			<div class="color-block svelte-oe7h8t" style="background-color: var(--Button__background-color)"></div><div class="key-name">--Button__border-color</div>
 			<div class="color-block svelte-oe7h8t" style="background-color: var(--Button__border-color)"></div><div class="key-name">--Button__border-radius</div>
 			<div>8px</div><div class="key-name">--Button__border-style</div>
@@ -191,16 +192,16 @@ when the user scrolls to the top or bottom of the document.</p>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="1dzwbtc">
-			import { start } from "./_app/immutable/start-1c50692e.js";
+		<script type="module" data-sveltekit-hydrate="17zgyq0">
+			import { start } from "/demos/sterling-svelte/_app/immutable/start-4a5e906b.js";
 
 			start({
 				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1dzwbtc"]').parentNode,
-				version: "1672510365374",
+				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
+				target: document.querySelector('[data-sveltekit-hydrate="17zgyq0"]').parentNode,
+				version: "1672520399684",
 				hydrate: {
-					node_ids: [0, 4],
+					node_ids: [0, 5],
 					data: [null,null],
 					form: null
 				}

@@ -2,37 +2,39 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="/demos/sterling-svelte/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_layout-5bb7d991.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/Button-fc1309bf.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-1c50692e.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-fde511e3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-be05366d.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths-27d06075.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_layout.svelte-2a1429d3.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/lightTheme-71b82665.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/_page.svelte-4d2df060.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_page.ts-dc85b7cd.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_page-da46b06b.js">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-9371be88.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Button-fc1309bf.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Input-8dc180b9.css" rel="stylesheet">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-4a5e906b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-1684c79f.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-231561f5.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-9f807399.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_layout.svelte-e64edce7.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/lightTheme-aae6d10f.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_page.svelte-e7d94989.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_page.ts-dc85b7cd.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_page-da46b06b.js">
 	</head>
 	<body>
 		<div>
 
 
-<div class="layout svelte-1kn9fsc"><div class="header svelte-1kn9fsc"><label><input type="checkbox"  title="indeterminate => follow OS/browser setting">
+<div class="layout svelte-19rtkoe"><div class="header svelte-19rtkoe"><label><input type="checkbox"  title="indeterminate => follow OS/browser setting">
 			Dark Mode
 		</label></div>
 	<h1>sterling-svelte (in progress)</h1>
 	<h3>A modern, accessible, and lightweight UI component library for Svelte.</h3>
-	<div class="content svelte-1kn9fsc"><div class="nav svelte-1kn9fsc"><a href="/" class="svelte-1kn9fsc">Overview</a>
-			<a href="/theme" class="svelte-1kn9fsc">Theme</a>
-			<a href="/components/button" class="svelte-1kn9fsc">Button</a>
+	<div class="content svelte-19rtkoe"><div class="nav svelte-19rtkoe"><a href="/demos/sterling-svelte/" class="svelte-19rtkoe">Overview</a>
+			<a href="/demos/sterling-svelte/theme" class="svelte-19rtkoe">Theme</a>
+			<a href="/demos/sterling-svelte/components/button" class="svelte-19rtkoe">Button</a>
+			<a href="/demos/sterling-svelte/components/input" class="svelte-19rtkoe">Input</a>
 			</div>
-		<div class="component svelte-1kn9fsc"><h1>Overview</h1>
+		<div class="component svelte-19rtkoe"><h1>Overview</h1>
 <h2>Why yet another component library?</h2>
 <p>You can choose from a wide spectrum of rich and powerful component libraries. They vary between the unopinionated
 that require significant configuration to look decent and the opinionated ones that start great out-of-the-box, but
@@ -68,37 +70,45 @@ they should be inlined or can be removed.</p>
 <li>floating-ui to position popups and overlays</li>
 <li>lodash-es for data utility functions</li></ul>
 <h2>Roadmap</h2>
-<p>The library will be published first with only the theme infrastructure, light theme, and dark theme.</p>
-<p>This will be followed by basic components that wrap native HTML elements.</p>
-<ul><li>Button</li>
-<li>Input</li>
-<li>Checkbox</li>
-<li>Radio</li>
-<li>Slider</li></ul>
-<p>Then display components.</p>
-<ul><li>Progress</li>
-<li>Notification</li>
-<li>TBD</li></ul>
-<p>Then container components.</p>
-<ul><li>Select</li>
-<li>List</li>
-<li>Menu</li>
-<li>Tree</li></ul>
-<p>Then overlay components</p>
-<ul><li>Tooltip</li>
-<li>Panel</li>
-<li>TBD</li></ul></div></div>
+<table><thead><tr><th>Component</th>
+<th>Published in Version</th></tr></thead>
+<tbody><tr><td>(theme)</td>
+<td>0.0.1</td></tr>
+<tr><td>Button</td>
+<td>0.0.3</td></tr>
+<tr><td>Input</td>
+<td>0.0.4</td></tr>
+<tr><td>Checkbox</td>
+<td></td></tr>
+<tr><td>Radio</td>
+<td></td></tr>
+<tr><td>Slider</td>
+<td></td></tr>
+<tr><td>Progress</td>
+<td></td></tr>
+<tr><td>List</td>
+<td></td></tr>
+<tr><td>Select</td>
+<td></td></tr>
+<tr><td>Menu</td>
+<td></td></tr>
+<tr><td>Tree</td>
+<td></td></tr>
+<tr><td>Tooltip</td>
+<td></td></tr>
+<tr><td>Dialog</td>
+<td></td></tr></tbody></table></div></div>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="1nfq9zw">
-			import { start } from "./_app/immutable/start-1c50692e.js";
+		<script type="module" data-sveltekit-hydrate="1xxsxnv">
+			import { start } from "/demos/sterling-svelte/_app/immutable/start-4a5e906b.js";
 
 			start({
 				env: {},
-				paths: {"base":"/demos/sterling-svelte","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1nfq9zw"]').parentNode,
-				version: "1672510365374",
+				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
+				target: document.querySelector('[data-sveltekit-hydrate="1xxsxnv"]').parentNode,
+				version: "1672520399684",
 				hydrate: {
 					node_ids: [0, 2],
 					data: [null,null],
