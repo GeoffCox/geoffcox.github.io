@@ -6,20 +6,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-9371be88.css" rel="stylesheet">
-		<link href="/demos/sterling-svelte/_app/immutable/assets/Button-fc1309bf.css" rel="stylesheet">
-		<link href="/demos/sterling-svelte/_app/immutable/assets/Input-8dc180b9.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Checkbox-5e375aa9.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-f4bd6e24.css" rel="stylesheet">
-		<link href="/demos/sterling-svelte/_app/immutable/assets/Checkbox-ac2047d0.css" rel="stylesheet">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-4a5e906b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-1684c79f.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-231561f5.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-9f807399.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_layout.svelte-e64edce7.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/lightTheme-aae6d10f.js">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Example-0bf36347.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/ThemePropCard-3f7aa302.css" rel="stylesheet">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-e70c86f7.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-a3ad7dfc.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-898034a5.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-6ca46fc6.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_layout.svelte-4d2637d0.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Checkbox.svelte_svelte_type_style_lang-aae6d10f.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/button/_page.md-986a4c9f.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Checkbox-22712548.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/button/_page.md-89bb4889.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-12f9180b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/ThemePropCard-dad4685d.js">
 	</head>
 	<body>
 		<div>
@@ -33,6 +34,7 @@
 	<div class="content svelte-19rtkoe"><div class="nav svelte-19rtkoe"><a href="/demos/sterling-svelte/" class="svelte-19rtkoe">Overview</a>
 			<a href="/demos/sterling-svelte/theme" class="svelte-19rtkoe">Theme</a>
 			<a href="/demos/sterling-svelte/components/button" class="svelte-19rtkoe">Button</a>
+			<a href="/demos/sterling-svelte/components/checkbox" class="svelte-19rtkoe">Checkbox</a>
 			<a href="/demos/sterling-svelte/components/input" class="svelte-19rtkoe">Input</a>
 			</div>
 		<div class="component svelte-19rtkoe"><h1>Button</h1>
@@ -70,90 +72,127 @@
 <th>Theme variable</th></tr></thead>
 <tbody><tr><td>background</td>
 <td></td>
-<td>—Button__background-color</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color)" title="hsl(0, 0%, 96%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color</div>
+</div></td></tr>
 <tr><td>border</td>
 <td></td>
-<td>—Button__border-color</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color</div>
+</div></td></tr>
 <tr><td>border</td>
 <td></td>
-<td>—Button__border-radius</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">8px</div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-radius</div>
+</div></td></tr>
 <tr><td>border</td>
 <td></td>
-<td>—Button__border-style</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">solid</div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-style</div>
+</div></td></tr>
 <tr><td>border</td>
 <td></td>
-<td>—Button__border-width</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-width</div>
+</div></td></tr>
 <tr><td>foreground</td>
 <td></td>
-<td>—Button__color</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__color)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__color</div>
+</div></td></tr>
 <tr><td></td>
 <td></td>
 <td></td></tr>
 <tr><td>background</td>
 <td>hover</td>
-<td>—Button__background-color—hover</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color--hover)" title="hsl(0, 0%, 96%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color--hover</div>
+</div></td></tr>
 <tr><td>border</td>
 <td>hover</td>
-<td>—Button__border-color—hover</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color--hover)" title="hsl(0, 0%, 45%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color--hover</div>
+</div></td></tr>
 <tr><td>foreground</td>
 <td>hover</td>
-<td>—Button__color—hover</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__color--hover)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__color--hover</div>
+</div></td></tr>
 <tr><td></td>
 <td></td>
 <td></td></tr>
 <tr><td>background</td>
 <td>active</td>
-<td>—Button__background-color—active</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color--active)" title="hsl(0, 0%, 92%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color--active</div>
+</div></td></tr>
 <tr><td>border</td>
 <td>active</td>
-<td>—Button__border-color—active</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color--active)" title="hsl(0, 0%, 30%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color--active</div>
+</div></td></tr>
 <tr><td>foreground</td>
 <td>active</td>
-<td>—Button__color—active</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__color--active)" title="hsl(0, 0%, 30%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__color--active</div>
+</div></td></tr>
 <tr><td></td>
 <td></td>
 <td></td></tr>
 <tr><td>border</td>
 <td>focus-visible</td>
-<td>—Button__border-color—focus</td></tr>
-<tr><td></td>
-<td></td>
-<td></td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color--focus)" title="hsl(0, 0%, 0%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color--focus</div>
+</div></td></tr>
 <tr><td>outline</td>
 <td>focus-visible</td>
-<td>—Common__outline-color</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__outline-color)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__outline-color</div>
+</div></td></tr>
 <tr><td>outline</td>
 <td>focus-visible</td>
-<td>—Common__outline-offset</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">0</div></div>
+	<div class="name svelte-1y0a0r7">--Common__outline-offset</div>
+</div></td></tr>
 <tr><td>outline</td>
 <td>focus-visible</td>
-<td>—Common__outline-style</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">solid</div></div>
+	<div class="name svelte-1y0a0r7">--Common__outline-style</div>
+</div></td></tr>
 <tr><td>outline</td>
 <td>focus-visible</td>
-<td>—Common__outline-width</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
+	<div class="name svelte-1y0a0r7">--Common__outline-width</div>
+</div></td></tr>
 <tr><td></td>
 <td></td>
 <td></td></tr>
 <tr><td>background</td>
 <td>disabled</td>
-<td>—Button__background-color—disabled</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color--disabled)" title="hsl(0, 0%, 85%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color--disabled</div>
+</div></td></tr>
 <tr><td>border</td>
 <td>disabled</td>
-<td>—Button__border-color—disabled</td></tr>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color--disabled)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color--disabled</div>
+</div></td></tr>
 <tr><td>foreground</td>
 <td>disabled</td>
-<td>—Button__color—disabled</td></tr></tbody></table></div></div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__color--disabled)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__color--disabled</div>
+</div></td></tr></tbody></table></div></div>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="18elez2">
-			import { start } from "/demos/sterling-svelte/_app/immutable/start-4a5e906b.js";
+		<script type="module" data-sveltekit-hydrate="1bw8e38">
+			import { start } from "/demos/sterling-svelte/_app/immutable/start-e70c86f7.js";
 
 			start({
 				env: {},
 				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
-				target: document.querySelector('[data-sveltekit-hydrate="18elez2"]').parentNode,
-				version: "1672520399684",
+				target: document.querySelector('[data-sveltekit-hydrate="1bw8e38"]').parentNode,
+				version: "1672634822798",
 				hydrate: {
 					node_ids: [0, 3],
 					data: [null,null],
