@@ -6,22 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content="">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-9371be88.css" rel="stylesheet">
-		<link href="/demos/sterling-svelte/_app/immutable/assets/Checkbox-5e375aa9.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Radio-bfdbd680.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-7236d3c4.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/Example-0bf36347.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/ThemePropCard-3f7aa302.css" rel="stylesheet">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-e70c86f7.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-b7c5cdf4.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-a3ad7dfc.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-898034a5.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-6ca46fc6.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_layout.svelte-4d2637d0.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Checkbox.svelte_svelte_type_style_lang-aae6d10f.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_layout.svelte-4a067f14.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Radio.svelte_svelte_type_style_lang-aae6d10f.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/checkbox/_page.md-18468800.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-12f9180b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Input-0f1da21b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/ThemePropCard-dad4685d.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/checkbox/_page.md-97fe0955.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-f0c4b78c.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Input-5d62f0b8.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/ThemePropCard-b3bd7ea4.js">
 	</head>
 	<body>
 		<div>
@@ -37,6 +37,7 @@
 			<a href="/demos/sterling-svelte/components/button" class="svelte-19rtkoe">Button</a>
 			<a href="/demos/sterling-svelte/components/checkbox" class="svelte-19rtkoe">Checkbox</a>
 			<a href="/demos/sterling-svelte/components/input" class="svelte-19rtkoe">Input</a>
+			<a href="/demos/sterling-svelte/components/radio" class="svelte-19rtkoe">Radio</a>
 			</div>
 		<div class="component svelte-19rtkoe"><h1>Checkbox</h1>
 <p>A styled HTML input type=checkbox element.</p>
@@ -45,22 +46,17 @@
 	
 </div>
 <h2>Design</h2>
-<ul><li>The checkbox, checkmark, and label sizes are based on the inherited font</li>
-<li>The checkmark is rendered with CSS rather than an SVG or font icon</li>
-<li>The HTML input is rendered but not visible in order to apply styles</li>
-<li>HTML input props are forwarded and events bubbled</li></ul>
+<ul><li>The checkbox, checkmark, and label sizes are based on the inherited font.</li>
+<li>The checkmark is pure CSS rather than an SVG or font icon.</li>
+<li>The HTML input is rendered but not visible in order to apply styles.</li>
+<li>HTML input props are forwarded and events bubbled.</li></ul>
 <h2>Props</h2>
-<table><thead><tr><th>Name</th>
-<th>Type</th>
-<th>Description</th></tr></thead>
-<tbody><tr><td>checked</td>
-<td>boolean</td>
-<td>Controls if the checkbox is checked</td></tr></tbody></table>
+<p>No additional properties beyond those for the native element.</p>
 <h2>Slots</h2>
 <table><thead><tr><th>Name</th>
 <th>Description</th></tr></thead>
-<tbody><tr><td>(default)</td>
-<td>Content for the label that appears after the checkbox</td></tr></tbody></table>
+<tbody><tr><td>label</td>
+<td>Content appearing after the checkbox</td></tr></tbody></table>
 <h2>Theming</h2>
 <table><thead><tr><th>Part</th>
 <th>State</th>
@@ -85,13 +81,26 @@
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
 	<div class="name svelte-1y0a0r7">--Input__border-width</div>
 </div></td></tr>
-<tr><td>checkmark</td>
-<td>(checked)</td>
+<tr><td>label slot</td>
+<td></td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__color)" title="hsl(0, 0%, 15%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Input__color</div>
 </div></td></tr>
-<tr><td>label slot</td>
+<tr><td></td>
 <td></td>
+<td></td></tr>
+<tr><td>background</td>
+<td>checked</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__background-color)" title="hsl(0, 0%, 98%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Input__background-color</div>
+</div></td></tr>
+<tr><td>border</td>
+<td>checked</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__border-color)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Input__border-color</div>
+</div></td></tr>
+<tr><td>checkmark</td>
+<td>checked</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__color)" title="hsl(0, 0%, 15%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Input__color</div>
 </div></td></tr>
@@ -149,14 +158,14 @@
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="1geo4xr">
-			import { start } from "/demos/sterling-svelte/_app/immutable/start-e70c86f7.js";
+		<script type="module" data-sveltekit-hydrate="977z6c">
+			import { start } from "/demos/sterling-svelte/_app/immutable/start-b7c5cdf4.js";
 
 			start({
 				env: {},
 				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
-				target: document.querySelector('[data-sveltekit-hydrate="1geo4xr"]').parentNode,
-				version: "1672634822798",
+				target: document.querySelector('[data-sveltekit-hydrate="977z6c"]').parentNode,
+				version: "1672857605712",
 				hydrate: {
 					node_ids: [0, 4],
 					data: [null,null],
