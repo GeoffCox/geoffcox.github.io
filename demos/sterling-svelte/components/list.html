@@ -7,7 +7,7 @@
 		<meta http-equiv="content-security-policy" content="">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-9371be88.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/Select-82a15429.css" rel="stylesheet">
-		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-94da37e5.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-72abdd25.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/Example-0bf36347.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/ThemePropCard-3f7aa302.css" rel="stylesheet">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-d90dc0ac.js">
@@ -18,9 +18,11 @@
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Select.svelte_svelte_type_style_lang-aae6d10f.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/input/_page.md-94266b3d.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Input-910eefdb.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/list/_page.md-1968cb53.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-41430952.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/List-f13fb342.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Input-910eefdb.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/countries-48751f7c.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/ThemePropCard-32687d80.js">
 	</head>
 	<body>
@@ -41,21 +43,63 @@
 			<a href="/demos/sterling-svelte/components/radio" class="svelte-19rtkoe">Radio</a>
 			<a href="/demos/sterling-svelte/components/select" class="svelte-19rtkoe">Select</a>
 			</div>
-		<div class="component svelte-19rtkoe"><h1>Input</h1>
-<p>A styled HTML input element.</p>
+		<div class="component svelte-19rtkoe"><h1>List</h1>
+<p>A list of items where a single item can be selected.</p>
 <div class="example svelte-u7ibk1"><h1 class="svelte-u7ibk1"></h1>
 	<div class="description svelte-u7ibk1"></div>
 	
 </div>
-<h2>Design</h2>
-<ul><li>Size and padding are based on the inherited font.</li>
-<li>HTML input props are forwarded and events are bubbled.</li></ul>
+<h2>Features</h2>
+<ul><li>Layout can be a vertical or horizontal list.</li>
+<li>Arrow keys selected the next or previous item.</li>
+<li>An optional label can be specified to identify the list of items.</li>
+<li>Size and padding are based on the inherited font.</li>
+<li>HTML div props are forwarded and events are bubbled.</li></ul>
 <h2>Props</h2>
-<p>No additional properties beyond those for the native element.</p>
+<table><thead><tr><th>Name</th>
+<th>Type</th>
+<th>Description</th></tr></thead>
+<tbody><tr><td>disabled</td>
+<td>boolean</td>
+<td>Disables the list and items</td></tr>
+<tr><td>items</td>
+<td>any[]</td>
+<td>The items in the list</td></tr>
+<tr><td>horizontal</td>
+<td>boolean</td>
+<td>If the list layout should be horizontal</td></tr>
+<tr><td>selectedIndex</td>
+<td>number</td>
+<td>The index of the currently selected item</td></tr>
+<tr><td>selectedItem (readonly)</td>
+<td>any</td>
+<td>The currently selected item</td></tr></tbody></table>
+<h2>Events</h2>
+<table><thead><tr><th>Name</th>
+<th>Event.detail</th>
+<th>Description</th></tr></thead>
+<tbody><tr><td>itemSelected</td>
+<td><code>{ index, item }</code></td>
+<td>Raised when an item is selected.</td></tr></tbody></table>
+<h2>Methods</h2>
+<table><thead><tr><th>Name</th>
+<th>Parameters</th>
+<th>Description</th></tr></thead>
+<tbody><tr><td>focusSelectedItem</td>
+<td></td>
+<td>Focuses the selected item and scrolls it into view</td></tr>
+<tr><td>selectPreviousItem</td>
+<td></td>
+<td>Selected the previous item</td></tr>
+<tr><td>selectNextItem</td>
+<td></td>
+<td>Selected the next item</td></tr></tbody></table>
 <h2>Slots</h2>
 <table><thead><tr><th>Name</th>
 <th>Description</th></tr></thead>
-<tbody><tr><td>label</td>
+<tbody><tr><td>(default)</td>
+<td>A template for rendering each item. Item is passed disabled, index, item, and selected props</td></tr>
+<tr><td>label</td>
 <td>The label associated with the input</td></tr></tbody></table>
 <h2>Theming</h2>
 <table><thead><tr><th>Part</th>
@@ -63,30 +107,35 @@
 <th>Theme variable</th></tr></thead>
 <tbody><tr><td>background</td>
 <td></td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__background-color)" title="hsl(0, 0%, 98%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__background-color</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__background-color)" title="hsl(0, 0%, 100%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__background-color</div>
 </div></td></tr>
 <tr><td>border</td>
 <td></td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__border-color)" title="hsl(0, 0%, 60%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__border-color</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__border-color)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-color</div>
 </div></td></tr>
 <tr><td>border</td>
 <td></td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">3px</div></div>
-	<div class="name svelte-1y0a0r7">--Input__border-radius</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">0</div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-radius</div>
 </div></td></tr>
 <tr><td>border</td>
 <td></td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">solid</div></div>
-	<div class="name svelte-1y0a0r7">--Input__border-style</div>
+	<div class="name svelte-1y0a0r7">--Common__border-style</div>
 </div></td></tr>
 <tr><td>border</td>
 <td></td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
-	<div class="name svelte-1y0a0r7">--Input__border-width</div>
+	<div class="name svelte-1y0a0r7">--Common__border-width</div>
 </div></td></tr>
 <tr><td>foreground</td>
+<td></td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__color</div>
+</div></td></tr>
+<tr><td>item foreground</td>
 <td></td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__color)" title="hsl(0, 0%, 15%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Input__color</div>
@@ -104,56 +153,59 @@
 <tr><td></td>
 <td></td>
 <td></td></tr>
-<tr><td>background</td>
-<td>hover</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__background-color--hover)" title="hsl(0, 0%, 100%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__background-color--hover</div>
-</div></td></tr>
 <tr><td>border</td>
 <td>hover</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__border-color--hover)" title="hsl(0, 0%, 45%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__border-color--hover</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__border-color--hover)" title="hsl(0, 0%, 45%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-color--hover</div>
 </div></td></tr>
 <tr><td>foreground</td>
 <td>hover</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__color--hover)" title="hsl(0, 0%, 15%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__color--hover</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color--hover)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__color--hover</div>
+</div></td></tr>
+<tr><td>item background</td>
+<td>hover</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color--hover)" title="hsl(0, 0%, 96%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color--hover</div>
 </div></td></tr>
 <tr><td></td>
 <td></td>
 <td></td></tr>
-<tr><td>background</td>
-<td>focus-within</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__background-color--focus)" title="hsl(0, 0%, 100%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__background-color--focus</div>
+<tr><td>item background</td>
+<td>selected</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__background-color--selected)" title="hsl(0, 0%, 92%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Input__background-color--selected</div>
 </div></td></tr>
+<tr><td></td>
+<td></td>
+<td></td></tr>
 <tr><td>border</td>
-<td>focus-within</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__border-color--focus)" title="hsl(0, 0%, 15%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__border-color--focus</div>
+<td>focus-visible</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__border-color--focus)" title="hsl(0, 0%, 0%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-color--focus</div>
 </div></td></tr>
 <tr><td>foreground</td>
-<td>focus-within</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__color--focus)" title="hsl(0, 0%, 15%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__color--focus</div>
+<td>focus-visible</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color--focus)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__color--focus</div>
 </div></td></tr>
 <tr><td>outline</td>
-<td>focus-within</td>
+<td>focus-visible</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__outline-color)" title="hsl(0, 0%, 15%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Common__outline-color</div>
 </div></td></tr>
 <tr><td>outline</td>
-<td>focus-within</td>
+<td>focus-visible</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">0</div></div>
 	<div class="name svelte-1y0a0r7">--Common__outline-offset</div>
 </div></td></tr>
 <tr><td>outline</td>
-<td>focus-within</td>
+<td>focus-visible</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">solid</div></div>
 	<div class="name svelte-1y0a0r7">--Common__outline-style</div>
 </div></td></tr>
 <tr><td>outline</td>
-<td>focus-within</td>
+<td>focus-visible</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
 	<div class="name svelte-1y0a0r7">--Common__outline-width</div>
 </div></td></tr>
@@ -162,45 +214,42 @@
 <td></td></tr>
 <tr><td>background</td>
 <td>disabled</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__background-color--disabled)" title="hsl(0, 0%, 96%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__background-color--disabled</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__background-color--disabled)" title="hsl(0, 0%, 96%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__background-color--disabled</div>
 </div></td></tr>
 <tr><td>border</td>
 <td>disabled</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__border-color--disabled)" title="hsl(0, 0%, 75%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__border-color--disabled</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__border-color--disabled)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-color--disabled</div>
 </div></td></tr>
-<tr><td>foreground</td>
+<tr><td>item background</td>
 <td>disabled</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__color--disabled)" title="hsl(0, 0%, 75%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Input__color--disabled</div>
+</div></td></tr>
+<tr><td>foreground</td>
+<td>disabled</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color--disabled)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__color--disabled</div>
 </div></td></tr>
 <tr><td>label slot</td>
 <td>disabled</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__color--disabled)" title="hsl(0, 0%, 85%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Display__color--disabled</div>
-</div></td></tr>
-<tr><td>placeholder</td>
-<td>disabled</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__color--disabled)" title="hsl(0, 0%, 85%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Display__color--disabled</div>
-</div></td></tr>
-<tr><td></td>
-<td></td>
-<td></td></tr></tbody></table></div></div>
+</div></td></tr></tbody></table></div></div>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="km621j">
+		<script type="module" data-sveltekit-hydrate="abp1yh">
 			import { start } from "/demos/sterling-svelte/_app/immutable/start-d90dc0ac.js";
 
 			start({
 				env: {},
 				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
-				target: document.querySelector('[data-sveltekit-hydrate="km621j"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="abp1yh"]').parentNode,
 				version: "1672959359467",
 				hydrate: {
-					node_ids: [0, 5],
+					node_ids: [0, 6],
 					data: [null,null],
 					form: null
 				}
