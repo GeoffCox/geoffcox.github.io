@@ -7,7 +7,7 @@
 		<meta http-equiv="content-security-policy" content="">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-9371be88.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/Slider-99243872.css" rel="stylesheet">
-		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-72abdd25.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-c55fe1ee.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/Example-0bf36347.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/ThemePropCard-3f7aa302.css" rel="stylesheet">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-5b5ec50d.js">
@@ -18,11 +18,10 @@
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Slider.svelte_svelte_type_style_lang-dd36c6c0.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/list/_page.md-19f0cc00.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/slider/_page.md-38d90271.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Slider-e752efa8.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-cf95004c.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/List-0172be12.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Input-c738ffb3.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/countries-48751f7c.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/ThemePropCard-e16647f4.js">
 	</head>
 	<body>
@@ -44,64 +43,71 @@
 			<a href="/demos/sterling-svelte/components/radio" class="svelte-19rtkoe">Radio</a>
 			<a href="/demos/sterling-svelte/components/select" class="svelte-19rtkoe">Select</a>
 			<a href="/demos/sterling-svelte/components/slider" class="svelte-19rtkoe">Slider</a></div>
-		<div class="component svelte-19rtkoe"><h1>List</h1>
-<p>A list of items where a single item can be selected.</p>
-<div class="example svelte-u7ibk1"><h1 class="svelte-u7ibk1"></h1>
+		<div class="component svelte-19rtkoe"><h1>Slider</h1>
+<p>Slider allows users to set a value between a minimum and maximum by moving a visual ‘thumb’ along a line.</p>
+<div class="example svelte-u7ibk1"><h1 class="svelte-u7ibk1">Slider</h1>
 	<div class="description svelte-u7ibk1"></div>
 	
 </div>
 <h2>Features</h2>
-<ul><li>Layout can be a vertical or horizontal list.</li>
-<li>Arrow keys selected the next or previous item.</li>
-<li>An optional label can be specified to identify the list of items.</li>
-<li>Size and padding are based on the inherited font.</li>
+<ul><li>User can change value by dragging the thumb.</li>
+<li>Arrow keys increment value up or down.</li>
+<li>Horizontal or vertical layout</li>
+<li>An optional label can be specified.</li>
+<li>Callers can get the percentage (readonly) based on the value and max.</li>
+<li>The progress size and padding are based on the inherited font.</li>
 <li>HTML div props are forwarded and events are bubbled.</li></ul>
 <h2>Props</h2>
 <table><thead><tr><th>Name</th>
 <th>Type</th>
+<th>Default</th>
 <th>Description</th></tr></thead>
 <tbody><tr><td>disabled</td>
 <td>boolean</td>
-<td>Disables the list and items</td></tr>
-<tr><td>items</td>
-<td>any[]</td>
-<td>The items in the list</td></tr>
-<tr><td>horizontal</td>
-<td>boolean</td>
-<td>If the list layout should be horizontal</td></tr>
-<tr><td>selectedIndex</td>
+<td>false</td>
+<td>Disables the progress making it look inactive</td></tr>
+<tr><td>max</td>
 <td>number</td>
-<td>The index of the currently selected item</td></tr>
-<tr><td>selectedItem (readonly)</td>
-<td>any</td>
-<td>The currently selected item</td></tr></tbody></table>
+<td>100</td>
+<td>The maximum value.</td></tr>
+<tr><td>min</td>
+<td>number</td>
+<td>0</td>
+<td>The minimal value. .</td></tr>
+<tr><td>precision</td>
+<td>number</td>
+<td>0</td>
+<td>The number of decimal places allowed for the value.</td></tr>
+<tr><td>step</td>
+<td>number</td>
+<td>undefined</td>
+<td>The optional allowed increments between min and max.</td></tr>
+<tr><td>value</td>
+<td>number</td>
+<td>0</td>
+<td>The current value</td></tr>
+<tr><td>vertical</td>
+<td>boolean</td>
+<td>false</td>
+<td>If the slider should be vertical.</td></tr></tbody></table>
+<h2>Slots</h2>
+<table><thead><tr><th>Name</th>
+<th>Description</th></tr></thead>
+<tbody><tr><td>label</td>
+<td>The label associated with the progress</td></tr></tbody></table>
 <h2>Events</h2>
 <table><thead><tr><th>Name</th>
 <th>Event.detail</th>
 <th>Description</th></tr></thead>
-<tbody><tr><td>itemSelected</td>
-<td><code>{ index, item }</code></td>
-<td>Raised when an item is selected.</td></tr></tbody></table>
-<h2>Methods</h2>
-<table><thead><tr><th>Name</th>
-<th>Parameters</th>
-<th>Description</th></tr></thead>
-<tbody><tr><td>focusSelectedItem</td>
-<td></td>
-<td>Focuses the selected item and scrolls it into view</td></tr>
-<tr><td>selectPreviousItem</td>
-<td></td>
-<td>Selected the previous item</td></tr>
-<tr><td>selectNextItem</td>
-<td></td>
-<td>Selected the next item</td></tr></tbody></table>
-<h2>Slots</h2>
-<table><thead><tr><th>Name</th>
-<th>Description</th></tr></thead>
-<tbody><tr><td>(default)</td>
-<td>A template for rendering each item. Item is passed disabled, index, item, and selected props</td></tr>
-<tr><td>label</td>
-<td>The label associated with the input</td></tr></tbody></table>
+<tbody><tr><td>change</td>
+<td><code>{ value }</code></td>
+<td>Raised when the slider value changes.</td></tr></tbody></table>
+<h2>Anatomy</h2>
+<ul><li>label (optional): describes the slider value</li>
+<li>slider: contains the track, fill, and thumb</li>
+<li>track: displays the range between min and max</li>
+<li>fill: displays filling betweenmin and value</li>
+<li>thumb: a draggable button for changing the value</li></ul>
 <h2>Theming</h2>
 <table><thead><tr><th>Part</th>
 <th>State</th>
@@ -131,65 +137,49 @@
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
 	<div class="name svelte-1y0a0r7">--Common__border-width</div>
 </div></td></tr>
-<tr><td>foreground</td>
+<tr><td>fill</td>
 <td></td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color)" title="hsl(0, 0%, 15%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Common__color</div>
-</div></td></tr>
-<tr><td>item foreground</td>
-<td></td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__color)" title="hsl(0, 0%, 15%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__color</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__color)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Display__color</div>
 </div></td></tr>
 <tr><td>label slot</td>
 <td></td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__color--subtle)" title="hsl(0, 0%, 30%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Display__color--subtle</div>
 </div></td></tr>
-<tr><td>placeholder</td>
+<tr><td>thumb background</td>
 <td></td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__color--faint)" title="hsl(0, 0%, 85%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Display__color--faint</div>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color)" title="hsl(0, 0%, 96%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color</div>
+</div></td></tr>
+<tr><td>thumb border</td>
+<td></td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color</div>
+</div></td></tr>
+<tr><td>thumb border</td>
+<td></td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">solid</div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-style</div>
+</div></td></tr>
+<tr><td>thumb border</td>
+<td></td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-width</div>
+</div></td></tr>
+<tr><td>thumb foreground</td>
+<td></td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__color)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__color</div>
+</div></td></tr>
+<tr><td>track</td>
+<td></td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__background-color)" title="hsl(0, 0%, 92%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Display__background-color</div>
 </div></td></tr>
 <tr><td></td>
 <td></td>
 <td></td></tr>
-<tr><td>border</td>
-<td>hover</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__border-color--hover)" title="hsl(0, 0%, 45%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Common__border-color--hover</div>
-</div></td></tr>
-<tr><td>foreground</td>
-<td>hover</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color--hover)" title="hsl(0, 0%, 15%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Common__color--hover</div>
-</div></td></tr>
-<tr><td>item background</td>
-<td>hover</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color--hover)" title="hsl(0, 0%, 96%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Button__background-color--hover</div>
-</div></td></tr>
-<tr><td></td>
-<td></td>
-<td></td></tr>
-<tr><td>item background</td>
-<td>selected</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__background-color--selected)" title="hsl(0, 0%, 92%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__background-color--selected</div>
-</div></td></tr>
-<tr><td></td>
-<td></td>
-<td></td></tr>
-<tr><td>border</td>
-<td>focus-visible</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__border-color--focus)" title="hsl(0, 0%, 0%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Common__border-color--focus</div>
-</div></td></tr>
-<tr><td>foreground</td>
-<td>focus-visible</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color--focus)" title="hsl(0, 0%, 15%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Common__color--focus</div>
-</div></td></tr>
 <tr><td>outline</td>
 <td>focus-visible</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__outline-color)" title="hsl(0, 0%, 15%)"></div></div>
@@ -213,6 +203,42 @@
 <tr><td></td>
 <td></td>
 <td></td></tr>
+<tr><td>thumb background</td>
+<td>hover</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color--hover)" title="hsl(0, 0%, 96%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color--hover</div>
+</div></td></tr>
+<tr><td>thumb border</td>
+<td>hover</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color--hover)" title="hsl(0, 0%, 45%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color--hover</div>
+</div></td></tr>
+<tr><td>thumb foreground</td>
+<td>hover</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__color--hover)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__color--hover</div>
+</div></td></tr>
+<tr><td></td>
+<td></td>
+<td></td></tr>
+<tr><td>thumb background</td>
+<td>active</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color--active)" title="hsl(0, 0%, 92%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color--active</div>
+</div></td></tr>
+<tr><td>thumb border</td>
+<td>active</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color--active)" title="hsl(0, 0%, 30%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color--active</div>
+</div></td></tr>
+<tr><td>thumb foreground</td>
+<td>active</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__color--active)" title="hsl(0, 0%, 30%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__color--active</div>
+</div></td></tr>
+<tr><td></td>
+<td></td>
+<td></td></tr>
 <tr><td>background</td>
 <td>disabled</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__background-color--disabled)" title="hsl(0, 0%, 96%)"></div></div>
@@ -223,34 +249,39 @@
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__border-color--disabled)" title="hsl(0, 0%, 75%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Common__border-color--disabled</div>
 </div></td></tr>
-<tr><td>item background</td>
-<td>disabled</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Input__color--disabled)" title="hsl(0, 0%, 75%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Input__color--disabled</div>
-</div></td></tr>
-<tr><td>foreground</td>
-<td>disabled</td>
-<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color--disabled)" title="hsl(0, 0%, 75%)"></div></div>
-	<div class="name svelte-1y0a0r7">--Common__color--disabled</div>
-</div></td></tr>
 <tr><td>label slot</td>
 <td>disabled</td>
 <td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__color--disabled)" title="hsl(0, 0%, 85%)"></div></div>
 	<div class="name svelte-1y0a0r7">--Display__color--disabled</div>
+</div></td></tr>
+<tr><td>thumb background</td>
+<td>disabled</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__background-color--disabled)" title="hsl(0, 0%, 85%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__background-color--disabled</div>
+</div></td></tr>
+<tr><td>thumb border</td>
+<td>disabled</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__border-color--disabled)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__border-color--disabled</div>
+</div></td></tr>
+<tr><td>thumb foreground</td>
+<td>disabled</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Button__color--disabled)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Button__color--disabled</div>
 </div></td></tr></tbody></table></div></div>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="1xbxv6y">
+		<script type="module" data-sveltekit-hydrate="1g9wy7u">
 			import { start } from "/demos/sterling-svelte/_app/immutable/start-5b5ec50d.js";
 
 			start({
 				env: {},
 				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
-				target: document.querySelector('[data-sveltekit-hydrate="1xbxv6y"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1g9wy7u"]').parentNode,
 				version: "1673061750808",
 				hydrate: {
-					node_ids: [0, 6],
+					node_ids: [0, 10],
 					data: [null,null],
 					form: null
 				}
