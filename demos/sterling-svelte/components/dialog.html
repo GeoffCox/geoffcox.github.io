@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/demos/sterling-svelte/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-29d5e98f.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Slider-71da5c5c.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-ea52e696.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Example-0bf36347.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/ThemePropCard-3f7aa302.css" rel="stylesheet">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-448ced74.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-8df60287.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-6a30e82c.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-269d88e8.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_layout.svelte-d1ec27db.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Slider.svelte_svelte_type_style_lang-ae4f99bd.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/dialog/_page.md-2e691b06.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-36ccc152.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Button-a7c33b08.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Radio-6310a250.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/ThemePropCard-cf281df4.js">
+	</head>
+	<body>
+		<div>
+
+
+<div class="layout svelte-1yki74i"><div class="header svelte-1yki74i"><label><input type="checkbox"  title="indeterminate => follow OS/browser setting">
+      Dark Mode
+    </label></div>
+  <h1>sterling-svelte (in progress)</h1>
+  <h3>A modern, accessible, and lightweight UI component library for Svelte.</h3>
+  <div class="content svelte-1yki74i"><div class="nav svelte-1yki74i"><a href="/demos/sterling-svelte/" class="svelte-1yki74i">Overview</a>
+      <a href="/demos/sterling-svelte/theme" class="svelte-1yki74i">Theme</a>
+      <a href="/demos/sterling-svelte/components/button" class="svelte-1yki74i">Button</a>
+      <a href="/demos/sterling-svelte/components/checkbox" class="svelte-1yki74i">Checkbox</a>
+      <a href="/demos/sterling-svelte/components/dialog" class="svelte-1yki74i">Dialog</a>
+      <a href="/demos/sterling-svelte/components/input" class="svelte-1yki74i">Input</a>
+      <a href="/demos/sterling-svelte/components/list" class="svelte-1yki74i">List</a>
+      <a href="/demos/sterling-svelte/components/progress" class="svelte-1yki74i">Progress</a>
+      <a href="/demos/sterling-svelte/components/radio" class="svelte-1yki74i">Radio</a>
+      <a href="/demos/sterling-svelte/components/select" class="svelte-1yki74i">Select</a>
+      <a href="/demos/sterling-svelte/components/slider" class="svelte-1yki74i">Slider</a></div>
+    <div class="component svelte-1yki74i"><h1>Dialog</h1>
+<p>A styled HTML <code>&lt;dialog&gt;</code> element for modal dialogs.</p>
+<h2>Example</h2>
+<h3>Form Submit</h3>
+<p>The native HTML <code>dialog</code> supports submitting a <code>form</code> within it.
+When the form is submitted, the dialog closes.</p>
+<p>Any element such as <code>button</code> or <code>input</code> with <code>type=&quot;submit&quot;</code> will submit the form.
+The dialog’s <code>returnValue</code> will be set to the <code>value</code> prop of that element.
+A value of empty string <code>&#39;&#39;</code> indicates dialog was canceled.</p>
+<p>The <code>Dialog</code> component has a <code>form</code> wrapping the content, so you don’t need to add your own.</p>
+<p>IMPORTANT!</p>
+<ul><li>HTML button has a default <code>type=&quot;submit&quot;</code>. Clicking it submits the form.</li>
+<li>This library’s <code>Button</code> has a default <code>type=&quot;button&quot;</code>. You will need to set <code>type=&quot;submit&quot;</code> if you to submit the form.</li></ul>
+<div class="example svelte-u7ibk1"><h1 class="svelte-u7ibk1"></h1>
+	<div class="description svelte-u7ibk1"></div>
+	
+</div>
+<h3>Manual Alternative Example</h3>
+<p>This example demonstrates buttons that do not submit the form.
+Instead, <code>on:click</code> handlers take action.</p>
+<div class="example svelte-u7ibk1"><h1 class="svelte-u7ibk1"></h1>
+	<div class="description svelte-u7ibk1"></div>
+	
+</div>
+<h2>Usage</h2>
+<ol><li>Declare a <code>Dialog</code> and bind <code>open</code> to a variable.</li>
+<li>Fill in slots with the content you want to display.
+3a. Add buttons with <code>type=&quot;submit&quot;</code> and <code>value</code>.
+3b. Add buttons with <code>on:click</code> handlers to take action.</li>
+<li>When you want to show the dialog, set <code>open</code> to true.</li></ol>
+<pre class="language-ts"><!-- HTML_TAG_START --><code class="language-ts"><span class="token keyword">let</span> open <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> <span class="token function-variable function">deleteProduct</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
+  <span class="token comment">// produce delete code would go here</span>
+  open <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<pre class="language-svelte"><!-- HTML_TAG_START --><code class="language-svelte"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Dialog</span> <span class="token attr-name"><span class="token namespace">bind:</span>open</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>title<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Delete from catalog?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>body<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Do you want to delete product 'A-113' from the catalog?<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">slot</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>footer<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>actions<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name"><span class="token namespace">on:</span>click=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span>deleteProduct<span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>OK<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name">autofocus</span> <span class="token attr-name"><span class="token namespace">on:</span>click=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>open <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>Cancel<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Dialog</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name"><span class="token namespace">on:</span>click=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>open <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>Delete<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre>
+<h2>Features</h2>
+<ul><li>Bind the <code>open</code> prop to open or close the dialog.</li>
+<li>The <code>title</code>, <code>body</code>, and <code>footer</code> slots are provided for for typical dialog content layout.</li>
+<li>The <code>header</code> slot allows replacing both the title and close button.</li>
+<li>The <code>content</code> slot allows replacing the header, body, and footer.</li>
+<li>A <code>form</code> wraps the content to support dialog form submission.</li>
+<li>The <code>backdropCloses</code> closes the dialog when the backdrop is clicked.</li>
+<li>The dialog size is based on the content.</li>
+<li>Padding is based on the inherited font.</li>
+<li>HTML dialog props are forwarded and events are bubbled.</li></ul>
+<p>IMPORTANT!</p>
+<ul><li>While the open prop on the native <code>dialog</code> creates a modeless window, this <code>Dialog</code> is <strong>always modal</strong>.
+Other components should be used for modeless windows.</li>
+<li>Because the <code>open</code> prop causes the dialog to be modeless, it is not forwarded to the <code>dialog</code> element.</li>
+<li>The <code>cancel</code> event is bubbled, but it is only raised when the escape key is pressed. It is not raised when the close button or any button with <code>value=&#39;&#39;</code> is pressed.</li></ul>
+<h2>Anatomy</h2>
+<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">dialog
+  content slot
+    header slot
+      title slot
+      close button
+    body slot
+    footer slot</code><!-- HTML_TAG_END --></pre>
+<h2>Props</h2>
+<table><thead><tr><th>Name</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th></tr></thead>
+<tbody><tr><td>open</td>
+<td>boolean</td>
+<td>false</td>
+<td>If the dialog is open (i.e. visible)</td></tr>
+<tr><td>backdropCloses</td>
+<td>boolean</td>
+<td>false</td>
+<td>If clicking outside the dialog should cancel it.</td></tr></tbody></table>
+<h2>Slots</h2>
+<table><thead><tr><th>Name</th>
+<th>Default</th>
+<th>Description</th></tr></thead>
+<tbody><tr><td>contents</td>
+<td>header, body, footer slots</td>
+<td>All content within the dialog</td></tr>
+<tr><td>header</td>
+<td>title slot, close button</td>
+<td>The dialog header</td></tr>
+<tr><td>title</td>
+<td></td>
+<td>The dialog title</td></tr>
+<tr><td>body</td>
+<td></td>
+<td>The dialog body</td></tr>
+<tr><td>footer</td>
+<td></td>
+<td>The dialog footer</td></tr></tbody></table>
+<h2>Theming</h2>
+<table><thead><tr><th>Part</th>
+<th>Theme variable</th></tr></thead>
+<tbody><tr><td>content background</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__background-color)" title="hsl(0, 0%, 100%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__background-color</div>
+</div></td></tr>
+<tr><td>content border</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__border-color)" title="hsl(0, 0%, 60%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-color</div>
+</div></td></tr>
+<tr><td>content border</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">0</div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-radius</div>
+</div></td></tr>
+<tr><td>content border</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">solid</div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-style</div>
+</div></td></tr>
+<tr><td>content border</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-width</div>
+</div></td></tr>
+<tr><td>content foreground</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Common__color)" title="hsl(0, 0%, 15%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Common__color</div>
+</div></td></tr>
+<tr><td>header background</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__background-color)" title="hsl(0, 0%, 92%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Display__background-color</div>
+</div></td></tr>
+<tr><td>separator background</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="swatch svelte-1y0a0r7" style="background-color: var(--Display__background-color)" title="hsl(0, 0%, 92%)"></div></div>
+	<div class="name svelte-1y0a0r7">--Display__background-color</div>
+</div></td></tr>
+<tr><td>separator thickness</td>
+<td><div class="theme-swatch svelte-1y0a0r7"><div class="value svelte-1y0a0r7"><div class="literal svelte-1y0a0r7">2px</div></div>
+	<div class="name svelte-1y0a0r7">--Common__border-width</div>
+</div></td></tr>
+<tr><td>close button</td>
+<td><code>&lt;Button variant=&quot;ghost&quot; shape=&quot;circular&quot;&gt;</code></td></tr></tbody></table></div></div>
+</div>
+
+
+		<script type="module" data-sveltekit-hydrate="112pbcn">
+			import { start } from "/demos/sterling-svelte/_app/immutable/start-448ced74.js";
+
+			start({
+				env: {},
+				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
+				target: document.querySelector('[data-sveltekit-hydrate="112pbcn"]').parentNode,
+				version: "1673313112503",
+				hydrate: {
+					node_ids: [0, 5],
+					data: [null,null],
+					form: null
+				}
+			});
+		</script>
+	</div>
+	</body>
+</html>
