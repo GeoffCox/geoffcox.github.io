@@ -7,7 +7,7 @@
 		<meta http-equiv="content-security-policy" content="">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-29d5e98f.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/Slider-84da5019.css" rel="stylesheet">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-594817c4.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-5af4606e.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-a1914b40.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-90fcad90.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-f1e64c31.js">
@@ -15,7 +15,7 @@
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Slider.svelte_svelte_type_style_lang-ae4f99bd.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_page.svelte-916ea09a.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/_page.svelte-65306b99.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_page.ts-dc85b7cd.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_page-da46b06b.js">
 	</head>
@@ -42,36 +42,40 @@
       <a href="/demos/sterling-svelte/components/slider" class="svelte-1yki74i">Slider</a></div>
     <div class="component svelte-1yki74i"><h1>Overview</h1>
 <h2>Why yet another component library?</h2>
-<p>You can choose from a wide spectrum of rich and powerful component libraries. They vary between the unopinionated
-that require significant configuration to look decent and the opinionated ones that start great out-of-the-box, but
+<p>You can choose from a wide spectrum of rich and powerful component libraries.
+They vary between the unopinionated that require significant configuration to look decent and the opinionated ones that start great out-of-the-box, but
 offer little customization. As Svelte is the new kid on the block, most are built for other frameworks like
 React or Angular.</p>
 <p>I want components designed and built to take full advantage of Svelte. I try to balance consistency and customization
 with global, usage, and component-specific theme properties. Since Svelte naturally builds self-contained
 components the layout, behavior, and style, components will be opinionated. I kept the design minimal and neutral to
 allow custom themes to shine.</p>
-<h2>Design Tenets</h2>
-<p>sterling-svelte is designed to:</p>
-<ul><li>be razor thin</li>
-<li>have classic and minimalistic style</li>
+<p>sterling-svelte is:</p>
+<ul><li>razor thin</li>
+<li>minimal and classically styled</li>
 <li>ideomatically Svelte</li>
-<li>target modern, evergreen browser features</li>
-<li>follow the latest accessibility standards</li></ul>
+<li>for modern, evergreen browsers</li>
+<li>accessible</li></ul>
+<h2>Design</h2>
 <h3>Theme and Styles</h3>
-<p>Components have a neutral color scheme with high contrast ratios. Borders are medium weight. To be responsive, each component scales its padding and layout based on font ems. In some cases, pixel spacing or thickness is used but only
-after verifying it looks correct and multiple sizes.</p>
-<p>The theme is implemented using CSS variables. Care was taken to balance between too few and generic variables and an overwhelming number of component-specific variables. Sets of variables are defined for common usage, buttons (i.e. clickable things), form inputs, containers/lists, and information display. Additionally, a set of semantic colors
-display information, success, and errors states.</p>
+<p>Components have a neutral color scheme with high contrast ratios.
+Borders are medium weight.
+To be responsive, each component scales its padding and layout based on font ems.
+In some cases, pixel spacing or thickness is used but only after verifying it looks correct and multiple sizes.</p>
+<p>The theme is implemented using CSS variables.
+Care was taken to balance between too few and generic variables and an overwhelming number of component-specific variables.
+Sets of variables are defined for common usage, buttons (i.e. clickable things), form inputs, containers/lists, and information display.
+Additionally, a set of semantic colors display information, success, and errors states.</p>
 <h3>Slots</h3>
-<p>Components leverage Svelte’s slots for customization and replacement of component parts. For example, input components
-have a label slot for changing the label component rather than only providing a string value.</p>
+<p>Components leverage Svelte’s slots for customization and replacement of component parts.
+For example, input components have a label slot for changing the label component rather than only providing a string value.</p>
 <h3>Native Element Components</h3>
-<p>Components that wrap an HTML element will forward props to the element and bubble events from the element. If the
-native element type is not suitable, a component may avoid using the native element in favor of its own behavior
+<p>Components that wrap an HTML element will forward props to the element and bubble events from the element.
+If the native element type is not suitable, a component may avoid using the native element in favor of its own behavior
 and style via div elements.</p>
 <h2>Dependencies</h2>
-<p>Dependencies are kept to an absolute minimum. All dependencies are reviewed as the library evolves to determine if
-they should be inlined or can be removed.</p>
+<p>Dependencies are kept to an absolute minimum.
+All dependencies are reviewed as the library evolves to determine if they should be inlined or can be removed.</p>
 <ul><li>uuid to create element identifiers</li>
 <li>floating-ui to position popups and overlays</li>
 <li>lodash-es for data utility functions</li></ul>
@@ -125,14 +129,14 @@ they should be inlined or can be removed.</p>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="oxh35z">
-			import { start } from "/demos/sterling-svelte/_app/immutable/start-594817c4.js";
+		<script type="module" data-sveltekit-hydrate="1rblm56">
+			import { start } from "/demos/sterling-svelte/_app/immutable/start-5af4606e.js";
 
 			start({
 				env: {},
 				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
-				target: document.querySelector('[data-sveltekit-hydrate="oxh35z"]').parentNode,
-				version: "1673464550140",
+				target: document.querySelector('[data-sveltekit-hydrate="1rblm56"]').parentNode,
+				version: "1673483312524",
 				hydrate: {
 					node_ids: [0, 2],
 					data: [null,null],

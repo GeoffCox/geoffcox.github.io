@@ -8,9 +8,9 @@
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-29d5e98f.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/Slider-84da5019.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-ea52e696.css" rel="stylesheet">
-		<link href="/demos/sterling-svelte/_app/immutable/assets/Example-0bf36347.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/Example-d2e281a5.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/ThemePropCard-3f7aa302.css" rel="stylesheet">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-594817c4.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-5af4606e.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/index-a1914b40.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/singletons-90fcad90.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/paths-f1e64c31.js">
@@ -18,10 +18,10 @@
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Slider.svelte_svelte_type_style_lang-ae4f99bd.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/dialog/_page.md-75dce31e.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-8ccefa23.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/dialog/_page.md-0b241833.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-aa14804d.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Button-76ce8c00.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Radio-fd8753b9.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Radio-c7219e8a.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/ThemePropCard-3a3b3654.js">
 	</head>
 	<body>
@@ -47,7 +47,7 @@
       <a href="/demos/sterling-svelte/components/slider" class="svelte-1yki74i">Slider</a></div>
     <div class="component svelte-1yki74i"><h1>Dialog</h1>
 <p>A styled HTML <code>&lt;dialog&gt;</code> element for modal dialogs.</p>
-<h2>Example</h2>
+<h2>Playground</h2>
 <h3>Form Submit</h3>
 <p>The native HTML <code>dialog</code> supports submitting a <code>form</code> within it.
 When the form is submitted, the dialog closes.</p>
@@ -58,17 +58,28 @@ A value of empty string <code>&#39;&#39;</code> indicates dialog was canceled.</
 <p>IMPORTANT!</p>
 <ul><li>HTML button has a default <code>type=&quot;submit&quot;</code>. Clicking it submits the form.</li>
 <li>This library’s <code>Button</code> has a default <code>type=&quot;button&quot;</code>. You will need to set <code>type=&quot;submit&quot;</code> if you to submit the form.</li></ul>
-<div class="example svelte-u7ibk1"><h1 class="svelte-u7ibk1"></h1>
-	<div class="description svelte-u7ibk1"></div>
-	
+<div class="example svelte-1fpxgah">
 </div>
-<h3>Manual Alternative Example</h3>
+<h3>Manual Action Buttons</h3>
 <p>This example demonstrates buttons that do not submit the form.
 Instead, <code>on:click</code> handlers take action.</p>
-<div class="example svelte-u7ibk1"><h1 class="svelte-u7ibk1"></h1>
-	<div class="description svelte-u7ibk1"></div>
-	
+<div class="example svelte-1fpxgah">
 </div>
+<h2>Features</h2>
+<ul><li>Bind the <code>open</code> prop to open or close the dialog.</li>
+<li>The <code>title</code>, <code>body</code>, and <code>footer</code> slots are provided for for typical dialog content layout.</li>
+<li>The <code>header</code> slot allows replacing both the title and close button.</li>
+<li>The <code>content</code> slot allows replacing the header, body, and footer.</li>
+<li>A <code>form</code> wraps the content to support dialog form submission.</li>
+<li>The <code>backdropCloses</code> closes the dialog when the backdrop is clicked.</li>
+<li>The dialog size is based on the content.</li>
+<li>Padding is based on the inherited font.</li>
+<li>HTML dialog props are forwarded and events are bubbled.</li></ul>
+<p>IMPORTANT!</p>
+<ul><li>While the open prop on the native <code>dialog</code> creates a modeless window, this <code>Dialog</code> is <strong>always modal</strong>.
+Other components should be used for modeless windows.</li>
+<li>Because the <code>open</code> prop causes the dialog to be modeless, it is not forwarded to the <code>dialog</code> element.</li>
+<li>The <code>cancel</code> event is bubbled, but it is only raised when the escape key is pressed. It is not raised when the close button or any button with <code>value=&#39;&#39;</code> is pressed.</li></ul>
 <h2>Usage</h2>
 <ol><li>Declare a <code>Dialog</code> and bind <code>open</code> to a variable.</li>
 <li>Fill in slots with the content you want to display.</li>
@@ -92,23 +103,8 @@ Instead, <code>on:click</code> handlers take action.</p>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Dialog</span><span class="token punctuation">></span></span>
 
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Button</span> <span class="token attr-name"><span class="token namespace">on:</span>click=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>open <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>Delete<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Button</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre>
-<h2>Features</h2>
-<ul><li>Bind the <code>open</code> prop to open or close the dialog.</li>
-<li>The <code>title</code>, <code>body</code>, and <code>footer</code> slots are provided for for typical dialog content layout.</li>
-<li>The <code>header</code> slot allows replacing both the title and close button.</li>
-<li>The <code>content</code> slot allows replacing the header, body, and footer.</li>
-<li>A <code>form</code> wraps the content to support dialog form submission.</li>
-<li>The <code>backdropCloses</code> closes the dialog when the backdrop is clicked.</li>
-<li>The dialog size is based on the content.</li>
-<li>Padding is based on the inherited font.</li>
-<li>HTML dialog props are forwarded and events are bubbled.</li></ul>
-<p>IMPORTANT!</p>
-<ul><li>While the open prop on the native <code>dialog</code> creates a modeless window, this <code>Dialog</code> is <strong>always modal</strong>.
-Other components should be used for modeless windows.</li>
-<li>Because the <code>open</code> prop causes the dialog to be modeless, it is not forwarded to the <code>dialog</code> element.</li>
-<li>The <code>cancel</code> event is bubbled, but it is only raised when the escape key is pressed. It is not raised when the close button or any button with <code>value=&#39;&#39;</code> is pressed.</li></ul>
 <h2>Anatomy</h2>
-<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">dialog
+<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">HTML dialog
   content slot
     header slot
       title slot
@@ -191,14 +187,14 @@ Other components should be used for modeless windows.</li>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="pbikwf">
-			import { start } from "/demos/sterling-svelte/_app/immutable/start-594817c4.js";
+		<script type="module" data-sveltekit-hydrate="1adapnr">
+			import { start } from "/demos/sterling-svelte/_app/immutable/start-5af4606e.js";
 
 			start({
 				env: {},
 				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
-				target: document.querySelector('[data-sveltekit-hydrate="pbikwf"]').parentNode,
-				version: "1673464550140",
+				target: document.querySelector('[data-sveltekit-hydrate="1adapnr"]').parentNode,
+				version: "1673483312524",
 				hydrate: {
 					node_ids: [0, 5],
 					data: [null,null],
