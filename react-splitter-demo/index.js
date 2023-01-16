@@ -7,7 +7,6 @@
 `,Ls=ks.div`
   ${Os}
   background: silver;
-  cursor: col-resize;
 `,Ms=ls`
   --stripe-size: 50px;
   --color1: silver;
