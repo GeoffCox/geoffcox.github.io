@@ -7,6 +7,7 @@
 		<meta http-equiv="content-security-policy" content="">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/_layout-544ff5b2.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/TextArea-e93d1beb.css" rel="stylesheet">
+		<link href="/demos/sterling-svelte/_app/immutable/assets/_page-f02ee50d.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/ThemePropCard-3f7aa302.css" rel="stylesheet">
 		<link href="/demos/sterling-svelte/_app/immutable/assets/Example-d6b8fafa.css" rel="stylesheet">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/start-c7d6bc61.js">
@@ -17,9 +18,12 @@
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/TextArea.svelte_svelte_type_style_lang-ae4f99bd.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/label/_page.md-aafa4c93.js">
-		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Checkbox-4b2ee5a3.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/components/pages/components/textarea/_page.md-e94709e4.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Input-7157b6fd.js">
 		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Example-65a6abba.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Checkbox-4b2ee5a3.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/Select-6558c4ff.js">
+		<link rel="modulepreload" href="/demos/sterling-svelte/_app/immutable/chunks/List-a1f969f3.js">
 	</head>
 	<body>
 		<div>
@@ -44,42 +48,50 @@
       <a href="/demos/sterling-svelte/components/slider" class="svelte-b38b6k">Slider</a>
       <a href="/demos/sterling-svelte/components/switch" class="svelte-b38b6k">Switch</a>
       <a href="/demos/sterling-svelte/components/textarea" class="svelte-b38b6k">TextArea</a></div>
-    <div class="component svelte-b38b6k"><h1>Label</h1>
-<p>A styled HTML label element.</p>
+    <div class="component svelte-b38b6k"><h1>TextArea</h1>
+<p>A styled HTML textarea element.</p>
 <h2>Playground</h2>
 <div class="example svelte-1nqh7j6">
 </div>
 <h2>Features</h2>
-<ul><li>The label inherits color, when disabled opacity is set to 0.5.</li>
-<li>HTML label props are forwarded and events are bubbled.</li></ul>
+<ul><li>Identify the value with an associated label.</li>
+<li>Choose to automatically adjust the height to fit content.</li>
+<li>Add a resize handle to the corner of the text area.</li></ul>
 <h2>Anatomy</h2>
-<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">HTML label
-   _default_ slot</code><!-- HTML_TAG_END --></pre>
+<pre class="language-undefined"><!-- HTML_TAG_START --><code class="language-undefined">TextArea
+  label slot
+  HTML textarea</code><!-- HTML_TAG_END --></pre>
 <h2>Props</h2>
 <table><thead><tr><th>Name</th>
 <th>Type</th>
+<th>Default</th>
 <th>Description</th></tr></thead>
-<tbody><tr><td>disabled</td>
+<tbody><tr><td>autoHeight</td>
 <td>boolean</td>
-<td>Disables the label making it look inactive</td></tr></tbody></table>
+<td>false</td>
+<td>Automatically adjust height to fit content</td></tr>
+<tr><td>resize</td>
+<td>CSS resize</td>
+<td>‘none’</td>
+<td>Sets the textarea resize CSS property</td></tr></tbody></table>
 <h2>Slots</h2>
 <table><thead><tr><th>Name</th>
 <th>Description</th></tr></thead>
-<tbody><tr><td><em>default</em></td>
-<td>The content to display within the label</td></tr></tbody></table></div></div>
+<tbody><tr><td>label</td>
+<td>The label associated with the input</td></tr></tbody></table></div></div>
 </div>
 
 
-		<script type="module" data-sveltekit-hydrate="j4jq97">
+		<script type="module" data-sveltekit-hydrate="1rf28pk">
 			import { start } from "/demos/sterling-svelte/_app/immutable/start-c7d6bc61.js";
 
 			start({
 				env: {},
 				paths: {"base":"/demos/sterling-svelte","assets":"/demos/sterling-svelte"},
-				target: document.querySelector('[data-sveltekit-hydrate="j4jq97"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1rf28pk"]').parentNode,
 				version: "1674105759456",
 				hydrate: {
-					node_ids: [0, 7],
+					node_ids: [0, 14],
 					data: [null,null],
 					form: null
 				}
