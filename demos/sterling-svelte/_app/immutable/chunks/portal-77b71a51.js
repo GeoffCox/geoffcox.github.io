@@ -1,0 +1,1 @@
+const d=(p,l)=>{const e=p;let r=!1;const a=(t,o)=>{!r&&o.target&&t&&(o.target.appendChild(t),r=!0)};return a(e,l),{update:t=>a(e,t),destroy(){var t;r&&((t=e==null?void 0:e.parentNode)==null||t.removeChild(e))}}};export{d as p};
