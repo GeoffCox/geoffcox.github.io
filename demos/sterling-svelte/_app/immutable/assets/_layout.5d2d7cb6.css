@@ -1,0 +1,739 @@
+/**
+ * MIT License
+ * Copyright (c) 2018 Sarah Drasner
+ * Sarah Drasner's[@sdras] Night Owl
+ * Ported by Sara vieria [@SaraVieira]
+ * Added by Souvik Mandal [@SimpleIndian]
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     color: #d6deeb;
+     font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     word-wrap: normal;
+     line-height: 1.5;
+     font-size: 1em;
+ 
+     -moz-tab-size: 4;
+     -o-tab-size: 4;
+     tab-size: 4;
+ 
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+ }
+
+ pre[class*="language-"]::-moz-selection,
+ pre[class*="language-"] ::-moz-selection,
+ code[class*="language-"]::-moz-selection,
+ code[class*="language-"] ::-moz-selection {
+     text-shadow: none;
+     background: rgba(29, 59, 83, 0.99);
+ }
+
+ pre[class*="language-"]::selection,
+ pre[class*="language-"] ::selection,
+ code[class*="language-"]::selection,
+ code[class*="language-"] ::selection {
+     text-shadow: none;
+     background: rgba(29, 59, 83, 0.99);
+ }
+
+ @media print {
+     code[class*="language-"],
+     pre[class*="language-"] {
+         text-shadow: none;
+     }
+ }
+
+ /* Code blocks */
+
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: 0.5em 0;
+     overflow: auto;
+ }
+
+ :not(pre) > code[class*="language-"],
+ pre[class*="language-"] {
+     color: white;
+     background: #011627;
+ }
+
+ :not(pre) > code[class*="language-"] {
+     padding: 0.1em;
+     border-radius: 0.3em;
+     white-space: normal;
+ }
+
+ .token.comment,
+ .token.prolog,
+ .token.cdata {
+     color: rgb(99, 119, 119);
+     font-style: italic;
+ }
+
+ .token.punctuation {
+     color: rgb(199, 146, 234);
+ }
+
+ .namespace {
+     color: rgb(178, 204, 214);
+ }
+
+ .token.deleted {
+     color: rgba(239, 83, 80, 0.56);
+     font-style: italic;
+ }
+
+ .token.symbol,
+ .token.property {
+     color: rgb(128, 203, 196);
+ }
+
+ .token.tag,
+ .token.operator,
+ .token.keyword {
+     color: rgb(127, 219, 202);
+ }
+
+ .token.boolean {
+     color: rgb(255, 88, 116);
+ }
+
+ .token.number {
+     color: rgb(247, 140, 108);
+ }
+
+ .token.constant,
+ .token.function,
+ .token.builtin,
+ .token.char {
+     color: rgb(130, 170, 255);
+ }
+
+ .token.selector,
+ .token.doctype {
+     color: rgb(199, 146, 234);
+     font-style: italic;
+ }
+
+ .token.attr-name,
+ .token.inserted {
+     color: rgb(173, 219, 103);
+     font-style: italic;
+ }
+
+ .token.string,
+ .token.url,
+ .token.entity,
+ .language-css .token.string,
+ .style .token.string {
+     color: rgb(173, 219, 103);
+ }
+
+ .token.class-name,
+ .token.atrule,
+ .token.attr-value {
+     color: rgb(255, 203, 139);
+ }
+
+ .token.regex,
+ .token.important,
+ .token.variable {
+     color: rgb(214, 222, 235);
+ }
+
+ .token.important,
+ .token.bold {
+     font-weight: bold;
+ }
+
+ .token.italic {
+     font-style: italic;
+ }
+
+ pre[class*="language-"],
+code[class*="language-"] {
+	color: #d4d4d4;
+	font-size: 1em;
+	text-shadow: none;
+	font-family: Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	line-height: 1.5;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+ pre[class*="language-"]::selection,
+code[class*="language-"]::selection,
+pre[class*="language-"] *::selection,
+code[class*="language-"] *::selection {
+	text-shadow: none;
+	background: #264F78;
+}
+
+ @media print {
+	pre[class*="language-"],
+	code[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+ pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	background: #1e1e1e;
+}
+
+ :not(pre) > code[class*="language-"] {
+	padding: .1em .3em;
+	border-radius: .3em;
+	color: #db4c69;
+	background: #1e1e1e;
+}
+
+ /*********************************************************
+* Tokens
+*/
+
+ .namespace {
+	opacity: .7;
+}
+
+ .token.doctype .token.doctype-tag {
+	color: #569CD6;
+}
+
+ .token.doctype .token.name {
+	color: #9cdcfe;
+}
+
+ .token.comment,
+.token.prolog {
+	color: #6a9955;
+}
+
+ .token.punctuation,
+.language-html .language-css .token.punctuation,
+.language-html .language-javascript .token.punctuation {
+	color: #d4d4d4;
+}
+
+ .token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.inserted,
+.token.unit {
+	color: #b5cea8;
+}
+
+ .token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.deleted {
+	color: #ce9178;
+}
+
+ .language-css .token.string.url {
+	text-decoration: underline;
+}
+
+ .token.operator,
+.token.entity {
+	color: #d4d4d4;
+}
+
+ .token.operator.arrow {
+	color: #569CD6;
+}
+
+ .token.atrule {
+	color: #ce9178;
+}
+
+ .token.atrule .token.rule {
+	color: #c586c0;
+}
+
+ .token.atrule .token.url {
+	color: #9cdcfe;
+}
+
+ .token.atrule .token.url .token.function {
+	color: #dcdcaa;
+}
+
+ .token.atrule .token.url .token.punctuation {
+	color: #d4d4d4;
+}
+
+ .token.keyword {
+	color: #569CD6;
+}
+
+ .token.keyword.module,
+.token.keyword.control-flow {
+	color: #c586c0;
+}
+
+ .token.function,
+.token.function .token.maybe-class-name {
+	color: #dcdcaa;
+}
+
+ .token.regex {
+	color: #d16969;
+}
+
+ .token.important {
+	color: #569cd6;
+}
+
+ .token.italic {
+	font-style: italic;
+}
+
+ .token.constant {
+	color: #9cdcfe;
+}
+
+ .token.class-name,
+.token.maybe-class-name {
+	color: #4ec9b0;
+}
+
+ .token.console {
+	color: #9cdcfe;
+}
+
+ .token.parameter {
+	color: #9cdcfe;
+}
+
+ .token.interpolation {
+	color: #9cdcfe;
+}
+
+ .token.punctuation.interpolation-punctuation {
+	color: #569cd6;
+}
+
+ .token.boolean {
+	color: #569cd6;
+}
+
+ .token.property,
+.token.variable,
+.token.imports .token.maybe-class-name,
+.token.exports .token.maybe-class-name {
+	color: #9cdcfe;
+}
+
+ .token.selector {
+	color: #d7ba7d;
+}
+
+ .token.escape {
+	color: #d7ba7d;
+}
+
+ .token.tag {
+	color: #569cd6;
+}
+
+ .token.tag .token.punctuation {
+	color: #808080;
+}
+
+ .token.cdata {
+	color: #808080;
+}
+
+ .token.attr-name {
+	color: #9cdcfe;
+}
+
+ .token.attr-value,
+.token.attr-value .token.punctuation {
+	color: #ce9178;
+}
+
+ .token.attr-value .token.punctuation.attr-equals {
+	color: #d4d4d4;
+}
+
+ .token.entity {
+	color: #569cd6;
+}
+
+ .token.namespace {
+	color: #4ec9b0;
+}
+
+ /*********************************************************
+* Language Specific
+*/
+
+ pre[class*="language-javascript"],
+code[class*="language-javascript"],
+pre[class*="language-jsx"],
+code[class*="language-jsx"],
+pre[class*="language-typescript"],
+code[class*="language-typescript"],
+pre[class*="language-tsx"],
+code[class*="language-tsx"] {
+	color: #9cdcfe;
+}
+
+ pre[class*="language-css"],
+code[class*="language-css"] {
+	color: #ce9178;
+}
+
+ pre[class*="language-html"],
+code[class*="language-html"] {
+	color: #d4d4d4;
+}
+
+ .language-regex .token.anchor {
+	color: #dcdcaa;
+}
+
+ .language-html .token.punctuation {
+	color: #808080;
+}
+
+ /*********************************************************
+* Line highlighting
+*/
+
+ pre[class*="language-"] > code[class*="language-"] {
+	position: relative;
+	z-index: 1;
+}
+
+ .line-highlight.line-highlight {
+	background: #f7ebc6;
+	box-shadow: inset 5px 0 0 #f7d87c;
+	z-index: 0;
+}
+
+ /**
+ * VS theme by Andrew Lock (https://andrewlock.net)
+ * Inspired by Visual Studio syntax coloring
+ */
+
+ code[class*="language-"],
+ pre[class*="language-"] {
+     color: #393A34;
+	font-family: Menlo, Monaco, Consolas, "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
+     direction: ltr;
+     text-align: left;
+     white-space: pre;
+     word-spacing: normal;
+     word-break: normal;
+     font-size: 1em;
+     line-height: 1.5;
+ 
+     -moz-tab-size: 4;
+     -o-tab-size: 4;
+     tab-size: 4;
+ 
+     -webkit-hyphens: none;
+     -moz-hyphens: none;
+     -ms-hyphens: none;
+     hyphens: none;
+ }
+
+ pre > code[class*="language-"] {
+     font-size: 1em;
+ }
+
+ pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+ code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+     background: #C1DEF1;
+ }
+
+ pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+ code[class*="language-"]::selection, code[class*="language-"] ::selection {
+     background: #C1DEF1;
+ }
+
+ /* Code blocks */
+
+ pre[class*="language-"] {
+     padding: 1em;
+     margin: .5em 0;
+     overflow: auto;
+     border: 1px solid #dddddd;
+     background-color: white;
+ }
+
+ /* Inline code */
+
+ :not(pre) > code[class*="language-"] {
+     padding: .2em;
+     padding-top: 1px;
+     padding-bottom: 1px;
+     background: #f8f8f8;
+     border: 1px solid #dddddd;
+ }
+
+ .token.comment,
+ .token.prolog,
+ .token.doctype,
+ .token.cdata {
+     color: #008000;
+     font-style: italic;
+ }
+
+ .token.namespace {
+     opacity: .7;
+ }
+
+ .token.string {
+     color: #A31515;
+ }
+
+ .token.punctuation,
+ .token.operator {
+     color: #393A34; /* no highlight */
+ }
+
+ .token.url,
+ .token.symbol,
+ .token.number,
+ .token.boolean,
+ .token.variable,
+ .token.constant,
+ .token.inserted {
+     color: #36acaa;
+ }
+
+ .token.atrule,
+ .token.keyword,
+ .token.attr-value,
+ .language-autohotkey .token.selector,
+ .language-json .token.boolean,
+ .language-json .token.number,
+ code[class*="language-css"] {
+     color: #0000ff;
+ }
+
+ .token.function {
+     color: #393A34;
+ }
+
+ .token.deleted,
+ .language-autohotkey .token.tag {
+     color: #9a050f;
+ }
+
+ .token.selector,
+ .language-autohotkey .token.keyword {
+     color: #00009f;
+ }
+
+ .token.important {
+     color: #e90;
+ }
+
+ .token.important,
+ .token.bold {
+     font-weight: bold;
+ }
+
+ .token.italic {
+     font-style: italic;
+ }
+
+ .token.class-name,
+ .language-json .token.property {
+     color: #2B91AF;
+ }
+
+ .token.tag,
+ .token.selector {
+     color: #800000;
+ }
+
+ .token.attr-name,
+ .token.property,
+ .token.regex,
+ .token.entity {
+     color: #ff0000;
+ }
+
+ .token.directive.tag .tag {
+     background: #ffff00;
+     color: #393A34;
+ }
+
+ /* overrides color-values for the Line Numbers plugin
+  * http://prismjs.com/plugins/line-numbers/
+  */
+
+ .line-numbers.line-numbers .line-numbers-rows {
+     border-right-color: #a5a5a5;
+ }
+
+ .line-numbers .line-numbers-rows > span:before {
+     color: #2B91AF;
+ }
+
+ /* overrides color-values for the Line Highlight plugin
+ * http://prismjs.com/plugins/line-highlight/
+ */
+
+ .line-highlight.line-highlight {
+     background: rgba(193, 222, 241, 0.2);
+     background: -webkit-linear-gradient(left, rgba(193, 222, 241, 0.2) 70%, rgba(221, 222, 241, 0));
+     background: linear-gradient(to right, rgba(193, 222, 241, 0.2) 70%, rgba(221, 222, 241, 0));
+ }/* overpass-cyrillic-ext-400-normal*/
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/overpass-cyrillic-ext-400-normal.1b1b532c.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/overpass-all-400-normal.9a2f5f37.woff') format('woff');
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+}
+/* overpass-cyrillic-400-normal*/
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/overpass-cyrillic-400-normal.cd53305c.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/overpass-all-400-normal.9a2f5f37.woff') format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+/* overpass-vietnamese-400-normal*/
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('data:font/woff2;base64,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') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/overpass-all-400-normal.9a2f5f37.woff') format('woff');
+  unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB;
+}
+/* overpass-latin-ext-400-normal*/
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/overpass-latin-ext-400-normal.10424c70.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/overpass-all-400-normal.9a2f5f37.woff') format('woff');
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+/* overpass-latin-400-normal*/
+@font-face {
+  font-family: 'Overpass';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/overpass-latin-400-normal.b6f01e18.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/overpass-all-400-normal.9a2f5f37.woff') format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+/* fira-mono-cyrillic-ext-400-normal*/
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-cyrillic-ext-400-normal.3df7909e.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff') format('woff');
+  unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F;
+}
+/* fira-mono-cyrillic-400-normal*/
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-cyrillic-400-normal.c7d433fd.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff') format('woff');
+  unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116;
+}
+/* fira-mono-greek-ext-400-normal*/
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-greek-ext-400-normal.9e2fe623.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff') format('woff');
+  unicode-range: U+1F00-1FFF;
+}
+/* fira-mono-greek-400-normal*/
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-greek-400-normal.a8be01ce.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff') format('woff');
+  unicode-range: U+0370-03FF;
+}
+/* fira-mono-latin-ext-400-normal*/
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-latin-ext-400-normal.6bfabd30.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff') format('woff');
+  unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF;
+}
+/* fira-mono-latin-400-normal*/
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-latin-400-normal.e43b3538.woff2') format('woff2'), url('/demos/sterling-svelte/_app/immutable/assets/fira-mono-all-400-normal.1e3b098c.woff') format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+:root{color:var(--stsv-Common__color);background-color:var(--stsv-Common__background-color)}
+html{padding:0;margin:0}
+body{font-family:'Overpass', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+      Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin:0}
+h1,h2,h3{margin-block-start:0.7em;margin-block-end:0.25em}
+p{margin-block-start:0.25em;margin-block-end:0.25em;line-height:1.6em}
+pre,code{font-size:0.9em;font-family:Menlo, Monaco, Consolas, 'Andale Mono', 'Ubuntu Mono', 'Courier New', monospace}
+blockquote{background-color:var(--stsv-Layer__background-color--1);color:var(--stsv-Info__color);padding:1em;margin:0}
+table{border:1px solid var(--stsv-Common__border-color);width:max-content;border-collapse:collapse}
+th{font-weight:lighter;font-size:1.1em;background:var(--stsv-Display__background-color);color:var(--stsv---Display__color);padding:0.5em;text-align:start;border:1px solid var(--stsv-Common__border-color)}
+td{padding:0.5em;text-align:start;border:1px solid var(--stsv-Common__border-color)}
+li{margin-bottom:0.5em;margin-block-start:0.5em}
+.layout.svelte-1vp45p5.svelte-1vp45p5{padding:0 3em}
+.header.svelte-1vp45p5.svelte-1vp45p5{display:grid;grid-template-columns:auto 1fr auto auto;grid-template-rows:auto auto;padding:2em 0 1em 0;border-bottom:1px solid var(--stsv-Common__border-color)}
+.header.svelte-1vp45p5 .hamburger-menu.svelte-1vp45p5{align-self:flex-start;justify-self:flex-end;font-size:0.8em;grid-row:1 / span 1;grid-column:1 / span 1;margin-right:0.5em}
+.header.svelte-1vp45p5 .title.svelte-1vp45p5{font-size:1.6em;display:grid;grid-template-columns:auto 1fr;grid-template-rows:auto;align-items:center;grid-row:1 / span 1;grid-column:2 / span 1;min-width:250px}
+.header.svelte-1vp45p5 .subtitle.svelte-1vp45p5{font-size:0.9em;grid-row:2 / span 1;grid-column:2 / span 1}
+.header.svelte-1vp45p5 .select-theme.svelte-1vp45p5{display:grid;justify-items:flex-end;justify-self:flex-end;align-items:center;grid-row:1 / span 2;grid-column:3 / span 1;margin-left:1em}
+.header.svelte-1vp45p5 .github.svelte-1vp45p5{display:grid;justify-items:flex-end;justify-self:flex-end;align-items:center;grid-row:1 / span 2;grid-column:4 / span 1;margin-left:1em}
+.header.svelte-1vp45p5 .github .github-icon.svelte-1vp45p5{width:50px;height:50px}
+.content.svelte-1vp45p5.svelte-1vp45p5{display:grid;grid-template-columns:auto 1fr;margin-top:0.25em}
+.nav.svelte-1vp45p5.svelte-1vp45p5{display:flex;flex-direction:column;background-color:var(--stsv-Common__background-color);border-right:1px solid var(--stsv-Common__border-color);padding:1em}
+.nav-section.svelte-1vp45p5.svelte-1vp45p5{padding-left:0.25em;display:grid;grid-template-columns:1fr;grid-template-rows:auto;row-gap:0.25em;justify-content:flex-start;justify-items:flex-start}
+.nav-header.svelte-1vp45p5.svelte-1vp45p5{font-size:0.8em;font-variant:small-caps;margin:1em 0 0.5em 0}
+.filter.svelte-1vp45p5.svelte-1vp45p5{margin:0 0 0.5em 0}
+.filter-flex.svelte-1vp45p5.svelte-1vp45p5{display:flex;align-items:center;padding-right:0.25em}
+.component.svelte-1vp45p5.svelte-1vp45p5{display:flex;flex-direction:column;place-content:start;place-items:start;padding:0 1em 10em 1em}
+@media(max-width: 1000px){.nav.svelte-1vp45p5.svelte-1vp45p5{display:none}}
