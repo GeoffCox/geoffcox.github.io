@@ -1,0 +1,1 @@
+const s=(n,e)=>{let c=e==null?void 0:e.ignoreOthers;const o=t=>{const i=t==null?void 0:t.target;i&&!n.contains(i)&&(!c||c.every(r=>!r.contains(i)))&&n.dispatchEvent(new CustomEvent("click_outside",{detail:{mouseEvent:t}}))};return document.addEventListener("click",o,!0),{update(t){c=t.ignoreOthers},destroy(){document.removeEventListener("click",o,!0)}}};export{s as c};
