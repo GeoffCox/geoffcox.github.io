@@ -1,0 +1,1 @@
+import{w as n}from"./index.a764bfab.js";const d=n(!1,a=>{const e=window.matchMedia("(prefers-reduced-motion: reduce)");a(e.matches);const r=t=>a(t.matches);return e.addEventListener("change",r),()=>{e.removeEventListener("change",r)}});export{d as p};
