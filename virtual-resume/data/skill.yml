@@ -1,9 +1,0 @@
-id: csharp
-name: C# (.NET)
-type: programmingLanguage
-summary:
-  - C# is one of my strongest languages. I started working with it as part of the C# 1.0 beta in 2001 and have built large internet services, web applications, web APIs, client WPF applications, and SDKs.
-  - I enjoy keeping up with the language features by reading the language specification. C# is a great language for clean architecture in Object Oriented (OOP) and procedural programming paradigms. It continues to advance in functional programming as it picks up capabilities from F#
-  - One of my favorite descriptions of C# is 'a donkey with a powerful laser strapped to its back.' C# is a powerful and practical language that continues to expand its reach across platforms.
-experienceYears: 18
-selfRating: expert
